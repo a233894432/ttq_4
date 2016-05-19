@@ -118,5 +118,7 @@ gulp.task('serve', function() {
     gulp.watch(['html/**/*.html', 'css/*.css', 'js/**/*.js'], {cwd: 'src'}, reload);
 });
 
+
+
 // 在命令行使用 gulp 启动 script 任务和 auto 任务
 gulp.task('default', ['sass','images','css','script','auto']);
