@@ -35,60 +35,59 @@
 
     </div>
 </body>
-<script type="text/javascript" src="./script/api.js"></script>
-<script data-baseurl="./" data-main="script/main.js" src="libs/require.js" id="index" ></script>
+<!--<script type="text/javascript" src="./script/api.js"></script>-->
+<!--<script data-baseurl="./" data-main="script/main.js" src="libs/require.js" id="index" ></script>-->
 <script type="text/javascript">
 
-
     apiready = function(){
-		console.log("Hello APICloud");
-        var header = $api.byId('header');
-        //适配iOS 7+，Android 4.4+状态栏
-        $api.fixStatusBar(header);
-        var headerPos = $api.offset(header);
-        var main = $api.byId('main');
-        var mainPos = $api.offset(main);
-        api.openFrame({
-            name: 'main',
-            url: 'html/main.html',
-            bounces: true,
-            rect: {
-                x: 0,
-                y: headerPos.h,
-                w: 'auto',
-                h: mainPos.h
-            }
-        });
-         var year = $api.byId('year');
-        year.innerHTML = new Date().getFullYear();
+//		console.log("Hello APICloud");
+//        var header = $api.byId('header');
+//        //适配iOS 7+，Android 4.4+状态栏
+//        $api.fixStatusBar(header);
+//        var headerPos = $api.offset(header);
+//        var main = $api.byId('main');
+//        var mainPos = $api.offset(main);
+//        api.openFrame({
+//            name: 'main',
+//            url: 'html/main.html',
+//            bounces: true,
+//            rect: {
+//                x: 0,
+//                y: headerPos.h,
+//                w: 'auto',
+//                h: mainPos.h
+//            }
+//        });
+//         var year = $api.byId('year');
+//        year.innerHTML = new Date().getFullYear();
 
         var script = document.createElement('script');
         script.setAttribute("src", './libs/require.js');
         script.setAttribute("data-main", './script/main.js');
         document.body.appendChild(script);
 
-
     };
 
 
 //    progress js .
     progressJs().start().autoIncrease(10, 100);
-    if(window.attachEvent) {
-        window.attachEvent('onload', function(){ progressJs().end(); });
-    } else {
-        if(window.onload) {
-            var curronload = window.onload;
-            var newonload = function() {
-                curronload();
-                progressJs().end();
-            };
-            window.onload = newonload;
-        } else {
-            window.onload = function(){
-                progressJs().end();
-            };
-        }
-    }
+
+//    if(window.attachEvent) {
+//        window.attachEvent('onload', function(){ progressJs().end(); });
+//    } else {
+//        if(window.onload) {
+//            var curronload = window.onload;
+//            var newonload = function() {
+//                curronload();
+//                progressJs().end();
+//            };
+//            window.onload = newonload;
+//        } else {
+//            window.onload = function(){
+//                progressJs().end();
+//            };
+//        }
+//    }
 
 //    progress js end
 </script>

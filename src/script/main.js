@@ -5,8 +5,8 @@
 
 (function (win) {
     //配置baseUrl
-    var baseUrl = document.getElementById('index').getAttribute('data-baseurl');
-    //var baseUrl="./";
+    //var baseUrl = document.getElementById('index').getAttribute('data-baseurl');
+    var baseUrl="./";
     /*
      * 文件依赖
      */
@@ -36,7 +36,7 @@
     };
 
     require.config(config);
-    require(['zepto', 'script/router', 'underscore','tool','api_amd'], function($, router, _, tool, $api){
+    require(['zepto', 'script/router', 'underscore','tool'], function($, router, _, tool){
         win.appView = $('#container');      //用于各个模块控制视图变化
         win.$ = $;                          //暴露必要的全局变量，没必要拘泥于requirejs的强制模块化
         win._ = _;                          //暴露必要的全局变量，
@@ -45,8 +45,6 @@
 
        console.log(_.random(10,20));
 
-        var ab="sssssssdd    ddddd   " ;
-        console.log($api.trimAll(ab));
         //progress.progressJs().start().autoIncrease(10, 100);
 
     });
