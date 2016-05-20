@@ -5,30 +5,46 @@
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
     <title>田田圈-ttq 4.0</title>
     <link rel="stylesheet" type="text/css" href="./css/app.css" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script src="./libs/adaptive-version3.js"></script>
+    <script src="./libs/progress.js"></script>
+    <script>
+        window['adaptive'].desinWidth = 750;
+        window['adaptive'].baseFont = 18;
+        window['adaptive'].maxWidth = 480;
+        window['adaptive'].init();
+
+
+    </script>
+
 
 </head>
 <body>
-    <div id="wrap">
+
+
+<div id="wrap">
         <div id="header">
             <h1>APICloud</h1>
         </div>
-        <div id="main">
-                
-        </div>
+
         <div id="footer">
             <h5>Copyright &copy;<span id="year"></span> </h5>
         </div>
+
     </div>
 </body>
 <script type="text/javascript" src="./script/api.js"></script>
+<script data-baseurl="./" data-main="script/main.js" src="libs/require.js" id="index" ></script>
 <script type="text/javascript">
+
+
     apiready = function(){
 		console.log("Hello APICloud");
-
         var header = $api.byId('header');
         //适配iOS 7+，Android 4.4+状态栏
         $api.fixStatusBar(header);
-
         var headerPos = $api.offset(header);
         var main = $api.byId('main');
         var mainPos = $api.offset(main);
@@ -43,13 +59,35 @@
                 h: mainPos.h
             }
         });
-
-        var year = $api.byId('year');
+         var year = $api.byId('year');
         year.innerHTML = new Date().getFullYear();
 
-
+        var script = document.createElement('script');
+        script.setAttribute("src", './libs/require.js');
+        script.setAttribute("data-main", './script/main.js');
+        document.body.appendChild(script);
 
 
     };
+
+
+    progressJs().start().autoIncrease(10, 100);
+
+//    if(window.attachEvent) {
+//        window.attachEvent('onload', function(){ progressJs().end(); });
+//    } else {
+//        if(window.onload) {
+//            var curronload = window.onload;
+//            var newonload = function() {
+//                curronload();
+//                progressJs().end();
+//            };
+//            window.onload = newonload;
+//        } else {
+//            window.onload = function(){
+//                progressJs().end();
+//            };
+//        }
+//    }
 </script>
 </html>

@@ -259,13 +259,13 @@
   width: $width;
   height: $height;
 }
+//画一个正方
 @mixin square($size) {
   @include size($size, $size);
 }
 
 // Text overflow
-//
-// Requires inline-block or block for proper styling
+// Requires inline-block or block for proper styling 截断字体
 @mixin text-truncate() {
   overflow: hidden;
   text-overflow: ellipsis;
