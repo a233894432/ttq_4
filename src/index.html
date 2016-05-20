@@ -71,23 +71,25 @@
     };
 
 
+//    progress js .
     progressJs().start().autoIncrease(10, 100);
+    if(window.attachEvent) {
+        window.attachEvent('onload', function(){ progressJs().end(); });
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function() {
+                curronload();
+                progressJs().end();
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = function(){
+                progressJs().end();
+            };
+        }
+    }
 
-//    if(window.attachEvent) {
-//        window.attachEvent('onload', function(){ progressJs().end(); });
-//    } else {
-//        if(window.onload) {
-//            var curronload = window.onload;
-//            var newonload = function() {
-//                curronload();
-//                progressJs().end();
-//            };
-//            window.onload = newonload;
-//        } else {
-//            window.onload = function(){
-//                progressJs().end();
-//            };
-//        }
-//    }
+//    progress js end
 </script>
 </html>

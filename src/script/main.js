@@ -18,7 +18,9 @@
             underscore: 'libs/underscore',
             text: 'libs/text',             //用于requirejs导入html类型的依赖
             domReady:'libs/domReady',       //页面加载事件及DOM Ready
-            progress:'libs/progress' //页面加载动画
+            progress:'libs/progress', //页面加载动画
+            tool:'script/vedor/tool',  //工具箱
+            api_amd:'script/vedor/api_amd'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
             underscore: {
@@ -34,16 +36,18 @@
     };
 
     require.config(config);
-    require(['zepto', 'script/router', 'underscore','progress'], function($, router, _,progress){
+    require(['zepto', 'script/router', 'underscore','tool','api_amd'], function($, router, _, tool, $api){
         win.appView = $('#container');      //用于各个模块控制视图变化
         win.$ = $;                          //暴露必要的全局变量，没必要拘泥于requirejs的强制模块化
         win._ = _;                          //暴露必要的全局变量，
         router.init();                      //开始监控url变化
+        //#TODO progress 需要改造
 
-        //pace.start({
-        //    document: false
-        //});
+       console.log(_.random(10,20));
 
+        var ab="sssssssdd    ddddd   " ;
+        console.log($api.trimAll(ab));
+        //progress.progressJs().start().autoIncrease(10, 100);
 
     });
 
