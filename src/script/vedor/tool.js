@@ -6,6 +6,5 @@
 
 define(['zepto', 'underscore', 'api_amd'], function ($, _,$api) {
     var version = '0.0.1';
-    console.log($api)
 
 });

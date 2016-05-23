@@ -8,6 +8,7 @@ var concat  = require('gulp-concat');     //合并文件
 var clean = require('gulp-clean');        //清空文件夹
 var htmlreplace = require('gulp-html-replace'); //输出的html 替换 css 与  js
 var htmlBuilder = require('gulp-html-builder');//对页面中引入的css文件和js文件进行合并并压缩到新文件 ,并替换
+//刷新浏览器
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
