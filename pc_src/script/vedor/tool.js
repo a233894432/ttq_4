@@ -5,7 +5,7 @@
  * anthor : diogoxiang
  */
 
-define(['zepto', 'underscore', 'progress','domReady'], function ($, _,lod,doc) {
+define(['zepto', 'underscore', 'progress','domReady','layer'], function ($, _,lod,doc,layer) {
     //默认开启顶部加载进度条
 
     /**
@@ -19,6 +19,7 @@ define(['zepto', 'underscore', 'progress','domReady'], function ($, _,lod,doc) {
     return {
         version: '0.0.1',   //当前工具的版本
         progress:lod,
+        layer:layer,
         /**
          * tool 工具初始化
          */

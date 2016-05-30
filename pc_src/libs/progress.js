@@ -578,5 +578,3 @@
     return progressJs;
 }));
 
-progressJs().start().autoIncrease(10, 100);
-//

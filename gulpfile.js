@@ -70,6 +70,27 @@ gulp.task('sass', function() {
 
 });
 
+
+// 编译sass
+// 在命令行输入 gulp sass 启动此任务
+gulp.task('BulidPCsass', function() {
+    var cssSrc = './pc_src/sass/*.scss',
+        cssSrca= './pc_src/css';//源码也输出一份
+
+
+    gulp.src(cssSrc)
+    // .pipe(sass({ style: 'expanded'}))
+    return sass(cssSrc, {style: 'expanded'})
+        .pipe(gulp.dest(cssSrca))
+        .pipe(rename({suffix: '.min' }))
+        .pipe(cssnano())//精简
+        .pipe(gulp.dest(cssSrca))
+        .on('error', function (err) {
+            console.error('Error!', err.message);
+        });
+
+});
+
 // 压缩 css 文件
 // 在命令行使用 gulp css 启动此任务
 gulp.task('css', function () {
@@ -103,7 +124,7 @@ gulp.task('auto', function () {
     gulp.watch('src/assets/images/*.*', ['images']);
     // 监听文件修改，当文件被修改则执行 sass任务
     gulp.watch('src/sass/base/*.scss', ['sass'])
-
+    gulp.watch('pc_src/sass/base/*.scss', ['BulidPCsass'])
 
 });
 
