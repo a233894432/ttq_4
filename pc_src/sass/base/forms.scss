@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.form-group{
+  display: inline-block;
+  margin: 4px auto;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form-control{
+  width: 100%;
+  @include border-radius(4px)
+}
+.form-60{
+  width: 60%;
+
+  @include border-radius(4px)
+}
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  @include box-sizing(border-box);
+  height: 45px;
+  text-indent: 1rem;
+  line-height: 45px;
+  font-size: 1.1rem;
+  border: 1px solid $black-20;
+  &:focus{
+    outline-color: $text-color1;
+  }
+}

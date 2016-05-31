@@ -1,0 +1,61 @@
+@charset "UTF-8";
+// Shared colors for buttons and alerts
+//.btn,
+//.alert-message {
+//  // Set text color
+//  &.danger,
+//  &.danger:hover,
+//  &.error,
+//  &.error:hover,
+//  &.success,
+//  &.success:hover,
+//  &.info,
+//  &.info:hover {
+//    color: white
+//  }
+//  // Danger and error appear as red
+//  &.danger,
+//  &.error {
+//    @include gradientBar(#ee5f5b, #c43c35);
+//  }
+//  // Success appears as green
+//  &.success {
+//    @include gradientBar(#62c462, #57a957);
+//  }
+//  // Info appears as a neutral blue
+//  &.info {
+//    @include gradientBar(#5bc0de, #339bb9);
+//  }
+//}
+.#{$ns}btn{
+    &.danger,
+    &.danger:hover,
+    &.error,
+    &.error:hover,
+    &.success,
+    &.success:hover,
+    &.info,
+    &.info:hover {
+      color: white
+    }
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    @include border-radius(4px);
+    &.success{
+      background: $btn-success;
+    }
+
+}
+.#{$ns}btn-code{
+  @include border-radius(4px);
+  background: $black-10;
+  width:35%;
+  height: 45px;
+  line-height:45px;
+  overflow: hidden;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}

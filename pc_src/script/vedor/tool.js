@@ -5,7 +5,7 @@
  * anthor : diogoxiang
  */
 
-define(['zepto', 'underscore', 'progress','domReady','layer'], function ($, _,lod,doc,layer) {
+define(['jquery', 'underscore', 'progress','domReady','layer'], function ($, _,lod,doc,layer) {
     //默认开启顶部加载进度条
 
     /**

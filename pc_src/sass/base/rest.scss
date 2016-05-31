@@ -13,6 +13,7 @@ html,body {
   background-color: $body-background;
   font-size: $font-size-base;
   height: 100%;
+  font-family:$font-family-base;
 }
 nav,article,aside,details,main,header,footer,section,fieldset,figcaption,figure{
   display: block;
@@ -32,6 +33,7 @@ input,button,textarea {
   padding:0;
   font-size:1em;
   line-height:1em;
+  font-family: $font-family-base;
   /*-webkit-appearance:none;*/
   background-color:$body-background;
 }
@@ -61,3 +63,24 @@ td,th {
 }
 
 //apicloud loading
+.#{$ns}fl{
+  float: left;
+}
+.#{$ns}fr{
+  float: right;
+}
+.#{$ns}fshow{
+  display: block;
+}
+.#{$ns}fhide{
+  display: none;
+}
+.#{$ns}tleft{
+  text-align: left;
+}
+.#{$ns}tright{
+  text-align: right;
+}
+.#{$ns}tcenter{
+  text-align: center;
+}

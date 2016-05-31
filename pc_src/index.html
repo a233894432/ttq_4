@@ -2,23 +2,35 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <!--<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">-->
     <title>田田圈让种植更轻松-4.0-</title>
-    <link rel="stylesheet" type="text/css" href="./css/app.css" />
+    <link rel="stylesheet" type="text/css" href="./css/app.min.css" />
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!--页面加载 loading-->
     <script src="./libs/progress.js"></script>
-
     <!--// loading-->
+    <!--[if lte IE 8]>
+    <script src="./libs/ieBetter-min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-
-
-    <div id="container">
+<div class="am-wrapper">
+    <div class="am-container am-header" id="header" >
+        <div class="am-logo am-fl">
+            <img src="image/01_Sign-in_logo220x30.png" alt="">
+        </div>
+    </div>
+    <div class="am-container am-main" id="container">
 
     </div>
+
+    <div class="am-container am-foot am-tcenter" id="foot">
+        Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
+    </div>
+</div>
 
 </body>
 <script data-baseurl="./" data-main="script/main.js" src="libs/require.js" id="index" ></script>
@@ -27,4 +39,12 @@
     <!--页面加载的动画-->
     progressJs().start().autoIncrease(10, 100);
 </script>
+
+
+
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]—>
+<!---->
 </html>

@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*!
+ @Name: ttq style
+ @Author: 向秀成
+ @Blog： tomxiang.com
+ */
 html, body, header, section, footer, div, ul, ol, li, img, a, span, em, del, legend, center, strong, var, fieldset, form, label, dl, dt, dd, cite, input, hr, time, mark, code, figcaption, figure, textarea, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   border: 0;
@@ -14,6 +19,7 @@ html, body {
   background-color: #fff;
   font-size: 14px;
   height: 100%;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav, article, aside, details, main, header, footer, section, fieldset, figcaption, figure {
@@ -38,6 +44,7 @@ input, button, textarea {
   padding: 0;
   font-size: 1em;
   line-height: 1em;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*-webkit-appearance:none;*/
   background-color: #fff;
 }
@@ -76,18 +83,452 @@ td, th {
   clear: both;
 }
 
-.am-container {
-  width: 100px;
-  height: 100px;
+.am-fl {
+  float: left;
+}
+
+.am-fr {
+  float: right;
+}
+
+.am-fshow {
+  display: block;
+}
+
+.am-fhide {
+  display: none;
+}
+
+.am-tleft {
+  text-align: left;
+}
+
+.am-tright {
+  text-align: right;
+}
+
+.am-tcenter {
+  text-align: center;
 }
 
 /*!
-
- @Name: layer's style
- @Author: 贤心
- @Blog： sentsin.com
-
+ @Name: ttq style
+ @Author: 向秀成
+ @Blog： tomxiang.com
  */
+@font-face {
+  font-family: "iconfont";
+  src: url(font/iconfont.ttf) format("truetype");
+}
+.ui-icon, [class^="ui-icon-"] {
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.1px;
+  display: block;
+}
+
+.ui-icon-icon06:before {
+  content: "\e63f";
+}
+
+.ui-icon-icon09:before {
+  content: "\e600";
+}
+
+.ui-icon-icon27:before {
+  content: "\e629";
+}
+
+.ui-icon-icon34:before {
+  content: "\e601";
+}
+
+.ui-icon-icon53:before {
+  content: "\e602";
+}
+
+.ui-icon-icon55:before {
+  content: "\e603";
+}
+
+.ui-icon-iconhomepagedefault:before {
+  content: "\e604";
+}
+
+.ui-icon-iconhomepageselected:before {
+  content: "\e605";
+}
+
+.ui-icon-iconservicestationdefault:before {
+  content: "\e606";
+}
+
+.ui-icon-iconservicestationselected:before {
+  content: "\e607";
+}
+
+.ui-icon-iconfinddefault:before {
+  content: "\e608";
+}
+
+.ui-icon-iconfindselected:before {
+  content: "\e609";
+}
+
+.ui-icon-iconwodedefault:before {
+  content: "\e60a";
+}
+
+.ui-icon-iconwodeselected:before {
+  content: "\e60b";
+}
+
+.ui-icon-iconscandefault:before {
+  content: "\e60c";
+}
+
+.ui-icon-iconsigndefault:before {
+  content: "\e60d";
+}
+
+.ui-icon-iconnoticedefault:before {
+  content: "\e60e";
+}
+
+.ui-icon-iconnewsdefault:before {
+  content: "\e60f";
+}
+
+.ui-icon-iconcollectiondefault:before {
+  content: "\e610";
+}
+
+.ui-icon-iconcommentdefault:before {
+  content: "\e611";
+}
+
+.ui-icon-iconlikedefault:before {
+  content: "\e612";
+}
+
+.ui-icon-iconclosedefault:before {
+  content: "\e613";
+}
+
+.ui-icon-iconcollectionselected:before {
+  content: "\e614";
+}
+
+.ui-icon-iconfollowdefault:before {
+  content: "\e615";
+}
+
+.ui-icon-icongiftdefault:before {
+  content: "\e616";
+}
+
+.ui-icon-iconhelpfeedbackdefault:before {
+  content: "\e617";
+}
+
+.ui-icon-iconintegraldefault:before {
+  content: "\e618";
+}
+
+.ui-icon-iconiphonedefault:before {
+  content: "\e619";
+}
+
+.ui-icon-iconmoredefault:before {
+  content: "\e61a";
+}
+
+.ui-icon-iconmore01default:before {
+  content: "\e61b";
+}
+
+.ui-icon-iconmyaboutdefault:before {
+  content: "\e61c";
+}
+
+.ui-icon-iconmycommentdefault:before {
+  content: "\e61d";
+}
+
+.ui-icon-iconmycoupondefault:before {
+  content: "\e61e";
+}
+
+.ui-icon-iconmyfollowdefault:before {
+  content: "\e61f";
+}
+
+.ui-icon-iconmygiftdefault:before {
+  content: "\e620";
+}
+
+.ui-icon-iconmymoredefault:before {
+  content: "\e621";
+}
+
+.ui-icon-iconmyorderdefault:before {
+  content: "\e622";
+}
+
+.ui-icon-iconmypostdefault:before {
+  content: "\e623";
+}
+
+.ui-icon-iconreminddefault:before {
+  content: "\e624";
+}
+
+.ui-icon-iconreturndefault:before {
+  content: "\e625";
+}
+
+.ui-icon-iconsharedefault:before {
+  content: "\e626";
+}
+
+.ui-icon-iconsigndefault1:before {
+  content: "\e627";
+}
+
+.ui-icon-iconsubscribedefault:before {
+  content: "\e628";
+}
+
+.ui-icon-iconaddtodefault:before {
+  content: "\e62a";
+}
+
+.ui-icon-iconbalancedefault:before {
+  content: "\e62b";
+}
+
+.ui-icon-iconpicturedefault:before {
+  content: "\e62c";
+}
+
+.ui-icon-iconphotographdefault:before {
+  content: "\e62d";
+}
+
+.ui-icon-iconwechatdefault:before {
+  content: "\e62e";
+}
+
+.ui-icon-iconqqdefault:before {
+  content: "\e62f";
+}
+
+.ui-icon-iconqqzonedefault:before {
+  content: "\e630";
+}
+
+.ui-icon-iconfriendscircledefault:before {
+  content: "\e631";
+}
+
+.ui-icon-iconnews01default:before {
+  content: "\e632";
+}
+
+.ui-icon-iconclose01default:before {
+  content: "\e633";
+}
+
+.ui-icon-iconexpert01default:before {
+  content: "\e634";
+}
+
+.ui-icon-iconexpertdefault:before {
+  content: "\e635";
+}
+
+.ui-icon-iconganjuquan:before {
+  content: "\e636";
+}
+
+.ui-icon-iconpingguoquan:before {
+  content: "\e637";
+}
+
+.ui-icon-iconmangguoquan:before {
+  content: "\e638";
+}
+
+.ui-icon-iconputaoquan:before {
+  content: "\e639";
+}
+
+.ui-icon-iconguacaiquan:before {
+  content: "\e63a";
+}
+
+.ui-icon-icondamaiquan:before {
+  content: "\e63b";
+}
+
+.ui-icon-iconxiangjiaoquan:before {
+  content: "\e63c";
+}
+
+.ui-icon-iconqitazuowuquan:before {
+  content: "\e63d";
+}
+
+.ui-icon-iconrushdefault:before {
+  content: "\e63e";
+}
+
+.ui-icon-labelorder:before {
+  content: "\e640";
+}
+
+.ui-icon-imglinktimeout:before {
+  content: "\e642";
+}
+
+.ui-icon-blankpagenocontent:before {
+  content: "\e641";
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.am-ltitle {
+  font-size: 24px;
+  color: #00a53c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: inline-block;
+  margin: 4px auto;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.form-60 {
+  width: 60%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 45px;
+  text-indent: 1rem;
+  line-height: 45px;
+  font-size: 1.1rem;
+  border: 1px solid #cccccc;
+}
+input[type="text"]:focus {
+  outline-color: #00a53c;
+}
+
+.am-container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 960px;
+}
+
+.am-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #5db6eb url("../image/bg.jpg") center center repeat-x;
+}
+
+.am-header {
+  height: 90px;
+  padding-top: 20px;
+}
+
+.am-main {
+  min-height: 80%;
+  height: auto;
+}
+
+.am-loginMain {
+  min-height: 80%;
+  text-align: center;
+}
+
+.am-loginBox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 350px;
+  min-height: 300px;
+  margin-top: 10%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 60px 40px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.am-foot {
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+.am-btn {
+  width: 100%;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.am-btn.danger, .am-btn.danger:hover, .am-btn.error, .am-btn.error:hover, .am-btn.success, .am-btn.success:hover, .am-btn.info, .am-btn.info:hover {
+  color: white;
+}
+.am-btn.success {
+  background: #46be78;
+}
+
+.am-btn-code {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #e6e6e6;
+  width: 35%;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+}
+.am-btn-code img {
+  width: 100%;
+  height: 100%;
+}
+
 .layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -53,8 +53,8 @@
         console.log(tool.version);
         tool.endProgress(); //关闭动画
 
-    //  test
-        tool.layer.alert("ssss")
+        //  test
+        //    tool.layer.alert("ssss")
 
 
     });
