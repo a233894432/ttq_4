@@ -8,6 +8,12 @@
 }
 
 .#{$ns}wrapper {
+  width: 100%;
+  height: 100%;
+  background: $bg-content;
+
+}
+.#{$ns}loging-wrapper {
     width: 100%;
     height: 100%;
     background:#5db6eb url("../image/bg.jpg") center center repeat-x;
@@ -20,6 +26,9 @@
 .#{$ns}main{
   min-height: 80%;
   height: auto;
+}
+.#{$ns}content{
+    min-height: 50%;
 }
 .#{$ns}loginMain{
   min-height: 80%;
@@ -39,9 +48,33 @@
 
 }
 .#{$ns}foot{
-  color: white;
+  //color: white;
   height: 50px;
   line-height: 50px;
 
 }
 
+//
+.#{$ns}top-header{
+    width: 100%;
+    height: 45px;
+    background: $bg-header;
+    border-bottom: 1px solid $line-ddd;
+
+}
+//
+.#{$ns}banner{
+  width: 100%;
+  height: 300px;
+  background: url("../image/banner1920x300.png") center center no-repeat;
+  @include clearfix();
+  margin: 0;
+}
+// userDiv
+.#{$ns}userDiv{
+    width: 300px;
+    background: white;
+    text-align: center;
+    @include  block();
+    @include  opacity(0.6)
+}

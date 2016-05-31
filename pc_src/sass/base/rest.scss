@@ -84,3 +84,6 @@ td,th {
 .#{$ns}tcenter{
   text-align: center;
 }
+.#{$ns}block{
+  @include block();
+}

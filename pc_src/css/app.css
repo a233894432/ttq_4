@@ -111,6 +111,13 @@ td, th {
   text-align: center;
 }
 
+.am-block {
+  content: '';
+  display: block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 /*!
  @Name: ttq style
  @Author: 向秀成
@@ -401,6 +408,10 @@ td, th {
   font-size: 24px;
 }
 
+.font-color1 {
+  color: #666;
+}
+
 .am-ltitle {
   font-size: 24px;
   color: #00a53c;
@@ -459,6 +470,12 @@ input[type="text"]:focus {
 .am-wrapper {
   width: 100%;
   height: 100%;
+  background: #ebebeb;
+}
+
+.am-loging-wrapper {
+  width: 100%;
+  height: 100%;
   background: #5db6eb url("../image/bg.jpg") center center repeat-x;
 }
 
@@ -470,6 +487,10 @@ input[type="text"]:focus {
 .am-main {
   min-height: 80%;
   height: auto;
+}
+
+.am-content {
+  min-height: 50%;
 }
 
 .am-loginMain {
@@ -494,9 +515,41 @@ input[type="text"]:focus {
 }
 
 .am-foot {
-  color: white;
   height: 50px;
   line-height: 50px;
+}
+
+.am-top-header {
+  width: 100%;
+  height: 45px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.am-banner {
+  width: 100%;
+  height: 300px;
+  background: url("../image/banner1920x300.png") center center no-repeat;
+  margin: 0;
+}
+.am-banner:before, .am-banner:after {
+  content: " ";
+  display: table;
+}
+.am-banner:after {
+  clear: both;
+}
+
+.am-userDiv {
+  width: 300px;
+  background: white;
+  text-align: center;
+  content: '';
+  display: block;
+  height: 100%;
+  vertical-align: middle;
+  opacity: 0.6;
+  filter: "alpha(opacity=60)";
 }
 
 .am-btn {
@@ -1601,4 +1654,30 @@ html #layui_layer_skinlayercss {
 
 .progressjs-theme-blackRadiusInputs .progressjs-percent {
   display: none;
+}
+
+.am-logo {
+  text-align: center;
+}
+
+.am-mlogo {
+  line-height: 45px;
+  height: 100%;
+}
+.am-mlogo img {
+  vertical-align: middle;
+}
+.am-mlogo b {
+  font-size: 16px;
+}
+
+.am-user {
+  line-height: 45px;
+  height: 100%;
+}
+.am-user img {
+  vertical-align: middle;
+}
+.am-user a {
+  padding: 0;
 }

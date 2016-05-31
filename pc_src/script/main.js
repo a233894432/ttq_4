@@ -41,12 +41,11 @@
     };
 
     require.config(config);
-    require(['jquery', 'script/router', 'underscore','tool'], function($, router, _, tool){
+    require(['jquery', 'underscore','tool'], function($, _, tool){
 
         win.appView = $('#container');      //用于各个模块控制视图变化
         win.$ = $;                          //暴露必要的全局变量，没必要拘泥于requirejs的强制模块化
         win._ = _;                          //暴露必要的全局变量，
-        router.init();                      //开始监控url变化
         tool.init();        //初始化工具  ,初始化页面加载
         //关闭动画
         // TODO progress 需要改造
@@ -58,5 +57,24 @@
 
 
     });
+
+    //暂时不用router
+    //require(['jquery', 'script/router', 'underscore','tool'], function($, router, _, tool){
+    //
+    //    win.appView = $('#container');      //用于各个模块控制视图变化
+    //    win.$ = $;                          //暴露必要的全局变量，没必要拘泥于requirejs的强制模块化
+    //    win._ = _;                          //暴露必要的全局变量，
+    //    router.init();                      //开始监控url变化
+    //    tool.init();        //初始化工具  ,初始化页面加载
+    //    //关闭动画
+    //    // TODO progress 需要改造
+    //    console.log(tool.version);
+    //    tool.endProgress(); //关闭动画
+    //
+    //    //  test
+    //    //    tool.layer.alert("ssss")
+    //
+    //
+    //});
 
 })(window);

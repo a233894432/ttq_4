@@ -28,7 +28,11 @@ $btn-success:             #46be78;
 $body-background:         #fff;
 $text-color:              $black-50;
 $text-color1:             #00a53c;
+$text-base:               #333;
+$text-666:                #666;
 
+//line
+$line-ddd:                #ddd;
 // Links
 $link-color:              $brand-primary;
 $link-color-hover:        darken($link-color, 15%);
@@ -58,6 +62,8 @@ $grid-columns:          12;
 $grid-column-padding:   15px; // Left and right inner padding
 $grid-float-breakpoint: 768px;
 
+$bg-content:            #ebebeb;
+$bg-header:             #f5f5f5;
 // Z-Indexes
 // -------------------------------
 $z-index-placehold:                     -1;

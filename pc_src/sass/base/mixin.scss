@@ -262,14 +262,20 @@
   margin-right: auto;
 }
 
-@mixin block{
+@mixin inline-block{
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
+  //margin-right: -0.25em; /* Adjusts for spacing */
 }
-
+@mixin block{
+  content: '';
+  display: block;
+  height: 100%;
+  vertical-align: middle;
+  //margin-right: -0.25em; /* Adjusts for spacing */
+}
 // Sizing shortcuts
 @mixin size($width, $height) {
   width: $width;
