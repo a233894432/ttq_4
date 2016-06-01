@@ -21,3 +21,23 @@
         padding: 0;
     }
 }
+
+//大号的头像
+.#{$ns}avatar{
+  @include avatar(80);
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border:1px solid $global-border;
+    background: $black-10;
+    img{
+        width: 100%;
+
+    }
+
+}
+//小号头像
+.#{$ns}mavatar{
+
+}
