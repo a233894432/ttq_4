@@ -5,54 +5,59 @@
  * anthor : diogoxiang
  */
 
-define(['jquery', 'underscore', 'progress','domReady','layer'], function ($, _,lod,doc,layer) {
-    //默认开启顶部加载进度条
+define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function ($, _,lod,doc,layer,md5) {
 
     /**
      * 使用 {{xx}}  模版
      * @type {{interpolate: RegExp}}
      */
     _.templateSettings = {
-        interpolate: /\{\{(.+?)\}\}/g
+        evaluate    : /<%([\s\S]+?)%>/g,
+        interpolate : /<%=([\s\S]+?)%>/g,
+        escape      : /<%-([\s\S]+?)%>/g
+    };
+    //接口地址:
+    var u = {};
+    u.isdebug=true; //PC调试的开关,PC调试要为true
+    u.deploy = {
+        localhost:'http://localhost/api',//本地反向代理
+        forecast:'http://120.76.165.155:900',//远程测试环境
+        hxpreRelease:'http://ttc.ttq.com'//预发布地址 的核销权限地址
+    };
+    u.host = u.deploy.localhost; //现网接口
+
+    u.version ="10";
+
+    u.service = {
+        //服务站接口
+        store_alist: '/store/alist', // 8.1.活动商品列表
+        checkCode:'/member/checkImgVaildCode', //验证图形码
+        validatcode:'/member/validatcode',    //发送验正码
+        simlogin:'/member/simlogin'            //登录
     };
 
+    //提共接口外调
     return {
         version: '0.0.1',   //当前工具的版本
         progress:lod,
         layer:layer,
+        md5:md5,
+        apiurl:u,//把u 外漏
         /**
          * tool 工具初始化
          */
         init:function(){
 
-            console.log("init")
-
+            console.log("init");
+            console.log("当前接口地址是"+ u.host);
+            //检查用户是否登录
+            //this.checkLogin();
         },
         /**
          * endProgress
          */
         endProgress: function () {
-
-            lod().end();
-            //if (window.attachEvent) {
-            //    window.attachEvent('onload', function () {
-            //        lod().end();
-            //    });
-            //} else {
-            //    if (window.onload) {
-            //        var curronload = window.onload;
-            //        var newonload = function () {
-            //            curronload();
-            //            lod().end();
-            //        };
-            //        window.onload = newonload;
-            //    } else {
-            //        console.log("window.onload")
-            //        window.onload = function () {
-            //            lod().end();
-            //        };
-            //    }
-            //}
+             lod().end();
         },
 
         /**
@@ -67,8 +72,81 @@ define(['jquery', 'underscore', 'progress','domReady','layer'], function ($, _,l
                 return unescape(r[2]);
             }
             return null;
-        }
+        },
+        /**
+         *
+         * @param str
+         * @returns {boolean}
+         */
+        isCellphone: function(str) {
+            /**
+             *@descrition:手机号码段规则
+             * 13段：130、131、132、133、134、135、136、137、138、139
+             * 14段：145、147
+             * 15段：150、151、152、153、155、156、157、158、159
+             * 17段：170、176、177、178
+             * 18段：180、181、182、183、184、185、186、187、188、189
+             *
+             */
+            var pattern =  /^(13[0-9]|14[57]|15[012356789]|17[0678]|18[0-9])\d{8}$/;
+            return pattern.test(str);
+        },
+        /**
+         * 简易AJAX封装
+         * @param url
+         * @param data
+         * @param success
+         * @param error
+         */
+        getAjax:function(url,data,success,getError){
+            var aurl = u.host + url;
+            console.log("请求地址是:"+aurl);
+            $.ajax({
+                type: "POST",
+                url: aurl,
+                data: data,
+                dataType:'json',
+                success: function(data){
+                    //console.log( "Data Saved: " + data );
+                    return success(data)
+                },
+                error:function(data){
+                    this.getError(url,data)
+                },
+                complete:function(XMLHttpRequest, textStatus){
+                    //console.log(XMLHttpRequest)
+                    //console.log(textStatus)
+                    //当前方法为.请求返回的详情
+                }
 
+            });
+
+
+        },
+        /**
+         *
+         */
+        getError:function(url,data){
+            console.log("出错的地址是:"+url+"::::"+"返回值是"+data);
+        },
+        /**
+         * 检验用户是否已经登录
+         */
+        checkLogin:function(){
+            console.log("检验用户是否已经登录")
+            if(!ck.get("token")){
+                window.location.href="/index.html?m=login";
+            }
+
+        },
+        /**
+         * 用户退出 清除 cookies
+         */
+        userOut:function(){
+            ck.remove('token');
+            ck.remove('userinfo');
+            window.location.href="/index.html?m=login";
+        }
 
     };
 

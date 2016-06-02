@@ -8,6 +8,7 @@
     //var baseUrl = document.getElementById('index').getAttribute('data-baseurl');
     var baseUrl="./";
     var mod,containerDiv;
+    var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
     var mode=['login','index','article','list','default','user','edit'] ; //现有模块
     /**
@@ -43,7 +44,10 @@
     }else{
         mod="login";//用户默认跳转到 登录
     }
-    console.log(mod);
+    console.log("当前模块:"+mod);
+    if(mod=="article" || mod=="login"){
+        checkLogin=false
+    }
     /**
      * 更新class
      */
@@ -65,6 +69,7 @@
             jquery:'libs/jquery.min', // PC端用 jquery
             underscore: 'libs/underscore',
             text: 'libs/text',             //用于requirejs导入html类型的依赖
+            css: 'libs/css',             //用于requirejs导入html类型的依赖
             domReady:'libs/domReady',       //页面加载事件及DOM Ready
             layer:'libs/layer.min',         //弹窗
             progress:'libs/progress', //页面加载动画
@@ -72,6 +77,11 @@
             api_amd:'script/vedor/api_amd', // apicloud的一些方法
 
             cookies:'libs/Cookies',
+            md5:'libs/md5_require',//MD5加密
+            //百度编辑器
+            baidueditor:'ueditor/uemy',
+            bdlang:'ueditor/lang/zh-cn/zh-cn',
+            zeroclipboard:'ueditor/third-party/zeroclipboard/ZeroClipboard.min',
             //各功能模块的js
             login:"html/login/login",
             article:"html/article/article",//文章详情
@@ -93,6 +103,12 @@
             },
             cookies:{
                 deps: ['jquery']
+            },
+            baidueditor:{
+                deps:['ueditor/ueditor.config','css!ueditor/themes/default/css/ueditor']
+            },
+            bdlang:{
+                deps: ['baidueditor']
             }
         }
     };
@@ -103,17 +119,14 @@
         win.$ = $;                          //暴露必要的全局变量，没必要拘泥于requirejs的强制模块化
         win._ = _;                          //暴露必要的全局变量，
         win.ck=ck;
+        win.$app=tool;
+        $app.init();
+        if(checkLogin){
+            $app.checkLogin();
+        }
+         mod();//页面初始化
 
-        mod();//页面初始化
-        tool.init();        //初始化工具  ,初始化页面加载
-         console.log(tool.version);
-
-        tool.endProgress(); //关闭动画
-
-
-        //  test
-        //    tool.layer.alert("ssss")
-
+        $app.endProgress(); //关闭动画
 
     });
 

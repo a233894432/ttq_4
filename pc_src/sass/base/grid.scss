@@ -79,7 +79,7 @@
 .#{$ns}banner{
   width: 100%;
   height: 300px;
-  background: url("../image/banner1920x300.png") center center no-repeat;
+  background: url("../image/banner.jpg") center center no-repeat;
   @include clearfix();
   margin: 0;
 }
@@ -101,7 +101,13 @@
   @include  clearfix();
   min-height:45px;
   line-height: 45px;
-
+  a{
+    line-height: 21px;
+    color: $text-666;
+    &:hover{
+      color: $brand-primary;
+    }
+  }
 }
 
 .#{$ns}bd{
@@ -140,10 +146,15 @@
       display: block;
       width: 780px;
       overflow: hidden;
+      a{
+        line-height: 21px;
+
+      }
       h4{
         line-height: 21px;
         font-size: $font-size-base * 1.2;
         font-weight: bold;
+        cursor: pointer;
       }
       span{
         line-height: 21px;
@@ -179,8 +190,12 @@
   background: $white;
   padding: 30px;
   display: block;
+  overflow: hidden;
   .#{$ns}article-meta{
     color: $text-info;
+  }
+  img{
+    max-width: 720px;
   }
   p{
     line-height: $font-size-base * 2;
@@ -195,7 +210,6 @@
 .#{$ns}edit{
   padding: 30px;
   background: $white;
-  padding: 30px;
   display: block;
   @include clearfix();
   .#{$ns}edit-lead{
@@ -203,6 +217,10 @@
     line-height: $line-height;
     font-size: $font-size-base * 1.2;
     color: $text-666;
+    i{
+      color: $red;
+      font-style: normal;
+    }
   }
   .#{$ns}edit-input{
     width: 500px;
@@ -211,6 +229,7 @@
       width: 100%;
       background: #fafafa;
       padding: 10px;
+      text-indent: 0;
     }
     textarea{
       background: #fafafa;

@@ -12,8 +12,30 @@
     }
 }
 .#{$ns}user{
-    line-height: 45px;
-    height: 100%;
+    line-height: $line-height;
+    height: 45px;
+    overflow: hidden;
+    .box{
+      width: 300px;
+      float: right;
+
+      text-align: right;
+      img{
+        width: 20px;
+        height: 20px;
+        background: $bg-content;
+        @include  border-radius(20px);
+        margin-right: 5px;
+      }
+      span, a{
+        color:$text-base ;
+        &:hover{
+          color: $text-color1;
+        }
+      }
+      color: $global-border;
+    }
+
     img{
         vertical-align: middle;
     }
@@ -39,5 +61,15 @@
 }
 //小号头像
 .#{$ns}mavatar{
+  @include avatar(30);
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+  border:1px solid $global-border;
+  background: $black-10;
+  img{
+    width: 100%;
 
+  }
 }

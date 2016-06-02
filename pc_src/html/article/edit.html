@@ -24,21 +24,21 @@
     </div>
     <div class="am-bd am-edit">
         <div class="form-group">
-            <div class="am-fl am-edit-lead">帖子标题</div>
+            <div class="am-fl am-edit-lead">帖子标题 <i>*</i></div>
             <div class="am-fl am-edit-input">
                 <input type="text" class="" id="article-title" placeholder="最多输入25字">
             </div>
             <div class="am-edit-error am-fhide"> 超过25个字</div>
         </div>
         <div class="form-group">
-            <div class="am-fl am-edit-lead">摘要</div>
+            <div class="am-fl am-edit-lead">摘要 <i>*</i></div>
             <div class="am-fl am-edit-input">
                 <textarea   class="" id="article-description" placeholder="最多输入100字" rows="4" cols="20"></textarea>
             </div>
             <div class="am-edit-error am-fhide"> 超过25个字</div>
         </div>
         <div class="form-group">
-            <div class="am-fl am-edit-lead">作物圈</div>
+            <div class="am-fl am-edit-lead">作物圈 <i>*</i></div>
             <div class="am-fl am-edit-input">
                 <select name="cars"  >
                     <option value="volvo">选择作物圈</option>
@@ -50,9 +50,12 @@
             <div class="am-edit-error am-fhide"> 超过25个字</div>
         </div>
         <div class="form-group">
-            <div class="am-fl am-edit-lead">内容</div>
+            <div class="am-fl am-edit-lead">内容 <i>*</i></div>
             <div class="am-fl am-edit-input">
-                <textarea   class="" id="article-body" placeholder="最多输入100字" rows="4" cols="20"></textarea>
+
+                <script  type="text/plain" id="myeditor" name="contents" style="height:300px;width:498px">
+
+                </script>
             </div>
         </div>
         <div class="form-group">

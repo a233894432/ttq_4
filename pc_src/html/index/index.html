@@ -1,35 +1,24 @@
-    <div class="am-top-header">
-        <div class="am-container" id="header">
-            <div class="am-mlogo am-fl">
-                <img src="image/01_logo80x30.png" alt=""> &nbsp;&nbsp;&nbsp;| &nbsp;<b>特邀专家专属平台</b>
-            </div>
-            <div class="am-user am-fr">
-                <!--已经登录显示-->
-                <div class="">
-                    <a href="login.html">专家登录</a>
-                </div>
-                <!---->
-                <!--<div class="">-->
-                <!--<a href="login.html">登录</a>-->
-                <!--</div>-->
-            </div>
-        </div>
-    </div>
-    <div class="am-banner ">
+<div class="am-banner ">
         <div class="am-container clearfix am-block">
             <div class="am-userDiv am-fr">
                 <div class="am-mt40 am-avatar ">
-                    <img src="image/05_02_avatar_default.png" alt="" >
+                    <%if(userinfo.logo){%>
+                    <img src="<%=userinfo.logo%>" alt="" >
+                    <%}else {%>
+                    <img src="image/05_02_avatar_default.png" alt=""  >
+                    <%}%>
                 </div>
-                <h3>向秀成</h3>
-                <p>这个人什么也没有留下</p>
-                <button class="am-btn  success">
+
+
+                <h3><%=userinfo.nickname  %></h3>
+                <p><%=userinfo.plants%></p>
+                <a class="am-btn  success" href="index.html?m=edit">
                     我要写文章
-                </button>
+                </a>
 
             </div>
         </div>
-    </div>
+</div>
 
     <div class="am-container am-content" id="container">
         <div class="am-hd">
@@ -48,7 +37,7 @@
                     <div class="txtDiv">
                         <div class="am-hd">
                             <h4 class="am-fl">柑橘秋梢抽发需要注意哪些?</h4>
-                            <span class="am-fr"> 删除</span>
+                            <a class="am-fr" href="#"> 删除</a>
                             <p>5分钟前</p>
                         </div>
                         <div class="am-bd">
@@ -185,7 +174,4 @@
 
     </div>
 
-    <div class="am-container am-foot am-tcenter font-color1" id="foot">
-        Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
-    </div>
 

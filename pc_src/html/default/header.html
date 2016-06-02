@@ -1,0 +1,19 @@
+<div class="am-top-header">
+    <div class="am-container clearfix" id="header">
+        <div class="am-mlogo am-fl">
+            <img src="image/01_logo80x30.png" alt=""> &nbsp;&nbsp;&nbsp;| &nbsp;<b>特邀专家专属平台</b>
+        </div>
+        <div class="am-user am-fr">
+            <!--已经登录显示-->
+            <div class="box <%if(logo){%>am-fshow<%}%> " >
+                <!--<img src="image/05_02_avatar_default.png" alt=""  >-->
+                <img src="<%=logo %>" alt=""  >
+                <span class="am-username" id="username"><%=nickname %></span> |
+                <a href="javascript:;" onclick="$app.userOut();">退出登录</a>
+            </div>
+            <!--<div class="box" >-->
+            <!--<a href="index.html?m=login">登录</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
