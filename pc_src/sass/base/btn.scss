@@ -45,7 +45,10 @@
     &.success{
       background: $btn-success;
     }
-
+    &.cancel{
+      background: $btn-cancel;
+      border: 1px solid $global-border;
+  }
 }
 .#{$ns}btn-code{
   @include border-radius(4px);

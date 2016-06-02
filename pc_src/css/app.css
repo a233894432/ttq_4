@@ -49,6 +49,13 @@ input, button, textarea {
   background-color: #fff;
 }
 
+button:hover {
+  outline: 0;
+}
+button:focus {
+  outline: 0;
+}
+
 span {
   display: inline-block;
 }
@@ -491,13 +498,53 @@ input[type="text"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 45px;
-  text-indent: 1rem;
   line-height: 45px;
   font-size: 1.1rem;
   border: 1px solid #cccccc;
 }
 input[type="text"]:focus {
   outline-color: #00a53c;
+}
+
+.form-group textarea,
+.form-group select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -webkit-appearance: none;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-group textarea:focus,
+.form-group select:focus {
+  outline-color: #00a53c;
+}
+.form-group textarea::-moz-placeholder,
+.form-group select::-moz-placeholder {
+  opacity: 1;
+}
+
+.form-group select {
+  width: 60%;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("../image/arrow-down.png") no-repeat scroll right center transparent;
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 45px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+  display: none;
 }
 
 .am-container {
@@ -717,6 +764,56 @@ input[type="text"]:focus {
   margin-top: 2px;
 }
 
+.am-edit {
+  padding: 30px;
+  background: #fff;
+  padding: 30px;
+  display: block;
+}
+.am-edit:before, .am-edit:after {
+  content: " ";
+  display: table;
+}
+.am-edit:after {
+  clear: both;
+}
+.am-edit .am-edit-lead {
+  width: 100px;
+  line-height: 45px;
+  font-size: 16.8px;
+  color: #666;
+}
+.am-edit .am-edit-input {
+  width: 500px;
+  overflow: hidden;
+}
+.am-edit .am-edit-input input {
+  width: 100%;
+  background: #fafafa;
+  padding: 10px;
+}
+.am-edit .am-edit-input textarea {
+  background: #fafafa;
+  resize: none;
+  width: 478px;
+}
+.am-edit .am-edit-input button {
+  width: 160px;
+}
+.am-edit .am-edit-error {
+  font-size: 11.9px;
+  color: red;
+  clear: both;
+  margin-left: 100px;
+}
+.am-edit .am-edit-error:before, .am-edit .am-edit-error:after {
+  content: " ";
+  display: table;
+}
+.am-edit .am-edit-error:after {
+  clear: both;
+}
+
 .am-btn {
   width: 100%;
   line-height: 3rem;
@@ -730,6 +827,10 @@ input[type="text"]:focus {
 }
 .am-btn.success {
   background: #46be78;
+}
+.am-btn.cancel {
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
 .am-btn-code {

@@ -27,6 +27,7 @@ $brand-danger:            #d9534f;
 $brand-info:              #5bc0de;
 
 $btn-success:             #46be78;
+$btn-cancel:              #fff;
 // Scaffolding
 $body-background:         #fff;
 $text-color:              $black-50;
@@ -60,7 +61,7 @@ $font-size-small:         $font-size-base * 0.85; // ~12px
 $font-size-mini:          $font-size-base * 0.75; // ~11px
 
 $line-height-base:        1.4;
-
+$line-height:             45px;
 $headings-font-family:    inherit; // empty to use BS default, @font-family-base
 $headings-font-weight:    500;
 
@@ -85,5 +86,8 @@ $border-radius-max:     200px;
 
 // Forms
 $form-group-margin-bottom:       15px !default;
+$input-padding:                  10px !default;
 
+$input-bg:                        #fff !default;
+$input-focus-bg:                  #fefffe !default;
 //----------

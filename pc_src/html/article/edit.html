@@ -20,15 +20,61 @@
 <div class="am-container am-content" id="container">
     <div class="am-hd">
         <storng>作物圈</storng>
-        | <span>叶故城</span>
+        | <span>我要写文章</span>
     </div>
-    <div class="am-bd am-article">
-        <h1 class="am-article-title">叶故城</h1>
-        <p class="am-article-meta">meta</p>
-        <script id="editor" type="text/plain" style="width:1024px;height:500px;">
-            <p>ssssss</p>
-        </script>
+    <div class="am-bd am-edit">
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">帖子标题</div>
+            <div class="am-fl am-edit-input">
+                <input type="text" class="" id="article-title" placeholder="最多输入25字">
+            </div>
+            <div class="am-edit-error am-fhide"> 超过25个字</div>
+        </div>
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">摘要</div>
+            <div class="am-fl am-edit-input">
+                <textarea   class="" id="article-description" placeholder="最多输入100字" rows="4" cols="20"></textarea>
+            </div>
+            <div class="am-edit-error am-fhide"> 超过25个字</div>
+        </div>
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">作物圈</div>
+            <div class="am-fl am-edit-input">
+                <select name="cars"  >
+                    <option value="volvo">选择作物圈</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div class="am-edit-error am-fhide"> 超过25个字</div>
+        </div>
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">内容</div>
+            <div class="am-fl am-edit-input">
+                <textarea   class="" id="article-body" placeholder="最多输入100字" rows="4" cols="20"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">标签</div>
+            <div class="am-fl am-edit-input">
+                <input type="text" class="" id="article-tag" placeholder="最多输入25字">
+            </div>
+            <div class="am-edit-error am-fhide"> 超过25个字</div>
+        </div>
+        <div class="form-group">
+            <div class="am-fl am-edit-lead">&nbsp;</div>
+            <div class="am-fl am-edit-input">
+                <button class="am-btn  success">
+                    发&nbsp;布
+                </button>
+                <button class="am-btn  cancel">
+                    取&nbsp;消
+                </button>
+            </div>
 
+
+        </div>
     </div>
 
 </div>
@@ -36,9 +82,3 @@
 <div class="am-container am-foot am-tcenter font-color1" id="foot">
     Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
 </div>
-<script type="text/javascript" charset="utf-8" src="../../ueditor/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="../../ueditor/ueditor.all.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="../../ueditor/lang/zh-cn/zh-cn.js"></script>
-<script>
-    var ue = UE.getEditor('editor');
-</script>

@@ -192,3 +192,41 @@
     }
   }
 }
+.#{$ns}edit{
+  padding: 30px;
+  background: $white;
+  padding: 30px;
+  display: block;
+  @include clearfix();
+  .#{$ns}edit-lead{
+    width: 100px;
+    line-height: $line-height;
+    font-size: $font-size-base * 1.2;
+    color: $text-666;
+  }
+  .#{$ns}edit-input{
+    width: 500px;
+    overflow: hidden;
+    input{
+      width: 100%;
+      background: #fafafa;
+      padding: 10px;
+    }
+    textarea{
+      background: #fafafa;
+      resize: none;
+      width: 478px;
+    }
+    button{
+      width: 160px;
+    }
+  }
+  .#{$ns}edit-error{
+    @include clearfix();
+    font-size: $font-size-small;
+    color: red;
+    clear: both;
+    margin-left: 100px;
+  }
+
+}

@@ -37,6 +37,14 @@ input,button,textarea {
   /*-webkit-appearance:none;*/
   background-color:$body-background;
 }
+button{
+  &:hover{
+    outline: 0;
+  }
+  &:focus{
+    outline: 0;
+  }
+}
 
 span{
   display:inline-block;
