@@ -11,6 +11,12 @@
     var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
     var mode=['login','index','article','list','default','user','edit','about'] ; //现有模块
+
+    function getUa() {
+        var ua = window.navigator.userAgent.toLocaleLowerCase(), isApple = !!ua.match(/(ipad|iphone|mac)/i), isAndroid = !!ua.match(/android/i), isWinPhone = !!ua.match(/MSIE/i), ios6 = !!ua.match(/os 6.1/i),isWeixin=!!ua.match(/MicroMessenger/i);
+        return { isApple: isApple, isAndroid: isAndroid, isWinPhone: isWinPhone, ios6: ios6,isweixin:isWeixin }
+    }
+    console.log(getUa());
     /**
      * 取URL上面的参数
      * @param name

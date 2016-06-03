@@ -777,8 +777,57 @@ select::-ms-expand {
 .am-article .am-article-meta {
   color: #999;
 }
+.am-article .am-userinfo-div {
+  height: 50px;
+  margin-top: 10px;
+}
+.am-article .am-userinfo-div:before, .am-article .am-userinfo-div:after {
+  content: " ";
+  display: table;
+}
+.am-article .am-userinfo-div:after {
+  clear: both;
+}
+.am-article .am-userinfo-div .am-userimg {
+  display: inline-block;
+  width: 50px;
+  margin-right: 5px;
+}
+.am-article .am-userinfo-div .am-userinfo {
+  display: inline-block;
+}
+.am-article .am-userinfo-div .am-userinfo p {
+  line-height: 21px;
+  font-size: 11.2px;
+}
+.am-article .am-userinfo-div .am-img {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 200px;
+  overflow: hidden;
+}
+.am-article .am-userinfo-div .am-img > span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -webkit-border-radius: 200px;
+}
+.am-article .am-article-content {
+  width: 100%;
+  margin: 10px auto;
+}
+.am-article .am-article-content:before, .am-article .am-article-content:after {
+  content: " ";
+  display: table;
+}
+.am-article .am-article-content:after {
+  clear: both;
+}
 .am-article img {
-  max-width: 720px;
+  max-width: 690px;
   display: block;
   margin: 5px auto;
 }
@@ -829,6 +878,7 @@ select::-ms-expand {
 }
 .am-edit .am-edit-input button {
   width: 160px;
+  cursor: pointer;
 }
 .am-edit .am-edit-error {
   font-size: 11.9px;
@@ -895,6 +945,10 @@ select::-ms-expand {
   float: left;
   width: 90%;
   color: #333;
+}
+
+.am-username {
+  line-height: 25.2px;
 }
 
 .am-btn {

@@ -1,22 +1,3 @@
-<div class="am-top-header">
-    <div class="am-container" id="header">
-        <div class="am-mlogo am-fl">
-            <img src="image/01_logo80x30.png" alt=""> &nbsp;&nbsp;&nbsp;| &nbsp;<b>特邀专家专属平台</b>
-        </div>
-        <div class="am-user am-fr">
-            <!--已经登录显示-->
-            <div class="">
-                <a href="login.html">专家登录</a>
-            </div>
-            <!---->
-            <!--<div class="">-->
-            <!--<a href="login.html">登录</a>-->
-            <!--</div>-->
-        </div>
-    </div>
-</div>
-
-
 <div class="am-container am-content" id="main-container">
     <div class="am-hd">
         <storng>作物圈</storng>
@@ -40,11 +21,12 @@
         <div class="form-group">
             <div class="am-fl am-edit-lead">作物圈 <i>*</i></div>
             <div class="am-fl am-edit-input">
-                <select name="cars"  >
-                    <option value="volvo">选择作物圈</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
+                <select name="crop" id="article-crop">
+
+                    <% _.each(data,function(item){ %>
+                    <option value="<%= item.id %>"><%= item.sp_name %></option>
+                    <% }) %>
+
                 </select>
             </div>
             <div class="am-edit-error am-fhide"> 超过25个字</div>
@@ -68,10 +50,10 @@
         <div class="form-group">
             <div class="am-fl am-edit-lead">&nbsp;</div>
             <div class="am-fl am-edit-input">
-                <button class="am-btn  success">
+                <button class="am-btn  success" id="sendPost">
                     发&nbsp;布
                 </button>
-                <button class="am-btn  cancel">
+                <button class="am-btn  cancel" id="btnCancel">
                     取&nbsp;消
                 </button>
             </div>

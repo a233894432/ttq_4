@@ -198,8 +198,34 @@
   .#{$ns}article-meta{
     color: $text-info;
   }
+  .#{$ns}userinfo-div{
+    @include clearfix();
+    height: 50px;
+    margin-top: 10px;
+    .#{$ns}userimg {
+      display: inline-block;
+      width: 50px;
+      margin-right: 5px;
+    }
+    .#{$ns}userinfo{
+      display: inline-block;
+      p{
+        line-height: $line-height-21;
+        font-size: $font-size-base * 0.8;
+      }
+    }
+    .#{$ns}img{
+      @include avatar(40);
+    }
+  }
+  .#{$ns}article-content{
+    width: 100%;
+    @include clearfix();
+    margin: 10px auto;
+
+  }
   img{
-    max-width: 720px;
+    max-width: 690px;
     display: block;
     margin: 5px auto;
   }
@@ -244,6 +270,7 @@
     }
     button{
       width: 160px;
+      cursor: pointer;
     }
   }
   .#{$ns}edit-error{
@@ -303,4 +330,8 @@
     color:$text-base;
   }
 
+}
+
+.#{$ns}username{
+  line-height: $font-size-base * 1.8;
 }

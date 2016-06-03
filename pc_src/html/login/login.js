@@ -7,7 +7,7 @@ define(['text!html/login/login.html'], function (tpl) {
         var shtml=_.template(tpl);
         appView.html(shtml());
         if(ck.get("token")){
-            window.location.href="/index.html?m=index";
+            window.location.href="index.html?m=index";
         }
 
         var isCodeTrue=false;
@@ -112,7 +112,7 @@ define(['text!html/login/login.html'], function (tpl) {
                 ck.set("token",data.token);
                 ck.set("userinfo",data.user)
                 //跳转到首页
-                window.location.href="/index.html?m=index";
+                window.location.href="index.html?m=index";
 
             }else{
                 $app.layer.alert(data.msg)

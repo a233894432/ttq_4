@@ -21,7 +21,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
     u.isdebug=true; //PC调试的开关,PC调试要为true
     u.deploy = {
         localhost:'http://localhost/api',//本地反向代理
-        forecast:'http://120.76.165.155:900',//远程测试环境
+        forecast:'http://ttkapi.ttq.com:900',//远程测试环境
         hxpreRelease:'http://ttc.ttq.com'//预发布地址 的核销权限地址
     };
     u.host = u.deploy.localhost; //现网接口
@@ -33,7 +33,16 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         store_alist: '/store/alist', // 8.1.活动商品列表
         checkCode:'/member/checkImgVaildCode', //验证图形码
         validatcode:'/member/validatcode',    //发送验正码
-        simlogin:'/member/simlogin'            //登录
+        simlogin:'/member/simlogin',            //登录
+        expert_detail:'/post/expertArticleDetail', //专家文章详情
+        expert_list:'/post/expertArticleList ',//专家文章列表
+        write_Article:'/post/writeArticle', //发表文章
+        subscriptionList:'/post/subscriptionList',//作物圈
+        expert_article_del:'/post/expertArticleDel',// 删除专家文章
+
+        addread:'/post/addread',                    //增加阅读数
+    //   帖子类
+        post_detail:'/post/detail'              //帖子详情
     };
 
     //提共接口外调
@@ -59,7 +68,13 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         endProgress: function () {
              lod().end();
         },
-
+        /**
+         * 获取用户访问UA
+         */
+        getUa:function(){
+            var ua = window.navigator.userAgent.toLocaleLowerCase(), isApple = !!ua.match(/(ipad|iphone|mac)/i), isAndroid = !!ua.match(/android/i), isWinPhone = !!ua.match(/MSIE/i), ios6 = !!ua.match(/os 6.1/i),isWeixin=!!ua.match(/MicroMessenger/i);
+            return { isApple: isApple, isAndroid: isAndroid, isWinPhone: isWinPhone, ios6: ios6,isweixin:isWeixin }
+        },
         /**
          * getMode 从URL地址栏中获取model的参数
          * @param name  参数的名称
@@ -98,7 +113,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
          * @param success
          * @param error
          */
-        getAjax:function(url,data,success,getError){
+        getAjax:function(url,data,success,errorF){
             var aurl = u.host + url;
             console.log("请求地址是:"+aurl);
             $.ajax({
@@ -106,12 +121,18 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 url: aurl,
                 data: data,
                 dataType:'json',
+                timeout:5000,
                 success: function(data){
                     //console.log( "Data Saved: " + data );
-                    return success(data)
+                    return success(data);
                 },
                 error:function(data){
-                    this.getError(url,data)
+                    if(_.isFunction(errorF)){
+                        return errorF(url,data);
+                    }else{
+                        $app.getError(url,data);
+                    }
+
                 },
                 complete:function(XMLHttpRequest, textStatus){
                     //console.log(XMLHttpRequest)
@@ -135,7 +156,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         checkLogin:function(){
             console.log("检验用户是否已经登录")
             if(!ck.get("token")){
-                window.location.href="/index.html?m=login";
+                window.location.href="index.html?m=login";
             }
 
         },
@@ -145,8 +166,51 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         userOut:function(){
             ck.remove('token');
             ck.remove('userinfo');
-            window.location.href="/index.html?m=login";
+            window.location.href="index.html?m=login";
+        },
+        /**
+         * 截取字符串
+         * @param e
+         * @param num
+         * @returns {string}
+         */
+        getStr:function(e,num) {
+            var more='';
+            if(e.length >=12){
+                more='...';
+            }
+            var data=e.substr(0,num) + more;
+            return data.toString();
+        },
+        /**
+         * 先启动APP, 如果启动不成功 则 打开下载链接 ,暂时有很多的APP的不行..但大部分原生的都已经支持了
+         * @param url
+         */
+        openApp:function(url){
+            var loadDateTime= _.now();
+            setTimeout(function () {
+                var timeOutDateTime = new Date();
+                if (!loadDateTime || timeOutDateTime - loadDateTime < 2010) {
+                    window.location.href = "http://bbs.ttq.com/dl";
+                }
+            },2000);
+            //scheme : 固定为  SZTTQ1023319867
+            window.location = 'SZTTQ1023319867://'+ url;
+
+        },
+        /**
+         * 判断字符串长度
+         * @param str
+         * @param len
+         */
+        strLen:function(str,len){
+            if(str.length < len){
+                console.log(str.length+"----"+len);
+                return true;
+            }
+            return false;
         }
+
 
     };
 

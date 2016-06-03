@@ -139,7 +139,26 @@ class Uploader
     private function uploadImg($filePath)
     {
         //上传图片到阿里云
-        $result = $this->invoke_curl_img(array('acessToken'=>$this->config['uploadImgAcessToken'],'image'=>'@'.$filePath));
+        //$result = $this->invoke_curl_img(array('acessToken'=>$this->config['uploadImgAcessToken'],'image'=>'@'.$filePath));
+        //重命名文件
+
+        $info = getimagesize($filePath);
+        //文件重命名
+        $fileInfo = pathinfo($filePath);
+        $newName = $fileInfo['dirname'].'/'.$fileInfo['filename'].'_wh_'.$info[0].'_'.$info[1].'.'.$fileInfo['extension'];
+
+        $result = rename($filePath,$newName);
+        if($result) {
+            $filePath = $newName;
+        }
+
+        $data = array();
+        $data['acessToken'] = $this->config['uploadImgAcessToken'];
+        $data['width'] = $info[0];
+        $data['height'] = $info[1];
+        $data['image'] = $filePath;
+
+        $result = $this->invoke_curl_img($data);
         $result = json_decode(($result),true);
         if($result['code'] == '0000') {
             $this->fullName = $result['img'];

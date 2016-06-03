@@ -90,7 +90,7 @@
         ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
         ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
     ],/* 列出的文件类型 */
-    "uploadImgApiService": "http://127.0.0.1/imgup/editorUploadImg",/*上传图片服务*/
+    "uploadImgApiService": "http://120.76.165.155:900/imgup/editorUploadImg",/*上传图片服务*/
     "uploadImgAcessToken": "99d39d6c4eae36e23568f72a08e6142a" /* 上传图访问token */
 
 }

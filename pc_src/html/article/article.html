@@ -1,59 +1,66 @@
+<div class="am-container am-content" id="main-container">
 
-    <div class="am-container am-content" id="main-container">
-        <div class="am-hd">
-            <storng>作物圈</storng> | <span>叶故城</span>
-        </div>
-        <div class="am-bd am-article">
-            <h1 class="am-article-title">叶故城</h1>
-            <p class="am-article-meta">meta</p>
-            <p> 现在国内水稻、小麦和玉米价格都有不同程度下跌，很多种粮的合作社、家庭农场都遭受到了不小的损失。能不能利用国家补贴降低我们的损失呢?答案是可以的!2016年种粮食能拿到什么补贴?
-                1、一般补贴</p>
-            <p>国家在部分省市对农民的种粮直补、农资综合、良种补贴进行整合试点，2016年全面铺开，平均补贴资金在120元/亩左右。</p>
-            <p> 2、规模经营补贴</p>
-            <p>针对从事粮食规模经营的合作社、大户和家庭农场，全国各地的补贴标准不同，一般在40-80元/亩之间。</p>
-            <p> 3、农机补贴</p>
-            <p> 2015年农机补贴申报对象是农民、合作社和家庭农场，一般农机单机补贴额最高5万元，100马力以上大型拖拉机等最高15万元…</p>
-            <p> 4、中央财政现代农业生产发展项目</p>
-            <p>财政资金重点支持：园区(基地)内沟、渠、路、闸、站等农田基础设施建设;生产设施、冷链加工等生产性投入等。</p>
-            <p> 补助对象：农民专业合作社、家庭农场、农业产业化龙头企业等</p>
-            <p>5、粮棉油高产创建</p>
-            <p>农业高产创建是农业部从2008年起实施的一项稳定发展粮棉油糖生产的重要举措，集中支持水稻、小麦、玉米、油菜、马铃薯5大作物。</p>
-            <p>项目申报要求：土地一万亩以上，鼓励支持整市(地)、整县(市)、整乡(镇)整建制申报。</p>
-            <p> 6、农业综合开发一般产业化经营项目</p>
-            <p>扶持范围：农产品、经济林及设施农业种植、畜禽水产养殖等种植养殖基地，农产品加工、储藏保鲜、产地批发市场等流通设施。</p>
-            <p>资金补助对象：农民专业合作社、家庭农场、农业产业化龙头企业等。</p>
-            <p>资金额度：龙头企业项目中央财政补助资金规模为100-300万元;农民专业合作社项目中央财政补助资金规模为50-150万元。</p>
-            <p>7、高标准农田建设项目</p>
-            <p>高标准农田建设内容包括土地平整、土壤改良、灌溉与排水、田间道路、农田防护与生态环境保持、农田输配电和其他等工程内容。</p>
-            <p>支持对象：国有农场、农业产业化龙头企业、农民专业合作社、股份合作社以及专业大户、家庭农场等各类农业经营主体。</p>
-            <p>支持方式：贴息、补助和贷款，其中补助全国标准平均为每亩1500元，个别地区如湖南，平均每亩2500元至3000元。</p>
-            <p>8、农产品产地初加工补助项目</p>
-            <p> 奖补对象：农户和农民专业合作社。每个农户当年享受奖补的设施数量不超过两座，每个专业合作社不超过5座。</p>
-            <p>奖补范围：当年新建的马铃薯贮藏窖、果蔬贮藏库和果蔬烘干等三类设施，共18个具体规格。</p>
-            <p> 奖补标准：按照不超过设施平均建设造价30%的比例实行定额补助。</p>
-            <p>来源：京郊日报</p>
-            <div class="am-info">
-                                <span style="padding-left: 0">
-                                    <i class="ui-icon">&#xe650;</i>
-                                    阅读数 222
-                                </span>
-                                 <span>
-                                    <i class="ui-icon">&#xe611;</i>
-                                    评论数 2112
-                                </span>
-                                   <span>
-                                    <i class="ui-icon">&#xe612;</i>
-                                    点赞数 11222
-                                </span>
-                                   <span>
-                                    <i class="ui-icon">&#xe626;</i>
-                                    分享数 554
-                                </span>
+
+    <div class="am-hd">
+        <strong>作物圈</strong>
+    </div>
+    <div class="am-bd am-article">
+        <%if(isshow){%>
+
+            <h1 class="am-article-title" id="title">
+                <%= title%>
+            </h1>
+        <%if(author){%>
+            <div class="am-userinfo-div clearfix">
+                <div class="am-userimg am-fl">
+                    <img src="<%= headimg%>" alt="" class="am-img am-fl">
+                </div>
+                <div class="am-userinfo am-fl">
+                    <span class="am-username  " id="username"> <%=author %></span>
+                    <p class="am-article-meta  clearfix"><%=createat%></p>
+                </div>
+
             </div>
-        </div>
+        <%}%>
+
+            <div class="am-article-content clearfix">
+                <%=content %>
+
+                <% _.each(imgs,function(item){ %>
+                    <img src="<%= item.src %>" alt="">
+                <% }) %>
+            </div>
+
+            <div class="am-info">
+                                    <span style="padding-left: 0">
+                                        <i class="ui-icon">&#xe650;</i>
+                                        阅读数 <%=readnum %>
+                                    </span>
+                                     <span>
+                                        <i class="ui-icon">&#xe611;</i>
+                                        评论数 <%= commentnum %>
+                                    </span>
+                                       <span>
+                                        <i class="ui-icon">&#xe612;</i>
+                                        点赞数 <%=praisenum %>
+                                    </span>
+                                       <span>
+                                        <i class="ui-icon">&#xe626;</i>
+                                        分享数<%= sharenum %>
+                                    </span>
+            </div>
+        <%}else {%>
+
+        <p class="am-tcenter">文章不存在或是已经被删除</p>
+        <%}%>
+
 
     </div>
 
-    <div class="am-container am-foot am-tcenter font-color1" id="foot">
-        Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
-    </div>
+
+
+</div>
+
+<div class="am-container am-foot am-tcenter font-color1" id="foot">
+    Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
+</div>
