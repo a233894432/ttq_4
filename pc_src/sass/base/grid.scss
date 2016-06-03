@@ -101,6 +101,9 @@
   @include  clearfix();
   min-height:45px;
   line-height: 45px;
+  p{
+    color: $text-info;
+  }
   a{
     line-height: 21px;
     color: $text-666;
@@ -155,15 +158,29 @@
         font-size: $font-size-base * 1.2;
         font-weight: bold;
         cursor: pointer;
+        a{
+          color: $text-base;
+          &:hover{
+            color: $brand-primary;
+          }
+        }
       }
       span{
         line-height: 21px;
       }
-      p{
-        width: 100%;
-        clear: both;
-        line-height: 21px;
+
+        p{
+          width: 100%;
+          clear: both;
+          line-height: 21px;
+        }
+      .#{$ns}p-info{
+        color: $text-info;
       }
+      .#{$ns}p-content{
+        height: 42px;
+      }
+
     }
 
 
@@ -334,4 +351,7 @@
 
 .#{$ns}username{
   line-height: $font-size-base * 1.8;
+}
+.#{$ns}p-info{
+  color: $text-info;
 }

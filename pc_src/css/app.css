@@ -670,6 +670,9 @@ select::-ms-expand {
 .am-hd:after {
   clear: both;
 }
+.am-hd p {
+  color: #999;
+}
 .am-hd a {
   line-height: 21px;
   color: #666;
@@ -732,6 +735,12 @@ select::-ms-expand {
   font-weight: bold;
   cursor: pointer;
 }
+.am-ullist .txtDiv h4 a {
+  color: #333;
+}
+.am-ullist .txtDiv h4 a:hover {
+  color: #64a0dc;
+}
 .am-ullist .txtDiv span {
   line-height: 21px;
 }
@@ -739,6 +748,12 @@ select::-ms-expand {
   width: 100%;
   clear: both;
   line-height: 21px;
+}
+.am-ullist .txtDiv .am-p-info {
+  color: #999;
+}
+.am-ullist .txtDiv .am-p-content {
+  height: 42px;
 }
 
 .am-info {
@@ -949,6 +964,10 @@ select::-ms-expand {
 
 .am-username {
   line-height: 25.2px;
+}
+
+.am-p-info {
+  color: #999;
 }
 
 .am-btn {

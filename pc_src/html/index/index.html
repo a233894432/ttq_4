@@ -46,13 +46,16 @@
 
                 <div class="txtDiv">
                     <div class="am-hd">
-                        <h4 class="am-fl"><%= item.title%></h4>
+                        <h4 class="am-fl">
+                            <a href="index.html?m=article&id=<%=item.id %>"><%= item.title%></a>
+                        </h4>
                         <a class="am-fr" href="#"> 删除</a>
-                        <p><%= item.created%></p>
+                        <p class="am-p-info"><%= item.createtime%>&nbsp;&nbsp;&nbsp;&nbsp;<%= item.subscriptionName%></p>
+
+
                     </div>
                     <div class="am-bd">
-                        <p><%= item.content%> </p>
-
+                            <p class="am-p-content"><%= item.content%> </p>
                     </div>
                     <div class="am-info">
                                 <span style="padding-left: 0">

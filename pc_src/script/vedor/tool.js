@@ -209,10 +209,33 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 return true;
             }
             return false;
+        },
+        /**
+         * 格式化时间
+         * @param time   unix时间戳
+         * @param e   返回的时间样式 默认返回  "yyyy-mm-dd hh:mm:ss "
+         */
+        formatDate: function (time, e) {
+            time = new Date(time);
+
+            function fixZero(num, length) {
+                var str = "" + num;
+                var len = str.length;
+                var s = "";
+                for (var i = length; i-- > len;) {
+                    s += "0";
+                }
+                return s + str;
+            }
+
+            return time.getFullYear() + "-" + fixZero(time.getMonth() + 1, 2) + "-" + fixZero(time.getDate(), 2) + " " + fixZero(time.getHours(), 2) + ":" + fixZero(time.getMinutes(), 2) + ":" + fixZero(time.getSeconds(), 2);
+
         }
 
 
-    };
+
+
+};
 
 
 
