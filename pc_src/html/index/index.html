@@ -33,7 +33,7 @@
 
 
 
-            <li>
+            <li id="article<%=item.id%>">
                 <%if(item.isImg!="0"){%>
                     <div class="imgDiv">
                         <img src="upload/upload.jpg" alt="">
@@ -49,7 +49,7 @@
                         <h4 class="am-fl">
                             <a href="index.html?m=article&id=<%=item.id %>"><%= item.title%></a>
                         </h4>
-                        <a class="am-fr" href="#"> 删除</a>
+                        <a class="am-fr" href="javascript:;" id="dellItem" onclick="$app.dellArticle(<%=item.id%>)"> 删除</a>
                         <p class="am-p-info"><%= item.createtime%>&nbsp;&nbsp;&nbsp;&nbsp;<%= item.subscriptionName%></p>
 
 

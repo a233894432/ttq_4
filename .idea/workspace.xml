@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0d5e7ad3-1638-4046-962b-420aaea16318" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/css/app.css" afterPath="$PROJECT_DIR$/pc_src/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/css/app.min.css" afterPath="$PROJECT_DIR$/pc_src/css/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/sass/base/grid.scss" afterPath="$PROJECT_DIR$/pc_src/sass/base/grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/html/index/index.html" afterPath="$PROJECT_DIR$/pc_src/html/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/html/index/index.js" afterPath="$PROJECT_DIR$/pc_src/html/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/script/vedor/tool.js" afterPath="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.029411">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="50" />
+            <state vertical-scroll-proportion="-5.147059">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tool.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tool.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc_src/script/vedor/tool.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="221" column="35" selection-start-line="221" selection-start-column="35" selection-end-line="221" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.4128554">
+              <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grid.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc_src/sass/base/grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.516129">
-              <caret line="258" column="22" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
+            <state vertical-scroll-proportion="-5.882353">
+              <caret line="250" column="37" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -120,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -191,10 +191,10 @@
         <option value="$PROJECT_DIR$/pc_src/html/login/login.js" />
         <option value="$PROJECT_DIR$/pc_src/html/article/edit.html" />
         <option value="$PROJECT_DIR$/pc_src/html/article/editArticle.js" />
-        <option value="$PROJECT_DIR$/pc_src/html/index/index.js" />
-        <option value="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
-        <option value="$PROJECT_DIR$/pc_src/html/index/index.html" />
         <option value="$PROJECT_DIR$/pc_src/sass/base/grid.scss" />
+        <option value="$PROJECT_DIR$/pc_src/html/index/index.js" />
+        <option value="$PROJECT_DIR$/pc_src/html/index/index.html" />
+        <option value="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
       </list>
     </option>
   </component>
@@ -741,7 +741,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464955437648</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1\  新加  index.列表&#10;">
+      <created>1464955579209</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1464955579209</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1197,34 +1203,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc_src/script/vedor/tool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="221" column="35" selection-start-line="221" selection-start-column="35" selection-end-line="221" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc_src/sass/base/variable.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5882354">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.029411">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1239,8 +1221,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pc_src/sass/base/grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.516129">
-          <caret line="258" column="22" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
+        <state vertical-scroll-proportion="-5.882353">
+          <caret line="250" column="37" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc_src/html/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc_src/script/vedor/tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4128554">
+          <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
           <folding />
         </state>
       </provider>

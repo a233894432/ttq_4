@@ -36,9 +36,11 @@ define(['text!html/default/header.html', 'text!html/index/index.html', 'text!htm
                     }
 
                 appView.html(headhtml(headdata) + shtml({userinfo: headdata, listdata: plistdata}) + foot_tpl);
+
             }else{
 
                 appView.html(headhtml(headdata) + shtml({userinfo: headdata, listdata: "00022"}) + foot_tpl);
+
             }
 
 

@@ -230,6 +230,35 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
 
             return time.getFullYear() + "-" + fixZero(time.getMonth() + 1, 2) + "-" + fixZero(time.getDate(), 2) + " " + fixZero(time.getHours(), 2) + ":" + fixZero(time.getMinutes(), 2) + ":" + fixZero(time.getSeconds(), 2);
 
+        },
+        /**
+         * 删除帖子
+         * @param e
+         */
+
+        dellArticle:function(e){
+            var token =ck.get('token');
+            var pdata={
+                postid:e,
+                token:token
+            }
+            $app.getAjax($app.apiurl.service.expert_article_del,pdata,successF,errorF)
+
+            function successF(data){
+                if(data.success){
+                   layer.msg("删除成功");
+                    var item='#article'+e;
+                    $(item).remove();
+                }else{
+                    layer.msg(data.msg);
+                }
+
+            }
+            function errorF(data){
+                layer.msg(data.msg);
+            }
+
+
         }
 
 
