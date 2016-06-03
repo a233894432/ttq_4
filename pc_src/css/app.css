@@ -785,6 +785,7 @@ select::-ms-expand {
   display: block;
   overflow: hidden;
   min-height: 500px;
+  position: relative;
 }
 .am-article .am-article-title {
   width: 100%;
@@ -849,6 +850,11 @@ select::-ms-expand {
 .am-article p {
   line-height: 28px;
   font-size: 16.8px;
+}
+.am-article .am-info {
+  position: absolute;
+  bottom: 5%;
+  left: 35px;
 }
 .am-article .am-info i {
   margin-top: 2px;

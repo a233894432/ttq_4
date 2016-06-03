@@ -209,6 +209,7 @@
   display: block;
   overflow: hidden;
   min-height: 500px;
+  position: relative;
   .#{$ns}article-title{
     width: 100%;
   }
@@ -251,6 +252,9 @@
     font-size: $font-size-base * 1.2;
   }
   .#{$ns}info{
+    position: absolute;
+    bottom: 5%;
+    left: 35px;
     i{
       margin-top: 2px;
     }

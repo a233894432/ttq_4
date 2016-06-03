@@ -5,10 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/css/app.css" afterPath="$PROJECT_DIR$/pc_src/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/css/app.min.css" afterPath="$PROJECT_DIR$/pc_src/css/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/html/index/index.html" afterPath="$PROJECT_DIR$/pc_src/html/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/html/index/index.js" afterPath="$PROJECT_DIR$/pc_src/html/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/sass/base/grid.scss" afterPath="$PROJECT_DIR$/pc_src/sass/base/grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc_src/script/vedor/tool.js" afterPath="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,8 +89,8 @@
       <file leaf-file-name="grid.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc_src/sass/base/grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41935483">
-              <caret line="171" column="10" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.516129">
+              <caret line="258" column="22" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -738,7 +735,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464953771241</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1\  新加  index.列表&#10;">
+      <created>1464955437647</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1464955437648</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -826,7 +829,8 @@
     <MESSAGE value="1\  新加 接口对接 用户登录  发短信, &#10;2\  发文章 与 文章列表&#10;" />
     <MESSAGE value="1\  新加  about 模块    如何成为专家页.html 与如何收益页&#10;&#10;" />
     <MESSAGE value="1\  新加  PC发帖...&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1\  新加  PC发帖...&#10;" />
+    <MESSAGE value="1\  新加  index.列表&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1\  新加  index.列表&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1065,8 +1069,8 @@
         <state vertical-scroll-proportion="-6.617647">
           <caret line="2100" column="19" selection-start-line="2100" selection-start-column="19" selection-end-line="2100" selection-end-column="19" />
           <folding>
-            <marker date="1464955399444" expanded="true" signature="16395:16426" placeholder="{...}" />
-            <marker date="1464955399444" expanded="true" signature="31675:31699" placeholder="{...}" />
+            <marker date="1464955560521" expanded="true" signature="16492:16523" placeholder="{...}" />
+            <marker date="1464955560521" expanded="true" signature="31772:31796" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1177,14 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc_src/html/article/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc_src/html/article/editArticle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1233,10 +1229,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pc_src/html/article/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pc_src/sass/base/grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41935483">
-          <caret line="171" column="10" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.516129">
+          <caret line="258" column="22" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
           <folding />
         </state>
       </provider>
