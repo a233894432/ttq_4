@@ -10,6 +10,9 @@
     b{
         font-size: 16px;
     }
+  a{
+    color: $text-base;
+  }
 }
 .#{$ns}user{
     line-height: $line-height;

@@ -769,12 +769,18 @@ select::-ms-expand {
   padding: 30px;
   display: block;
   overflow: hidden;
+  min-height: 500px;
+}
+.am-article .am-article-title {
+  width: 100%;
 }
 .am-article .am-article-meta {
   color: #999;
 }
 .am-article img {
   max-width: 720px;
+  display: block;
+  margin: 5px auto;
 }
 .am-article p {
   line-height: 28px;
@@ -838,10 +844,64 @@ select::-ms-expand {
   clear: both;
 }
 
+.am-mobile {
+  font-size: 3rem;
+}
+.am-mobile p {
+  line-height: 1.5;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+.am-mobile p.mini {
+  font-size: 2rem;
+}
+.am-mobile .am-btn {
+  height: 6rem;
+  font-size: 3rem;
+  line-height: 6rem;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+.am-mobile .am-article-title {
+  color: #46be78;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.am-mobile ul li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.am-quaere {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.am-quaere:before, .am-quaere:after {
+  content: " ";
+  display: table;
+}
+.am-quaere:after {
+  clear: both;
+}
+.am-quaere .am-lbox {
+  width: 5%;
+  margin-right: 2%;
+  color: #46be78;
+  float: left;
+}
+.am-quaere .am-rbox {
+  float: left;
+  width: 90%;
+  color: #333;
+}
+
 .am-btn {
   width: 100%;
   line-height: 3rem;
   font-size: 1.3rem;
+  text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1963,6 +2023,9 @@ html #layui_layer_skinlayercss {
 }
 .am-mlogo b {
   font-size: 16px;
+}
+.am-mlogo a {
+  color: #333;
 }
 
 .am-user {

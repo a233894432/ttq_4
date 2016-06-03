@@ -10,7 +10,7 @@
     var mod,containerDiv;
     var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
-    var mode=['login','index','article','list','default','user','edit'] ; //现有模块
+    var mode=['login','index','article','list','default','user','edit','about'] ; //现有模块
     /**
      * 取URL上面的参数
      * @param name
@@ -45,7 +45,7 @@
         mod="login";//用户默认跳转到 登录
     }
     console.log("当前模块:"+mod);
-    if(mod=="article" || mod=="login"){
+    if(mod=="article" || mod=="login" || mod=="about"){
         checkLogin=false
     }
     /**
@@ -53,7 +53,7 @@
      */
     if(mod=="login"){
         containerDiv.className='am-loging-wrapper';
-    }else if(mod=="article" || mod=="edit"){
+    }else if(mod=="article" || mod=="edit" ){
         containerDiv.className='am-article-wrapper';
     }else{
         containerDiv.className='am-wrapper';
@@ -83,10 +83,11 @@
             bdlang:'ueditor/lang/zh-cn/zh-cn',
             zeroclipboard:'ueditor/third-party/zeroclipboard/ZeroClipboard.min',
             //各功能模块的js
-            login:"html/login/login",
+            login:"html/login/login",     //登录模块
             article:"html/article/article",//文章详情
             edit:"html/article/editArticle", // 发帖
-            index:"html/index/index"
+            index:"html/index/index",   //主页
+            about:"html/about/about"    //一些静态页面
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
             underscore: {

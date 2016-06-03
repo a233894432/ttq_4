@@ -191,11 +191,17 @@
   padding: 30px;
   display: block;
   overflow: hidden;
+  min-height: 500px;
+  .#{$ns}article-title{
+    width: 100%;
+  }
   .#{$ns}article-meta{
     color: $text-info;
   }
   img{
     max-width: 720px;
+    display: block;
+    margin: 5px auto;
   }
   p{
     line-height: $font-size-base * 2;
@@ -246,6 +252,55 @@
     color: red;
     clear: both;
     margin-left: 100px;
+  }
+
+}
+
+.#{$ns}mobile{
+  font-size: 3rem;
+    p{
+      line-height: 1.5;
+      font-size: 3rem;
+      padding: 1rem 0;
+    }
+  p.mini{
+    font-size: 2rem;
+  }
+   .#{$ns}btn{
+     height: 6rem;font-size: 3rem;
+     line-height: 6rem;
+     width: 60%;
+     margin: 0 auto;
+     display: block;
+   }
+  .#{$ns}article-title{
+    color:$btn-success ;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $global-border;
+  }
+  ul  li{
+    padding-bottom: 10px;
+   border-bottom: 1px solid $global-border;
+  }
+
+}
+
+.#{$ns}quaere{
+    @include  clearfix();
+
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  .#{$ns}lbox{
+    width:5% ;
+    margin-right: 2%;
+    color:$btn-success;
+    float: left;
+  }
+  .#{$ns}rbox{
+    float: left;
+    width:90% ;
+    color:$text-base;
   }
 
 }
