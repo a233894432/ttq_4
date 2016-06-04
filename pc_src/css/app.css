@@ -716,6 +716,7 @@ select::-ms-expand {
   overflow: hidden;
   vertical-align: middle;
   margin-right: 10px;
+  background: #fafafa;
 }
 .am-ullist .imgDiv img {
   width: 100%;

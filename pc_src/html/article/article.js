@@ -54,6 +54,10 @@ define(['text!html/default/header.html','text!html/article/article.html'], funct
                     articleData.commentnum == undefined && (articleData.commentnum = articleData.commentNum);
                     articleData.praisenum == undefined && (articleData.praisenum = articleData.praiseNum);
                     articleData.sharenum == undefined && (articleData.sharenum = articleData.shareNum);
+                    if (token){
+                        articleData.imgs == undefined && (articleData.imgs = 0);
+                    }
+
 
                     console.log(articleData.author);
 

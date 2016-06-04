@@ -186,8 +186,10 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
          * 先启动APP, 如果启动不成功 则 打开下载链接 ,暂时有很多的APP的不行..但大部分原生的都已经支持了
          * @param url
          */
-        openApp:function(url){
+        openApp:function(){
             var loadDateTime= _.now();
+            var postid=this.getModel("id");
+
             setTimeout(function () {
                 var timeOutDateTime = new Date();
                 if (!loadDateTime || timeOutDateTime - loadDateTime < 2010) {
@@ -195,7 +197,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 }
             },2000);
             //scheme : 固定为  SZTTQ1023319867
-            window.location = 'SZTTQ1023319867://'+ url;
+            window.location = 'SZTTQ1023319867://'+ postid;
 
         },
         /**
@@ -248,7 +250,12 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 if(data.success){
                    layer.msg("删除成功");
                     var item='#article'+e;
-                    $(item).remove();
+
+                    $(item).fadeOut("slow",function(){
+                        $(item).remove();
+                    });
+
+
                 }else{
                     layer.msg(data.msg);
                 }

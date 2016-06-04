@@ -17,7 +17,10 @@ define(['text!html/login/login.html'], function (tpl) {
             e.preventDefault();
             userphone=$('#phone').val();//输入的手机号
            pcvcode=$('#pcvcode').val();
+
+
             if($app.isCellphone(userphone)){
+                time(this);
                 console.log(userphone + pcvcode);
                 var data={
                     pcvcode:pcvcode
@@ -38,7 +41,7 @@ define(['text!html/login/login.html'], function (tpl) {
             pcvcode=$('#pcvcode').val();
             vcode=$('#vcode').val();
             var pid="0000";
-            if($app.isCellphone(userphone)){
+            if($app.isCellphone(userphone) && !_.isEmpty(vcode) && !_.isEmpty(pcvcode)){
                 console.log(userphone + pcvcode);
                 var data={
                     phone:userphone,
@@ -73,6 +76,7 @@ define(['text!html/login/login.html'], function (tpl) {
                     check:check
                 };
                 $app.getAjax($app.apiurl.service.validatcode,data,successV);
+
 
 
             }else{
@@ -120,6 +124,31 @@ define(['text!html/login/login.html'], function (tpl) {
 
 
         }
+
+        /**
+         * 60秒限制
+         * @type {number}
+         */
+        var wait = 60;
+        function time(btn) {
+            if (wait == 0) {
+                btn.removeAttribute("disabled");
+                btn.innerHTML = "获取验证码";
+                wait = 60;
+            } else {
+                btn.setAttribute("disabled", true);
+                btn.innerHTML = wait + "秒";
+                wait--;
+                setTimeout(function() {
+                        time(btn);
+                    },
+                    1000)
+            }
+        }
+
+
+
+
 
     };
 

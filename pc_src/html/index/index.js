@@ -27,16 +27,18 @@ define(['text!html/default/header.html', 'text!html/index/index.html', 'text!htm
         function successF(data){
 
             console.log(data);
-            if(data.success){
-                plistdata=data.data;
+            if(data.success) {
+                plistdata = data.data;
 
-                for (var i=0;i<plistdata.list.length;i++)
-                    {
-                        plistdata.list[i].createtime=$app.formatDate(plistdata.list[i].created)
-                    }
+                for (var i = 0; i < plistdata.list.length; i++) {
+                    plistdata.list[i].createtime = $app.formatDate(plistdata.list[i].created)
+                }
 
                 appView.html(headhtml(headdata) + shtml({userinfo: headdata, listdata: plistdata}) + foot_tpl);
-
+            }else if(data.code=="0008"){
+                ck.remove('token');
+                ck.remove('userinfo');
+                window.location='index.html?m=login';
             }else{
 
                 appView.html(headhtml(headdata) + shtml({userinfo: headdata, listdata: "00022"}) + foot_tpl);

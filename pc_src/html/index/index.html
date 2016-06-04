@@ -36,7 +36,7 @@
             <li id="article<%=item.id%>">
                 <%if(item.isImg!="0"){%>
                     <div class="imgDiv">
-                        <img src="upload/upload.jpg" alt="">
+                        <img src="<%=item.postImg[0].thumb%>" alt="">
                     </div>
                 <%}else {%>
                     <div class="imgDiv">
