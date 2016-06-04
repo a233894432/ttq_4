@@ -2190,3 +2190,33 @@ html #layui_layer_skinlayercss {
 .am-mavatar img {
   width: 100%;
 }
+
+.am-comment .am-ullist li {
+  padding: 0;
+  clear: both;
+  border-bottom: 1px solid #ddd;
+  min-height: 120px;
+}
+.am-comment .am-ullist li:before, .am-comment .am-ullist li:after {
+  content: " ";
+  display: table;
+}
+.am-comment .am-ullist li:after {
+  clear: both;
+}
+.am-comment .am-ullist .am-p-content {
+  clear: both;
+  min-height: 30px;
+  margin-left: 55px;
+  color: #333;
+}
+.am-comment .am-ullist .am-p-recontent {
+  padding: 5px;
+  background-color: #f5f5f5;
+  color: #999;
+  display: block;
+  margin: 10px auto;
+}
+.am-comment .am-ullist .am-p-recontent span {
+  color: #333;
+}

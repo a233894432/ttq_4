@@ -24,7 +24,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         forecast:'http://ttkapi.ttq.com:900',//远程测试环境
         hxpreRelease:'http://ttc.ttq.com'//预发布地址 的核销权限地址
     };
-    u.host = u.deploy.localhost; //现网接口
+    u.host = u.deploy.forecast; //现网接口
 
     u.version ="10";
 
@@ -39,7 +39,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         write_Article:'/post/writeArticle', //发表文章
         subscriptionList:'/post/subscriptionList',//作物圈
         expert_article_del:'/post/expertArticleDel',// 删除专家文章
-
+        expert_article_comment:'/post/expertArticleCommentList',//文章的评论
         addread:'/post/addread',                    //增加阅读数
     //   帖子类
         post_detail:'/post/detail'              //帖子详情
@@ -196,8 +196,8 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                     window.location.href = "http://bbs.ttq.com/dl";
                 }
             },2000);
-            //scheme : 固定为  SZTTQ1023319867
-            window.location = 'SZTTQ1023319867://'+ postid;
+            //scheme : 固定为  szttq1023319867
+            window.location = 'szttq1023319867://post_id='+ postid;
 
         },
         /**

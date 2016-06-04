@@ -1,14 +1,17 @@
 /**
  * Created by diogoxiang on 2016/5/30.
  */
-define(['text!html/default/header.html','text!html/article/article.html'], function (header_tpl,article_tpl) {
+define(['text!html/default/header.html','text!html/article/article.html','text!html/article/comment.html'], function (header_tpl,article_tpl,comment_tpl) {
     var headdata,token,form,headhtml,shtml,
         articleId;//文章ID
+    var page=1; //当前评论页
+    var pagesize=30;
     //默认帖子不存在
-    var articleData;
+    var articleData,commentData;
     var controller = function () {
         shtml=_.template(article_tpl);
         headhtml= _.template(header_tpl);
+        commentHtml= _.template(comment_tpl);
         token=ck.get("token");
         var data=ck.getJSON("userinfo");
         articleId=$app.getModel("id");
@@ -26,13 +29,21 @@ define(['text!html/default/header.html','text!html/article/article.html'], funct
             headdata= data;//转换数据
         }
         console.log(articleId);
+        //取文章信息
         var pdata={
               token:token,
               postid:articleId
         };
-
+        //取评论信息
+        var  cdata={
+            token:token,
+            postid:articleId,
+            pageno:page,
+            pagesize:pagesize
+        };
         if(token){
             $app.getAjax($app.apiurl.service.expert_detail,pdata,successF,errorF);
+
         }else{
             $app.getAjax($app.apiurl.service.post_detail,pdata,successF,errorF);
         }
@@ -54,6 +65,7 @@ define(['text!html/default/header.html','text!html/article/article.html'], funct
                     articleData.commentnum == undefined && (articleData.commentnum = articleData.commentNum);
                     articleData.praisenum == undefined && (articleData.praisenum = articleData.praiseNum);
                     articleData.sharenum == undefined && (articleData.sharenum = articleData.shareNum);
+                    articleData.createat==undefined   && ( articleData.createat=$app.formatDate(articleData.created));
                     if (token){
                         articleData.imgs == undefined && (articleData.imgs = 0);
                     }
@@ -63,6 +75,13 @@ define(['text!html/default/header.html','text!html/article/article.html'], funct
 
                     //获取数据成功后渲染页面
                     appView.html(headhtml(headdata) + shtml(articleData));
+
+
+                    $app.getAjax($app.apiurl.service.expert_article_comment,cdata,successS);
+
+
+
+
                 }else if(data.code=="0008"){
                         ck.remove('token');
                         ck.remove('userinfo');
@@ -80,11 +99,32 @@ define(['text!html/default/header.html','text!html/article/article.html'], funct
             appView.html(headhtml(headdata)+shtml(articleData))
 
         }
-
+        //增加阅读数据
         $app.getAjax($app.apiurl.service.addread,pdata,successT);
         function successT(data){
             console.log(data)
         }
+
+        function successS(data){
+            console.log(data)
+            if(data.success){
+                commentData=data.data;
+
+                for(var i=0;i<commentData.list.length;i++){
+                    commentData.list[i].created=$app.formatDate(commentData.list[i].created);
+
+                }
+                commentData.isshow=1;
+                appView.append(commentHtml(commentData));
+
+            }else{
+                commentData={isshow:0}
+                appView.append(commentHtml(commentData));
+            }
+
+        }
+
+
 
     };
 
