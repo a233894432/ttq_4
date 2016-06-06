@@ -302,6 +302,13 @@
 }
 
 //Grid variables 栅格系统
+@mixin container-fixed($gutter: $grid-column-padding) {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  floor(($gutter / 2));
+  padding-right: ceil(($gutter / 2));
+  @include clearfix();
+}
 //创建横向DIV
 @mixin make-row(){
   margin-left:$grid-column-padding;

@@ -81,3 +81,8 @@
         docEl.setAttribute('data-dpr', dpr);
     };
 })(window, window['adaptive'] || (window['adaptive'] = {}));
+
+window['adaptive'].desinWidth = 750;
+window['adaptive'].baseFont = 18;
+window['adaptive'].maxWidth = 750;
+window['adaptive'].init();

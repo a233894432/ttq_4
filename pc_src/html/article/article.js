@@ -76,9 +76,16 @@ define(['text!html/default/header.html','text!html/article/article.html','text!h
                     //获取数据成功后渲染页面
                     appView.html(headhtml(headdata) + shtml(articleData));
 
+                    if(isMoblie){
+                        $app.getFixed('am-ismoblie');
+                    }
 
-                    $app.getAjax($app.apiurl.service.expert_article_comment,cdata,successS);
 
+                    if(token) {
+                        $app.getAjax($app.apiurl.service.expert_article_comment, cdata, successS);
+                    }else{
+                        $app.getAjax($app.apiurl.service.post_clist, cdata, successS);
+                    }
 
 
 
@@ -107,16 +114,30 @@ define(['text!html/default/header.html','text!html/article/article.html','text!h
 
         function successS(data){
             console.log(data)
-            if(data.success){
+            if(data.success && token){
                 commentData=data.data;
-
                 for(var i=0;i<commentData.list.length;i++){
                     commentData.list[i].created=$app.formatDate(commentData.list[i].created);
-
                 }
                 commentData.isshow=1;
                 appView.append(commentHtml(commentData));
-
+            }else if(data.success){
+                commentData=data;
+                commentData.isshow=1;
+                commentData.totalCount=data.num;
+                commentData.list=data.data;
+                for(var i=0;i<commentData.list.length;i++){
+                    commentData.list[i].created=commentData.list[i].createat;
+                    commentData.list[i].nickname=commentData.list[i].username;
+                    if(commentData.list[i].parentid!="0"){
+                        commentData.list[i].isComment=1;
+                        commentData.list[i].comment={
+                            nickname:commentData.list[i].parentname,
+                            content:commentData.list[i].parentcomment
+                        }
+                    }
+                }
+                appView.append(commentHtml(commentData));
             }else{
                 commentData={isshow:0}
                 appView.append(commentHtml(commentData));

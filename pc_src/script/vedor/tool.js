@@ -24,7 +24,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         forecast:'http://ttkapi.ttq.com:900',//远程测试环境
         hxpreRelease:'http://ttc.ttq.com'//预发布地址 的核销权限地址
     };
-    u.host = u.deploy.forecast; //现网接口
+    u.host = u.deploy.localhost; //现网接口
 
     u.version ="10";
 
@@ -42,8 +42,10 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
         expert_article_comment:'/post/expertArticleCommentList',//文章的评论
         addread:'/post/addread',                    //增加阅读数
     //   帖子类
-        post_detail:'/post/detail'              //帖子详情
+        post_detail:'/post/detail',              //帖子详情
+        post_clist:'/post/clist'                 //帖子评论
     };
+
 
     //提共接口外调
     return {
@@ -186,7 +188,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
          * 先启动APP, 如果启动不成功 则 打开下载链接 ,暂时有很多的APP的不行..但大部分原生的都已经支持了
          * @param url
          */
-        openApp:function(){
+        openApp:function(e){
             var loadDateTime= _.now();
             var postid=this.getModel("id");
 
@@ -197,7 +199,12 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 }
             },2000);
             //scheme : 固定为  szttq1023319867
-            window.location = 'szttq1023319867://post_id='+ postid;
+            if(e){
+                window.location = 'szttq1023319867://'+ e;
+            }else{
+                window.location = 'szttq1023319867://post/detail?post_id='+ postid;
+            }
+
 
         },
         /**
@@ -266,8 +273,29 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
             }
 
 
-        }
+        },
+        /**
+         * 滑动固定
+         * @param e 为div   ID
+         */
+        getFixed:function(eid){
 
+            window.onscroll = function(e){
+                var e =e || window.event;
+                var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+                var headDom=document.getElementById(eid);
+                if(scrolltop>50){
+                    var op=scrolltop/100;
+                    headDom.style.opacity=op;
+                    headDom.className="am-ismoblie newHeader";
+
+                }else{
+                    headDom.style.opacity=1;
+                    headDom.className="am-ismoblie "
+                }
+            };
+
+        }
 
 
 

@@ -123,8 +123,9 @@ gulp.task('auto', function () {
     //gulp.watch('src/assets/css/*.css', ['css']);
     gulp.watch('src/assets/images/*.*', ['images']);
     // 监听文件修改，当文件被修改则执行 sass任务
-    gulp.watch('src/sass/base/*.scss', ['sass'])
-    gulp.watch('pc_src/sass/base/*.scss', ['BulidPCsass'])
+    gulp.watch('src/sass/base/*.scss', ['sass']);
+    gulp.watch('pc_src/sass/base/*.scss', ['BulidPCsass']);
+    gulp.watch('pc_src/sass/base/m/*.scss', ['BulidPCsass']);
 
 });
 

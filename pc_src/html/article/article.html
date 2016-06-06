@@ -1,9 +1,19 @@
 <div class="am-container am-content" id="main-container">
 
+    <div class="am-hd am-isPc">
+        <strong>田田圈</strong>
 
-    <div class="am-hd">
-        <strong>作物圈</strong>  <a href="javascript:;" onclick="$app.openApp()">返回用APP打开</a>
     </div>
+    <div class="am-ismoblie" id="am-ismoblie">
+        <div class="am-hd">
+            <div class="am-fl">
+                <img src="image/logo90.png" alt="" style="vertical-align: middle" >
+            </div>
+            <strong class="am-fl ">&nbsp;&nbsp;田田圈APP</strong>
+            <div class="am-fr "><a href="javascript:;" class="am-btn success" onclick="$app.openApp()">用APP打开</a> </div>
+        </div>
+    </div>
+
     <div class="am-bd am-article">
         <%if(isshow){%>
 
@@ -21,8 +31,10 @@
                 </div>
 
             </div>
-        <%}%>
+        <%}else{%>
         <p class="am-article-meta  clearfix"><%=createat%></p>
+        <%}%>
+
             <div class="am-article-content clearfix">
                 <%=content %>
 
@@ -57,8 +69,6 @@
 
 
     </div>
-
-
 
 </div>
 

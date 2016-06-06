@@ -14,9 +14,30 @@
 
     function getUa() {
         var ua = window.navigator.userAgent.toLocaleLowerCase(), isApple = !!ua.match(/(ipad|iphone|mac)/i), isAndroid = !!ua.match(/android/i), isWinPhone = !!ua.match(/MSIE/i), ios6 = !!ua.match(/os 6.1/i),isWeixin=!!ua.match(/MicroMessenger/i);
-        return { isApple: isApple, isAndroid: isAndroid, isWinPhone: isWinPhone, ios6: ios6,isweixin:isWeixin }
+        return { isApple: isApple, isAndroid: isAndroid, isWinPhone: isWinPhone, ios6: ios6,isWeixin:isWeixin }
     }
     console.log(getUa());
+
+    //如果是手机端的话用另一种的样式
+   win.isMoblie=false;
+    var head = document.getElementsByTagName('head')[0],
+        cssURL = './css/app.m.min.css',
+        linkTag = document.createElement('link');
+        linkTag.href = cssURL;
+        linkTag.setAttribute('rel','stylesheet');
+        linkTag.setAttribute('type','text/css');
+    var scriptV3 = document.createElement('script');
+        scriptV3.setAttribute("src", './libs/adaptive-version3.js');
+    if(getUa().isApple||getUa().isAndroid || getUa().isWeixin||getUa().ios6||getUa().isWinPhone){
+        //如果是手机端的话样式覆盖
+        win.isMoblie=true;
+        head.appendChild(linkTag);
+        head.appendChild(scriptV3);
+    }
+
+
+
+
     /**
      * 取URL上面的参数
      * @param name

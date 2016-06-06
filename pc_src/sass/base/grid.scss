@@ -307,7 +307,7 @@
 }
 
 .#{$ns}mobile{
-  font-size: 3rem;
+  font-size: 0.28rem;
     p{
       line-height: 1.5;
       font-size: 3rem;
@@ -360,4 +360,7 @@
 }
 .#{$ns}p-info{
   color: $text-info;
+}
+.#{$ns}ismoblie{
+  display: none;
 }
