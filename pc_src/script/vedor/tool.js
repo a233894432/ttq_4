@@ -297,8 +297,6 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
 
         }
 
-
-
 };
 
 

@@ -5,6 +5,7 @@ var imagemin = require('gulp-imagemin');  // 获取 gulp-imagemin 模块
 var sass = require('gulp-ruby-sass');     // 获取 gulp-ruby-sass 模块
 var rename = require('gulp-rename');      //重命名
 var concat  = require('gulp-concat');     //合并文件
+
 var clean = require('gulp-clean');        //清空文件夹
 var htmlreplace = require('gulp-html-replace'); //输出的html 替换 css 与  js
 var htmlBuilder = require('gulp-html-builder');//对页面中引入的css文件和js文件进行合并并压缩到新文件 ,并替换
@@ -48,6 +49,33 @@ gulp.task('script', function() {
             // 3. 另存压缩后的文件
             .pipe(gulp.dest(jsDEST))
 });
+
+
+//合并压缩js
+gulp.task('Bulidscript', function() {
+    var jsSRC='./pc_src/html/**/*.js',
+        jsDEST='./pc_src/html/';
+    // 1. 找到文件
+    gulp.src(jsSRC)
+        // 2. 压缩文件
+        .pipe(uglify())
+        .pipe(rename({suffix: '.min' }))
+        // 3. 另存压缩后的文件
+        .pipe(gulp.dest(jsDEST))
+});
+//合并压缩vedor js
+gulp.task('BulidscriptVedor', function() {
+    var jsSRC='./pc_src/script/vedor/*.js',
+        jsDEST='./pc_src/script/vedor/';
+    // 1. 找到文件
+    gulp.src(jsSRC)
+        // 2. 压缩文件
+        .pipe(uglify())
+        .pipe(rename({suffix: '.min' }))
+        // 3. 另存压缩后的文件
+        .pipe(gulp.dest(jsDEST))
+});
+
 
 
 // 编译sass
