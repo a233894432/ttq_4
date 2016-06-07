@@ -28,7 +28,8 @@
         linkTag.setAttribute('type','text/css');
     var scriptV3 = document.createElement('script');
         scriptV3.setAttribute("src", './libs/adaptive-version3.js');
-    if(getUa().isApple||getUa().isAndroid || getUa().isWeixin||getUa().ios6||getUa().isWinPhone){
+    if(getUa().isApple|| getUa().isAndroid || getUa().isWeixin||getUa().ios6){
+        console.log("0000")
         //如果是手机端的话样式覆盖
         win.isMoblie=true;
         head.appendChild(linkTag);
@@ -110,7 +111,7 @@
             bdlang:'ueditor/lang/zh-cn/zh-cn',
             zeroclipboard:'ueditor/third-party/zeroclipboard/ZeroClipboard.min',
             //各功能模块的js
-            login:"html/login/login.min",     //登录模块
+            login:"html/login/login",     //登录模块
             article:"html/article/article",//文章详情
             edit:"html/article/editArticle", // 发帖
             index:"html/index/index",   //主页

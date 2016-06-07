@@ -241,7 +241,7 @@
   .#{$ns}article-content{
     width: 100%;
     @include clearfix();
-    margin: 10px auto;
+    margin: 10px auto 6%;
 
   }
   img{
@@ -255,7 +255,7 @@
   }
   .#{$ns}info{
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     left: 35px;
     i{
       margin-top: 2px;

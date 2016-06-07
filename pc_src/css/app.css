@@ -504,7 +504,7 @@ input[type="text"] {
   height: 45px;
   text-indent: 1rem;
   line-height: 45px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border: 1px solid #cccccc;
 }
 input[type="text"]:focus {
@@ -834,7 +834,7 @@ select::-ms-expand {
 }
 .am-article .am-article-content {
   width: 100%;
-  margin: 10px auto;
+  margin: 10px auto 6%;
 }
 .am-article .am-article-content:before, .am-article .am-article-content:after {
   content: " ";
@@ -854,7 +854,7 @@ select::-ms-expand {
 }
 .am-article .am-info {
   position: absolute;
-  bottom: 5%;
+  bottom: 3%;
   left: 35px;
 }
 .am-article .am-info i {

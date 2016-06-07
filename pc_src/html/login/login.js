@@ -20,7 +20,7 @@ define(['text!html/login/login.html'], function (tpl) {
 
 
             if($app.isCellphone(userphone)){
-                time(this);
+
                 console.log(userphone + pcvcode);
                 var data={
                     pcvcode:pcvcode
@@ -70,6 +70,7 @@ define(['text!html/login/login.html'], function (tpl) {
            console.log(data);
             if (data.success){
                 var check=$app.md5(userphone+"_check");
+                time(this);
                 console.log(check);
                 var data={
                     phone:userphone,

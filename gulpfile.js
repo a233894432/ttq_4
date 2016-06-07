@@ -9,6 +9,7 @@ var concat  = require('gulp-concat');     //合并文件
 var clean = require('gulp-clean');        //清空文件夹
 var htmlreplace = require('gulp-html-replace'); //输出的html 替换 css 与  js
 var htmlBuilder = require('gulp-html-builder');//对页面中引入的css文件和js文件进行合并并压缩到新文件 ,并替换
+var stripDebug = require('gulp-strip-debug');
 //刷新浏览器
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
@@ -77,6 +78,13 @@ gulp.task('BulidscriptVedor', function() {
 });
 
 
+gulp.task('ClearConsole', function () {
+    var jsSRC='./pc_src/html/**/*.min.js',
+        jsDEST='./pc_src/html/';
+    return gulp.src(jsSRC)
+        .pipe(stripDebug())
+        .pipe(gulp.dest(jsDEST));
+});
 
 // 编译sass
 // 在命令行输入 gulp sass 启动此任务
@@ -104,7 +112,6 @@ gulp.task('sass', function() {
 gulp.task('BulidPCsass', function() {
     var cssSrc = './pc_src/sass/*.scss',
         cssSrca= './pc_src/css';//源码也输出一份
-
 
     gulp.src(cssSrc)
     // .pipe(sass({ style: 'expanded'}))

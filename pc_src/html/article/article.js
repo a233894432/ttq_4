@@ -16,7 +16,7 @@ define(['text!html/default/header.html','text!html/article/article.html','text!h
         var data=ck.getJSON("userinfo");
         articleId=$app.getModel("id");
         form=$app.getModel("form");//来源
-        if(form=='app'){
+        if(form=='app' || isMoblie){
             headhtml= _.template("");
         }
         if(data==undefined){
