@@ -70,12 +70,14 @@ define(['text!html/login/login.html'], function (tpl) {
            console.log(data);
             if (data.success){
                 var check=$app.md5(userphone+"_check");
-                time(this);
                 console.log(check);
                 var data={
                     phone:userphone,
                     check:check
                 };
+
+
+                time();
                 $app.getAjax($app.apiurl.service.validatcode,data,successV);
 
 
@@ -131,7 +133,8 @@ define(['text!html/login/login.html'], function (tpl) {
          * @type {number}
          */
         var wait = 60;
-        function time(btn) {
+        function time(e) {
+            btn=document.getElementById('checkPcvode');
             if (wait == 0) {
                 btn.removeAttribute("disabled");
                 btn.innerHTML = "获取验证码";

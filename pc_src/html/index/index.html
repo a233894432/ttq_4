@@ -33,7 +33,7 @@
 
 
 
-            <li id="article<%=item.id%>">
+            <li id="article<%=item.id%>"  onclick="$app.gotoUrl('index.html?m=article&id=<%=item.id %>')">
                 <%if(item.isImg!="0"){%>
                     <div class="imgDiv">
                         <img src="<%=item.postImg[0].thumb%>" alt="">

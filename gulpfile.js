@@ -92,7 +92,6 @@ gulp.task('sass', function() {
     var cssSrc = './src/sass/*.scss',
 		cssSrca= './src/css';//源码也输出一份
 
-
     gulp.src(cssSrc)
         // .pipe(sass({ style: 'expanded'}))
         return sass(cssSrc, {style: 'expanded'})

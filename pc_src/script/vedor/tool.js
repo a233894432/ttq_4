@@ -295,6 +295,17 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 }
             };
 
+        },
+        /**
+         * 页面的跳转
+         * @param url
+         */
+        gotoUrl:function(url){
+
+            window.location.href=url;
+
+            //阻击事件冒泡
+            event.stopPropagation();
         }
 
 };
