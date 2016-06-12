@@ -41,7 +41,7 @@ define(['text!html/default/header.html','text!html/article/article.html','text!h
             pageno:page,
             pagesize:pagesize
         };
-        if(token){
+        if(token || form!='app'){
             $app.getAjax($app.apiurl.service.expert_detail,pdata,successF,errorF);
 
         }else{

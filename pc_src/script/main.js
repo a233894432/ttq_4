@@ -32,6 +32,7 @@
         console.log("0000")
         //如果是手机端的话样式覆盖
         win.isMoblie=true;
+        //alert(isMoblie);
         head.appendChild(linkTag);
         head.appendChild(scriptV3);
     }

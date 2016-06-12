@@ -8,4 +8,7 @@
 /.git/
 .project
 /dist/
-/.idea/
+.idea/
+*.svn-base
+pc_src/ueditor/
+.idea/workspace.xml
