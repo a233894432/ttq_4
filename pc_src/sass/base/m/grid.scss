@@ -97,7 +97,7 @@
 }
 
 .#{$ns}ismoblie{
-  background-color: $black;
+  background-color: $text-color1;
   color: $white;
   display: block;
   overflow: hidden;
@@ -105,13 +105,17 @@
   width: 100%;
 
   a{
-    color: $white;
-    height: 0.8rem;
-    line-height: 0.8rem;
+
+    height: 0.4rem;
+    line-height: 0.4rem;
     font-size: $font-size-base;
+    padding: 0.2rem;
+    color: $text-color1;
+
   }
   .am-btn{
     padding: 0 10px;
+
   }
   @include opacity(0.8);
 }

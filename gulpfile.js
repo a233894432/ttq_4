@@ -160,6 +160,7 @@ gulp.task('auto', function () {
     gulp.watch('src/sass/base/*.scss', ['sass']);
 
     gulp.watch('pc_src/sass/base/*.scss', ['BulidPCsass']);
+    gulp.watch('pc_src/sass/base/m/*.scss', ['BulidPCsass']);
 
 
 });

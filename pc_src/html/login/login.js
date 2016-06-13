@@ -148,12 +148,36 @@ define(['text!html/login/login.html'], function (tpl) {
                     },
                     1000)
             }
+        };
+
+        /**
+         * 刷新图形验证码
+         */
+        $('#reloadVail').on('click',function(e){
+
+            loadVail();
+
+            console.log(e);
+
+        });
+
+        /**
+         * 刷新图形验证码
+         */
+        loadVail();
+        function loadVail(){
+            var ehtml = document.createElement('img');
+            ehtml.src=$app.apiurl.host+'/member/vaildCodeImg';
+            ehtml.alt='请点击重新获取';
+
+
+            $('#codeDiv').html(ehtml);
+
+            $('#codeDiv img').on('click',function(e){
+                loadVail();
+            })
+
         }
-
-
-
-
-
     };
 
     return  controller

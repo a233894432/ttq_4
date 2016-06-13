@@ -639,7 +639,7 @@ select::-ms-expand {
 .am-article .am-userinfo-div .am-userimg {
   width: 0.4rem;
   margin-right: 0.05rem;
-  margin-top: 0.12rem;
+  margin-top: 0.10rem;
 }
 .am-article .am-userinfo-div .am-img {
   width: 0.4rem;
@@ -674,7 +674,7 @@ select::-ms-expand {
 }
 
 .am-ismoblie {
-  background-color: #000;
+  background-color: #00a53c;
   color: #fff;
   display: block;
   overflow: hidden;
@@ -684,10 +684,11 @@ select::-ms-expand {
   filter: "alpha(opacity=80)";
 }
 .am-ismoblie a {
-  color: #fff;
-  height: 0.8rem;
-  line-height: 0.8rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
   font-size: 0.2rem;
+  padding: 0.2rem;
+  color: #00a53c;
 }
 .am-ismoblie .am-btn {
   padding: 0 10px;
