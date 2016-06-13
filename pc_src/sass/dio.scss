@@ -1,0 +1,40 @@
+@charset "UTF-8";
+//public base
+@import
+"public/variables",
+"public/mixin/breakpoints",
+"public/mixin/grid",
+"public/mixin/push",
+"public/mixin/push-pull",
+"public/mixin/grid-state",
+"public/mixin/layout",
+"public/mixin/text-align",
+"public/mixin/visiblility",
+"public/mixin/mixin";
+
+
+
+//base styles
+@import
+"base/normalize",
+"base/base";
+
+// Helpers
+@import "base/helpers-layout";
+@import "base/helpers-visibility";
+
+//icon
+@import "base/icon";
+// Grid System
+@import "base/grid";
+
+// CSS Components
+@import
+"base/alerts",
+"base/list",
+"base/modal";
+
+
+
+//custom this other projact different
+@import "customer/custom";
