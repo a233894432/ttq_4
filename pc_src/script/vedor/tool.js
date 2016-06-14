@@ -246,6 +246,11 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
          */
 
         dellArticle:function(e){
+
+            console.log(e);
+
+
+
             var token =ck.get('token');
             var pdata={
                 postid:e,
@@ -271,6 +276,8 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
             function errorF(data){
                 layer.msg(data.msg);
             }
+            //阻止冒泡事件
+            event.stopPropagation();
 
 
         },
@@ -306,6 +313,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
 
             //阻击事件冒泡
             event.stopPropagation();
+
         }
 
 };
