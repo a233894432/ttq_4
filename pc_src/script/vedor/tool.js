@@ -26,7 +26,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
     };
     u.host = u.deploy.localhost; //现网接口
 
-    u.version ="10";
+    u.version ="11";
 
     u.service = {
         //服务站接口
@@ -203,6 +203,7 @@ define(['jquery', 'underscore', 'progress','domReady','layer','md5'], function (
                 window.location = 'szttq1023319867://'+ e;
             }else{
                 window.location = 'szttq1023319867://post/detail?post_id='+ postid;
+                //window.location = 'QQ41d7ea62://post/detail?post_id='+ postid;
             }
 
 
