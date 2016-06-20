@@ -1,0 +1,106 @@
+<div class="container-full newHeader" id="am-ismoblie">
+    <div class="row">
+        <div class="am-ismoblie pull">
+            <div class="am-hd">
+                <div class="pull">
+                    <img src="image/logo90.png" alt="" style="vertical-align: middle" width="60px" height="60px">
+                </div>
+                <div class="pull am-text-white">
+                <strong>&nbsp;&nbsp;田田圈 | 让种植更轻松!</strong>
+                </div>
+                <div class="push ">
+                    <a href="javascript:;" class="am-btn cancel" onclick="$app.openApp()">立即打开</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container am-content" id="main-container" >
+    <div class="row" >
+            <div class="col-xxs-12" >
+                <div class="am-hd am-isPC" >
+                    <strong>田田圈</strong>
+                </div>
+                <div class="am-ismoblie am-ismb">
+                    &nbsp;
+
+                </div>
+                <div class="am-bd am-article ">
+                    <%if(isshow){%>
+                    <h1 class="am-article-title" id="title">
+                        <%= title%>
+                    </h1>
+                    <%if(author){%>
+                    <div class="am-userinfo-div clearfix">
+                        <div class="am-userimg am-fl">
+                            <%if (headimg){%>
+                            <img src="<%= headimg%>" alt="" class="am-img pull">
+                            <%}else{%>
+                            <img src="image/05_02_avatar_default.png" alt="" class="am-img pull">
+                            <%}%>
+                        </div>
+                        <div class="am-userinfo pull">
+                            <span class="am-username  " id="username"> <%=author %></span>
+                            <p class="am-article-meta  clearfix"><%=createat%></p>
+                        </div>
+
+                    </div>
+                    <%}else{%>
+                    <p class="am-article-meta  clearfix"><%=createat%></p>
+                    <%}%>
+
+                    <div class="am-article-content clearfix">
+                        <%=content %>
+                        <% _.each(imgs,function(item){ %>
+                        <img src="<%= item.src %>" alt="">
+                        <% }) %>
+                    </div>
+
+                    <div class="am-info" onclick="$app.openApp()">
+                                    <span style="padding-left: 0">
+                                        <i class="ui-icon">&#xe650;</i>
+                                        阅读数 <%=readnum %>
+                                    </span>
+                                     <span>
+                                        <i class="ui-icon">&#xe611;</i>
+                                        评论数 <%= commentnum %>
+                                    </span>
+                                       <span>
+                                        <i class="ui-icon">&#xe612;</i>
+                                        点赞数 <%=praisenum %>
+                                    </span>
+                                       <span>
+                                        <i class="ui-icon">&#xe626;</i>
+                                        分享数<%= sharenum %>
+                                    </span>
+                    </div>
+                    <%}else {%>
+
+                    <p class="text-xxs-center">文章不存在或是已经被删除</p>
+
+                    <%}%>
+
+
+                </div>
+            </div>
+
+    </div>
+
+</div>
+
+<div class="weixin-tip" id="weixin-tip">
+
+    <div class="am-fhide">
+        <img src="image/logo512.png" alt="">
+    </div>
+    <p><img src="image/live_weixin.png" alt="微信打开" width="100%"><span id="close" title="关闭" class="close">×</span></p>
+</div>
+
+
+
+
+
+
+
+

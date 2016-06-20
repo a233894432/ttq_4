@@ -54,8 +54,8 @@ gulp.task('script', function() {
 
 //合并压缩js
 gulp.task('Bulidscript', function() {
-    var jsSRC='./pc_src/html/**/*.js',
-        jsDEST='./pc_src/html/';
+    var jsSRC='./expert_pc/html/**/*.js',
+        jsDEST='./expert_pc/html/';
     // 1. 找到文件
     gulp.src(jsSRC)
         // 2. 压缩文件
@@ -79,8 +79,8 @@ gulp.task('BulidscriptVedor', function() {
 
 
 gulp.task('ClearConsole', function () {
-    var jsSRC='./pc_src/html/**/*.min.js',
-        jsDEST='./pc_src/html/';
+    var jsSRC='./expert_pc/html/**/*.min.js',
+        jsDEST='./expert_pc/html/';
     return gulp.src(jsSRC)
         .pipe(stripDebug())
         .pipe(gulp.dest(jsDEST));
@@ -109,8 +109,8 @@ gulp.task('sass', function() {
 // 编译sass
 // 在命令行输入 gulp sass 启动此任务
 gulp.task('BulidPCsass', function() {
-    var cssSrc = './pc_src/sass/*.scss',
-        cssSrca= './pc_src/css';//源码也输出一份
+    var cssSrc = './expert_pc/sass/*.scss',
+        cssSrca= './expert_pc/css';//源码也输出一份
 
     gulp.src(cssSrc)
     // .pipe(sass({ style: 'expanded'}))
@@ -159,8 +159,7 @@ gulp.task('auto', function () {
     // 监听文件修改，当文件被修改则执行 sass任务
     gulp.watch('src/sass/base/*.scss', ['sass']);
 
-    gulp.watch('pc_src/sass/base/*.scss', ['BulidPCsass']);
-    gulp.watch('pc_src/sass/base/m/*.scss', ['BulidPCsass']);
+    gulp.watch('expert_pc/sass/base/*.scss', ['BulidPCsass']);
 
 
 });

@@ -1,0 +1,20 @@
+# 更新到线上环境
+## 需要更改  tool.js 的  host 参数   forecast: 'http://ttkapi.ttq.com:900',// 这个改为正试环境
+   修改文件:ueditor/php/config.json 文件
+---
+ "uploadImgApiService": "http://120.76.165.155:900/imgup/editorUploadImg",/*上传图片服务*/
+---
+
+
+
+
+
+
+规则就是  
+域名/index.html?m=article&id=xxxx
+
+
+## m=article  // m指定是那个模块   login模块   user模块       现有模块 :    'login','index','article','list','default','user','edit','about'
+## id=111     //文章 id
+## c=xxxx     // 控制器
+## uid=xxx    //用户ID

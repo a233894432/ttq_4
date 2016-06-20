@@ -2,6 +2,6 @@
  
 ## src 为APP内嵌版
 
-## pc_src 为PC版
+## expert_pc 为  专家发帖的PC版
  
  

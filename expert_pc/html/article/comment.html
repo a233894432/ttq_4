@@ -1,0 +1,65 @@
+<%if(isshow){%>
+<div class="container am-content" id="comment-container">
+    <div class="am-hd">
+        <strong>热门评论(<%=totalCount%>)</strong>
+    </div>
+    <div class="am-bd am-article am-comment">
+        <ul class="am-ullist">
+
+            <% _.each(list,function(item){ %>
+            <li>
+                <div class="am-userinfo-div clearfix">
+                    <div class="am-userimg pull">
+                        <%if(item.headimg){%>
+                        <img src="<%=item.headimg%>" alt="" class="am-img am-fl">
+                        <%}else {%>
+                        <img src="image/default_icon.jpg" alt="" class="am-img am-fl">
+                        <%}%>
+                    </div>
+                    <div class="am-userinfo pull">
+                        <span class="am-username  " id="username"><%=item.nickname%> </span>
+                        <p class="am-article-meta  clearfix"><%=item.created%> </p>
+                    </div>
+
+                </div>
+                <div class="am-p-content">
+                    <%=item.content%>
+
+                    <%if(item.isComment){%>
+                    <div class="am-p-recontent">回复
+                        <span><%=item.comment.nickname%> :</span>
+                        <%=item.comment.content%>
+                    </div>
+                    <%}else {%>
+                    &nbsp;
+                    <%}%>
+                </div>
+
+            </li>
+
+
+            <% }) %>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="container am-foot text-xxs-center" id="foot">
+    <div class="row">
+        <div class="col-xxs-12">
+            Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
+        </div>
+    </div>
+</div>
+<%}else {%>
+<div class="container am-foot text-xxs-center" id="foot">
+    <div class="row">
+        <div class="col-xxs-12">
+            Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
+        </div>
+    </div>
+</div>
+<%}%>

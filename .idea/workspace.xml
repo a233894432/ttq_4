@@ -2,447 +2,726 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5e7ad3-1638-4046-962b-420aaea16318" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/article.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/api.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/app.m.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/app.m.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/app.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/dio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/dio.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/font/iconfont-full.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/css/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/about/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/about/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/about/about.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/about/expert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/article.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/article.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/article.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/comment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/editArticle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/article/editArticle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/default/default.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/default/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/default/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/index/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/index/index.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/list/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/list/list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/list/list.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/login/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/login/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/login/login.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/html/login/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/01_Sign-in_logo220x30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/01_logo80x30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/03_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/05_02_avatar_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/default_icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/loading_more.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/logo60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/logo90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/noarticle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/uptop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/image/yz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/launch/launch1080x1920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/Cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/adaptive-version3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/adaptive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/artTemplate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/blazy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/blazy.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/director.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/domReady.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/ieBetter-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/layer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/md5_require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/mock-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/mock-min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/mock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/placeholder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/underscore-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/libs/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_alerts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_helpers-layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_helpers-visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/base/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/customer/_custom.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/dio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_grid-state.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_mixin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_push-pull.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_push.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_text-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass-new/public/mixin/_visiblility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/app.m.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/btn.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/cmment.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/font.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/layer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/btn.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/cmment.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/font.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/rest.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/m/variable.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/mixin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/rest.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/sass/base/variable.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/script/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/script/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/script/vedor/tool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/script/vedor/tool.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/demo01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/demo02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/demo03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/frog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/pinchzoom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/swipe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/demo/swiper.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/dependencies/jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/src/pinchzoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/src/pinchzoom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/pinchzoom-master/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/js/scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/js/scale_ran.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/images/icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/test/touchzoom-master/themes/scale.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/demo02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/anchor/anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/attachment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/attachment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/attachment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/attachment/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/background/background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/background/background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/background/background.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/background/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/background/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/chart.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/charts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/emotion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/emotion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/emotion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/gmap/gmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/help/help.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/help/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/help/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/image/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/link/link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/map/show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/music/music.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/music/music.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/music/music.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/preview/preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/spechars/spechars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/spechars/spechars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/dragicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/edittable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/edittable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/edittable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/edittd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/table/edittip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/pre0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/pre1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/pre2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/pre3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/images/pre4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/video/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/webapp/webapp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/index-bak.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/addimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/deletedisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/deleteenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/listbackground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/en/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/zh-cn/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/Uploader.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/action_crawler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/action_list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/action_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/php/controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/css/ueditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/dialogbase.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/arrow_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/arrow_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/button-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/charts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/cursor_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/cursor_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/filescan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/highlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/icons-all.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/loaderror.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/lock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/sparator_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/videologo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/word.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/default/images/wordpaste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/themes/iframe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/video-js.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/video-js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/video.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/video-js/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/ueditor.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/ueditor.config.bak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/ueditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/ueditor.parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/ueditor.parse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/ueditor/uemy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/upload/upload.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pc_src/说明文件.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/font/iconfont-full.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/01_Sign-in_logo220x30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/01_logo80x30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/03_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/05_02_avatar_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/arrow-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/default_icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/live_weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/loading_more.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/logo512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/logo60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/logo90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/noarticle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/uptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/image/yz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/alignicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/alignicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/background/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/background/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/images/charts5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/alignicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/addimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/delimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/delimgH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/emptyH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/redoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/scaleH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/images/undoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/dragicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/pre0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/pre1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/pre2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/pre3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/images/pre4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/wordimage/imageUploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/OSSClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/button-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/cancelbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/charts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/cursor_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/cursor_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/cursor_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/cursor_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/dialog-title-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/filescan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/highlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/icons-all.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/loaderror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/sortable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/sparator_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/table-cell-align.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/tangram-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/toolbar_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/unhighlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/images/wordpaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/font/vjs.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/font/vjs.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/font/vjs.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/Uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/upload/upload.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/dio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/css/dio.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/about/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/about/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/about/about.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/about/expert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/article.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/comment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/editArticle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/article/editArticle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/default/default.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/default/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/default/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/index/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/index/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/index/index.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/list/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/list/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/list/list.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/login/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/login/login.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/html/login/user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/Cookies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/adaptive-version3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/adaptive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/artTemplate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/blazy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/blazy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/director.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/domReady.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/ieBetter-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/layer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/md5_require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/mock-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/mock-min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/mock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/placeholder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/libs/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_base.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_helpers-layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_helpers-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_icon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_tablelist.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/base/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/customer/_custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/customer/_layer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/customer/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/customer/_var.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/dio.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_breakpoints.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_grid-state.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_mixin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_push-pull.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_push.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_text-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/sass/public/mixin/_visiblility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/script/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/script/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/script/vedor/tool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/demo02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/anchor/anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/attachment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/attachment/attachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/background/background.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/background/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/background/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/chart.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/charts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/emotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/gmap/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/help/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/help/help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/insertframe/insertframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/map/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/music/music.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/music/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/music/music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/scrawl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/scrawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/scrawl/scrawl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/searchreplace/searchreplace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/spechars/spechars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/spechars/spechars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/edittable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/edittable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/edittable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/edittd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/table/edittip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/webapp/webapp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/wordimage/tangram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/wordimage/wordimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/dialogs/wordimage/wordimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/index-bak.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/AliyunUpload.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/AliyunUpload2.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/AbstractHasDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/BadMethodCallException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/ExceptionCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/GuzzleException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/InvalidArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/RuntimeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Exception/UnexpectedValueException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/FromConfigInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/HasDispatcherInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/ToArrayInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/common/Guzzle/Common/Version.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/AbstractEntityBodyDecorator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/CachingEntityBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/CurlHandle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/CurlMulti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/CurlMultiInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/CurlVersion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Curl/RequestMediator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/EntityBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/EntityBodyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/BadResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/ClientErrorResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/CouldNotRewindStreamException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/CurlException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/HttpException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/MultiTransferException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/RequestException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/ServerErrorResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Exception/TooManyRedirectsException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/IoEmittingEntityBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/AbstractMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequestInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/CacheControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/HeaderCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/HeaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/HeaderFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/HeaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Header/Link.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/MessageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/PostFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/PostFileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/RequestFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/RequestFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/RequestInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Message/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Mimetypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/QueryAggregator/CommaAggregator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/QueryAggregator/DuplicateAggregator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/QueryAggregator/PhpAggregator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/QueryString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/ReadLimitEntityBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/RedirectPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/StaticClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/http/Guzzle/Http/Url.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Cookie/CookieParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Cookie/CookieParserInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Message/AbstractMessageParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Message/MessageParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Message/MessageParserInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Message/PeclHttpMessageParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/ParserRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/UriTemplate/PeclUriTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplateInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Url/UrlParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/parser/Guzzle/Parser/Url/UrlParserInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Async/AsyncPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/CachePlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/CacheStorageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCacheStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultRevalidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/DenyRevalidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/RevalidationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cache/SkipRevalidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookiePlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/History/HistoryPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Log/LogPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Mock/MockPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/plugin/Guzzle/Plugin/Oauth/OauthPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/stream/Guzzle/Stream/PhpStreamRequestFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/stream/Guzzle/Stream/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/stream/Guzzle/Stream/StreamInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/guzzle/stream/Guzzle/Stream/StreamRequestFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/ApcClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/ApcUniversalClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassCollectionLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassMapGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/DebugClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/DebugUniversalClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/MapClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ApcUniversalClassLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassCollectionLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassMapGeneratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/DebugClassLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/fallback/Apc/Pearlike/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/fallback/Namespaced/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/A.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/ATrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/B.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/BTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/CInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/CTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/D.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/E.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/GInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/WithComments.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/WithComments.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Baz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/A/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/A/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/C/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/C/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeParent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/multipleNs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/notAClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/sameNsMultipleClasses.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/deps/traits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Namespaced/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Namespaced2/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Pearlike/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Pearlike2/FooBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/includepath/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/php5.4/traits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/UniversalClassLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/UniversalClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/WinCacheClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/class-loader/Symfony/Component/ClassLoader/XcacheClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ContainerAwareEventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcherInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcherInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventSubscriberInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/GenericEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ImmutableEventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/ContainerAwareEventDispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/EventDispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/EventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/GenericEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/ImmutableEventDispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Escaper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Exception/RuntimeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Inline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_libs/symfony/yaml/Symfony/Component/Yaml/Yaml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Auth/HmacSHA1Signature.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Auth/ServiceSignature.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Auth/SignerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/ExecutionContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/HttpMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/HttpRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/HttpResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/HttpServiceClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/OpenServiceClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/ResponseHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/ResponseParserInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/RetryableServiceClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/ServiceClientFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Communication/ServiceClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Exceptions/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Exceptions/ServiceException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Models/ServiceOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Resources/ResourceManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Resources/default.options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Resources/strings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Utilities/AssertUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Utilities/DateUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Utilities/HttpHeaders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Utilities/HttpMethods.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/Common/Utilities/ServiceConstants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Auth/OSSRequestSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/AbortMultipartUploadCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/CompleteMultipartUploadCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/CopyObjectCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/CreateBucketCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/DeleteBucketCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/DeleteObjectCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/GeneratePresignedUrlCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/GetBucketAclCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/GetObjectCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/InitiateMultipartUploadCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/ListBucketsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/ListMultipartUploadsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/ListObjectsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/ListPartsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/OSSCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/PutObjectCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/SetBucketAclCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Commands/UploadPartCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Exceptions/OSSException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/AccessControlPolicy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/Bucket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/CompleteMultipartUploadResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/CopyObjectResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/InitiateMultipartUploadResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/MultipartUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/MultipartUploadsListing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/OSSError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/OSSErrorCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/OSSObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/OSSObjectSummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/OSSOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/ObjectListing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/Owner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/PartListing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/PartSummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/PutObjectResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Models/UploadPartResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXCompleteMultipartUploadParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXCopyObjectParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXCreateBucketParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXEmptyParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXGetBucketAclParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXGetObjectParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXInitiateMultipartUploadParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXListBucketsParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXListMultipartUploadsParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXListObjectsParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXListPartsParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXOSSErrorParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXPutObjectParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Parsers/SXParser/SXUploadPartParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Resources/default.options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/ResponseHandlers/OSSErrorResponseHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSExceptionFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSHeaders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSRequestBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSResponseParserFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSSXParserFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/OSSUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/ResponseHeaderOverrides.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Library/aliyun_oss_src/Aliyun/OSS/Utilities/SignUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/Uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/action_crawler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/action_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/action_upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/php/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/css/ueditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/css/ueditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/default/dialogbase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/themes/iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/map.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/font/vjs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/video.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/video-js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/ueditor.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/ueditor.config.bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/ueditor.parse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/ueditor/uemy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expert_pc/说明文件.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -476,17 +755,30 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            <state vertical-scroll-proportion="-21.376812">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19329897">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4516129">
+            <state vertical-scroll-proportion="-10.294118">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
@@ -511,7 +803,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pc_src/libs/css.js" />
         <option value="$PROJECT_DIR$/pc_src/html/default/footer.html" />
         <option value="$PROJECT_DIR$/pc_src/sass/base/rest.scss" />
         <option value="$PROJECT_DIR$/pc_src/libs/md5.require.js" />
@@ -552,7 +843,6 @@
         <option value="$PROJECT_DIR$/pc_src/sass/public/mixin/_mixin.scss" />
         <option value="$PROJECT_DIR$/pc_src/sass/dio.scss" />
         <option value="$PROJECT_DIR$/pc_src/sass/base/_icon.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/pc_src/sass/base/header.scss" />
         <option value="$PROJECT_DIR$/pc_src/sass/base/m/grid.scss" />
         <option value="$PROJECT_DIR$/pc_src/html/login/login.html" />
@@ -562,6 +852,8 @@
         <option value="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pc_src/script/main.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -677,6 +969,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttq_4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttq_4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expert_pc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -694,18 +1000,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\sass\base" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\sass\base\m" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\css" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\html\about" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\html\article" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\css" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\html\list" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\test\touchzoom-master" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\sass\base" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\sass\base\m" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\css" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\html\about" />
     </key>
   </component>
   <component name="RunManager">
@@ -959,10 +1265,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17529039" sideWeight="0.43794578" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5620542" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5620542" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12456345" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28537455" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
@@ -1063,16 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-uglify/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29069766">
@@ -1112,20 +1408,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        <state vertical-scroll-proportion="-10.294118">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4516129">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state vertical-scroll-proportion="-21.376812">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19329897">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

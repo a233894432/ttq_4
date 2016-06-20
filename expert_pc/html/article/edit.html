@@ -1,0 +1,78 @@
+<div class="container am-content" id="main-container">
+    <div class="row">
+        <div class="col-xxs-12">
+
+            <div class="am-hd">
+                <storng>作物圈</storng>
+                | <span>我要写文章</span>
+            </div>
+
+            <div class="am-bd am-edit col-xxs-12">
+                <div class="form-group">
+                    <div class="pull am-edit-lead">帖子标题 <i>*</i></div>
+                    <div class="pull am-edit-input">
+                        <input type="text" class="" id="article-title" placeholder="最多输入25字">
+                    </div>
+                    <div class="am-edit-error am-fhide"> 超过25个字</div>
+                </div>
+                <div class="form-group">
+                    <div class="pull am-edit-lead">摘要 <i>*</i></div>
+                    <div class="pull am-edit-input">
+                        <textarea class="" id="article-description" placeholder="最多输入100字" rows="4"
+                                  cols="20"></textarea>
+                    </div>
+                    <div class="am-edit-error am-fhide"> 超过25个字</div>
+                </div>
+                <div class="form-group">
+                    <div class="pull am-edit-lead">作物圈 <i>*</i></div>
+                    <div class="pull am-edit-input">
+                        <select name="crop" id="article-crop">
+
+                            <% _.each(data,function(item){ %>
+                            <option value="<%= item.id %>"><%= item.sp_name %></option>
+                            <% }) %>
+
+                        </select>
+                    </div>
+                    <div class="am-edit-error am-fhide"> 超过25个字</div>
+                </div>
+                <div class="form-group">
+                    <div class="pull am-edit-lead">内容 <i>*</i></div>
+                    <div class="pull am-edit-input">
+
+                        <script type="text/plain" id="myeditor" name="contents" style="height:300px;width:600px"></script>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="pull am-edit-lead">标签</div>
+                    <div class="pull am-edit-input">
+                        <input type="text" class="" id="article-tag" placeholder="标签请用 , 隔开">
+                    </div>
+                    <div class="am-edit-error am-fhide"> 超过25个字</div>
+                </div>
+                <div class="form-group">
+                    <div class="pull am-edit-lead">&nbsp;</div>
+                    <div class="pull am-edit-input">
+                        <button class="am-btn  success pull" id="sendPost">
+                            发&nbsp;布
+                        </button>
+                        <button class="am-btn  cancel pull" id="btnCancel">
+                            取&nbsp;消
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container am-foot text-xxs-center" id="foot">
+    <div class="row">
+        <div class="col-xxs-12">
+            Copyright ©2015 田田圈 All Rights Reserved. 粤ICP备15013732号-2
+        </div>
+    </div>
+</div>
+
