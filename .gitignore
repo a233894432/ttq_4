@@ -11,4 +11,5 @@
 .idea/
 *.svn-base
 pc_src/ueditor/
+pc_src/expert/
 .idea/workspace.xml
