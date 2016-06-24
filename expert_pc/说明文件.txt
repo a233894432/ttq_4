@@ -9,7 +9,6 @@
 
 
 
-
 规则就是  
 域名/index.html?m=article&id=xxxx
 

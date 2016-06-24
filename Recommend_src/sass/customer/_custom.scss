@@ -1,0 +1,90 @@
+//
+// <Project name>
+// =============================================================================
+body, html {
+  height: 100%;
+  background: $bg-content;
+}
+.#{$ns}con{
+  background: $black;
+}
+
+.grid-recommend{
+  .container{
+    max-width: 750px;
+  }
+  .row{
+    //padding-bottom: 8px;
+    //border-bottom: 1px solid $line-ddd;
+  }
+  h3{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 500;
+  }
+}
+//commont
+.line-b{
+  border-bottom: 1px solid $line-ddd;
+}
+.fline-tb{
+  border-top:1px solid $line-f90;
+  border-bottom: 1px solid $line-f90;
+}
+.tcolor1{
+  color: $line-f90;
+}
+.#{$ns}fhide{
+  display: none;
+}
+.#{$ns}fshow{
+  display: block;
+}
+
+//header
+.#{$ns}top-header{
+  height: 45px;
+  background: $bg-header;
+  line-height: 45px;
+  color: $white;
+}
+//main_div
+
+.#{$ns}main-div{
+  margin: 15px 0;
+
+  .#{$ns}main-box{
+    margin: 0 auto;
+    background: $white;
+    min-height: 345px;
+    padding: 20px;
+    @include  border-radius(6px);
+  }
+  .qcrode{
+    width: 240px;
+    height: 240px;
+    padding: 4px;
+    overflow: hidden;
+    margin: 10px auto;
+  }
+
+}
+.#{$ns}box{
+  min-height: 100px;
+  line-height: 100px;
+  background: $white;
+}
+
+//border
+
+.#{$ns}nh1{
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin: 20px auto;
+
+}
+//bg
+.#{$ns}bg01{
+  background: url("../image/bg01.jpg")  center no-repeat;
+}
