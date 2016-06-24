@@ -12,12 +12,18 @@ define(['text!html/default/header.html', 'text!html/recommendMode/index.html'], 
 
         headHtml = _.template(header_tpl);
         mainHtml = _.template(index_tpl);
+        var headData={
+            title:'专属二维码',//顶部Title
+            leftAction:true,    //左侧 退回
+            rightAction:true,   //是否显示 右侧
+            rightText:'我的排名'
+        };
         var data = {
-            token: 'Y2sxNDY2NjcwMDk2NTUz'
+            token: token
         };
         $app.getAjax($url.service.recommend_main, data, successF);
 
-        appView.html(headHtml() + mainHtml());
+        appView.html(headHtml(headData) + mainHtml());
 
         var imga = document.createElement('img');
         imga.src = 'upload/CoolShow_Z000010.jpg';

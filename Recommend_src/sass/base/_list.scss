@@ -9,6 +9,9 @@ ol {
   //  padding-left: 0;
   //  padding-right: 2.5rem;
   //}
+  & > li {
+    list-style-type: none;
+  }
 }
 
 ul ul,

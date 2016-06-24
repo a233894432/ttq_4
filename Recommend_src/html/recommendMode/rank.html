@@ -1,0 +1,62 @@
+<div class="container am-rank-div">
+    <div class="row line-b clearfix">
+        <div class="col-xxs-12 am-main-div text-center">
+
+            <div class="am-rank-banner">
+                <img src="../image/rank_bg.jpg" alt="">
+            </div>
+
+            <div class="am-main-box  am-rank-title">
+                <%if(isshow){%>
+                    共获得的奖励
+                    <br/>
+                    <span class="tcolor1"><%=$app.formatMoney(data.bonus)%>元</span>
+
+                    <div class="twhite" style="margin-top: 18px">
+                        当月排名:&nbsp; <%=data.myrank%>
+                    </div>
+                <%}else {%>
+                    共获得的奖励
+                    <br/>
+                    <span class="tcolor1">--元</span>
+
+                    <div class="twhite" style="margin-top: 18px">
+                        当月排名:---
+                    </div>
+                <%}%>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row am-bgwhite">
+        <div class="col-xxs-12  text-center am-rank-listBox">
+            <div class="am-rank-listTile line-b">
+                <span class="col-xxs-4">排名</span>
+                <span class="col-xxs-4">昵称</span>
+                <span class="col-xxs-4">推荐人数</span>
+            </div>
+            <ul>
+                <% _.each(data.ranklist,function(item){ %>
+                <li>
+                    <span class="col-xxs-4"><%=item.rank%></span>
+                    <span class="col-xxs-4">
+
+                        <%if(item.username){%>
+                            <%=item.username%>
+                        <%}else{%>
+                            未填写昵称
+                        <%}%>
+
+                    </span>
+                    <span class="col-xxs-4"><%=item.num%></span>
+                </li>
+                <%})%>
+
+
+            </ul>
+        </div>
+    </div>
+</div>

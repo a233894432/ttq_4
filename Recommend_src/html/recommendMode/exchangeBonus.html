@@ -1,0 +1,55 @@
+<div class="container am-exchange-div">
+    <div class="row line-b clearfix">
+        <div class="col-xxs-12 am-main-div text-center">
+            <div class="am-main-box">
+                <%if(isshow){%>
+                    您尚未兑换的金额: <span class="tcolor1"><%=$app.formatMoney(data.bonus)%>元</span>
+                    <p>
+                        本次兑换:
+                    </p>
+                    <div class="text-center">
+                        <a href="javascript:;" class="am-btn danger" id="sendExchange">申请兑奖</a>
+                    </div>
+                    <p class="am-text-info">
+                        (目前可兑换10的倍数的奖励)
+                    </p>
+
+
+                <%}else {%>
+
+                    请点击重新刷新
+                <%}%>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row am-bgwhite">
+        <div class="col-xxs-12  text-center am-rank-listBox">
+            <div class="am-rank-listTile line-b">
+                <span class="col-xxs-12">历史兑换信息</span>
+            </div>
+            <ul>
+                <% _.each(data.history,function(item){ %>
+                <li>
+                    <span class="col-xxs-5 pt10">
+                        <p class="text-xxs-pull"> <%=item.order%></p>
+                       <p class="text-xxs-pull"> <%=item.create_at%></p>
+
+                    </span>
+                    <span class="col-xxs-4">
+
+                           <%=$app.formatMoney(item.bonus)%>元
+
+                    </span>
+                    <span class="col-xxs-3"><%=item.status%></span>
+                </li>
+                <%})%>
+
+
+            </ul>
+        </div>
+    </div>
+</div>

@@ -10,9 +10,12 @@
     var mod,containerDiv;
     var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
-    var mode=['login','index','article','list','default','user','edit','about'] ; //现有模块
+    var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus'] ; //现有模块
 
     var isdebug=true; //是否开启debug 与开启 console.log
+    //win.token='Y2sxNDY2NTgwODkwMTUy';//开发的时候
+
+    win.token='Y2sxNDY2NzYxNzA2MzI4';
     /**
      *
      * @param str
@@ -101,8 +104,11 @@
             md5:'libs/md5_require',//MD5加密
             //生成QRcode
             qrcode:'libs/jquery-qrcode',//生成QRcode
+
             //各功能模块的js
-            recommend:'js/es5/recommendMode/index'
+            recommend:'js/es5/recommendMode/index',
+            rank:'js/es5/recommendMode/rank',
+            exchangeBonus:'js/es5/recommendMode/exchangeBonus'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
             underscore: {

@@ -334,8 +334,16 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
         var dataURL = canvas.toDataURL("image/png");
         return dataURL
         // return dataURL.replace("data:image/png;base64,", "");
-    }
+        },
 
+        /**
+         * 格式化 金钱
+         * @param money
+         */
+        formatMoney:function(money){
+            var m=parseInt(money) || 0;
+            return m/100;
+        }
     };
 
 

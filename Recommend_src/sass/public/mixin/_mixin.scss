@@ -24,3 +24,28 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+//box-orient
+@mixin box-orient($direction:horizontal){
+  -webkit-box-orient:$direction;
+  -moz-box-orient:$direction;
+  -webkit-flex-flow: column;
+  -ms-box-orient:$direction;
+}
+//ms-box
+@mixin ms-box{
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-box;
+  display: box;
+}
+//box-flex
+@mixin box-flex($num:1){
+  -webkit-box-flex:$num;
+  -moz-box-flex:$num;
+  -ms-box-flex:$num;
+}
+//box
+@mixin  boxHeight($num:100%){
+    height:$num;
+}

@@ -5,86 +5,283 @@ body, html {
   height: 100%;
   background: $bg-content;
 }
-.#{$ns}con{
+
+.#{$ns}con {
   background: $black;
 }
 
-.grid-recommend{
-  .container{
+.#{$ns}wrapper {
+  max-height:auto;
+  height: 100%;
+}
+
+.grid-recommend {
+  .container {
     max-width: 750px;
   }
-  .row{
+  .row {
     //padding-bottom: 8px;
     //border-bottom: 1px solid $line-ddd;
   }
-  h3{
+  [class*=block-row-] > *, [class*=col-] {
+    border: none;
+    @include nowrap();
+  }
+  h3 {
     font-size: 1.2rem;
     margin: 0;
     font-weight: 500;
   }
 }
+
 //commont
-.line-b{
+.line-b {
   border-bottom: 1px solid $line-ddd;
 }
-.fline-tb{
-  border-top:1px solid $line-f90;
+
+.fline-tb {
+  border-top: 1px solid $line-f90;
   border-bottom: 1px solid $line-f90;
 }
-.tcolor1{
+
+.twhite {
+  color: $white;
+}
+
+.tcolor1 {
   color: $line-f90;
 }
-.#{$ns}fhide{
+
+.#{$ns}fhide {
   display: none;
 }
-.#{$ns}fshow{
+
+.#{$ns}fshow {
   display: block;
 }
 
+.#{$ns}text-info {
+  color: $text-info;
+  font-size: $base-font-size * 0.6;
+}
+.pt10{
+  padding-top: 10px;
+}
+//btn
+
+.#{$ns}btn {
+  &.danger,
+  &.danger:hover,
+  &.error,
+  &.error:hover,
+  &.success,
+  &.success:hover,
+  &.info,
+  &.info:hover {
+    color: white
+  }
+  width: 100%;
+  max-width: 250px;
+  line-height: 2.5rem;
+  font-size: $base-font-size * 1.2;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  @include border-radius(4px);
+  &.success {
+    background: $btn-success;
+  }
+  &.cancel {
+    background: $btn-cancel;
+    border: 1px solid $line-ddd;
+  }
+  &.danger {
+    background: $brand-danger;
+  }
+  &.disable {
+    background: $bg-content;
+    border: 1px solid $line-ddd;
+  }
+}
+
 //header
-.#{$ns}top-header{
+.#{$ns}top-header {
   height: 45px;
   background: $bg-header;
   line-height: 45px;
   color: $white;
 }
+
 //main_div
+.#{$ns}main-box {
+  padding: 20px;
+}
 
-.#{$ns}main-div{
+.#{$ns}main-div {
   margin: 15px 0;
-
-  .#{$ns}main-box{
+  .#{$ns}main-box {
     margin: 0 auto;
     background: $white;
-    min-height: 345px;
-    padding: 20px;
-    @include  border-radius(6px);
+    min-height: 280px;
+    height: 100%;
+    @include border-radius(6px);
   }
-  .qcrode{
-    width: 240px;
-    height: 240px;
+  .qcrode {
+    width: 200px;
+    height: 200px;
     padding: 4px;
     overflow: hidden;
     margin: 10px auto;
   }
 
 }
-.#{$ns}box{
+
+.#{$ns}box {
   min-height: 100px;
   line-height: 100px;
   background: $white;
 }
 
+.#{$ns}box-vertiacl {
+  @include box-orient(vertical);
+  @include ms-box();
+  height: calc(100% - 45px);
+  .row {
+    @include box-flex();
+  }
+
+}
+
+.#{$ns}box-horizontal {
+  @include box-orient();
+  @include ms-box();
+  .row {
+    @include box-flex();
+  }
+}
+
+.#{$ns}h100 {
+  height: 100%;
+}
+
+.#{$ns}h60 {
+  height: 60%;
+}
+
+.#{$ns}bgwhite {
+  background: $white;
+}
+
 //border
 
-.#{$ns}nh1{
+.#{$ns}nh1 {
   height: 50px;
   line-height: 50px;
   width: 50%;
   margin: 20px auto;
 
 }
+
 //bg
-.#{$ns}bg01{
-  background: url("../image/bg01.jpg")  center no-repeat;
+.#{$ns}bg01 {
+  background: url("../image/bg01.jpg") center no-repeat;
+}
+
+.#{$ns}rank-div {
+  background: $white;
+  .#{$ns}main-div {
+    margin: 0 auto;
+    position: relative;
+    background: none;
+    min-height: 200px;
+    overflow: hidden;
+  }
+  .#{$ns}main-box {
+    padding: 10px auto;
+    background: none;
+    min-height: 200px;
+    border-radius: 0;
+
+  }
+
+}
+
+.#{$ns}rank-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.#{$ns}rank-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  background: none;
+  padding-top: 90px;
+}
+
+.#{$ns}rank-listBox {
+  min-height: 450px;
+  padding-left: 12px;
+  ul {
+    padding: 0;
+    margin: 0 0 100px 0;
+    li {
+      height: 45px;
+      border-bottom: 1px solid $line-ddd;
+      span {
+        height: 45px;
+        line-height: 45px;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+  }
+  .#{$ns}rank-listTile {
+    line-height: 50px;
+    height: 50px;
+  }
+
+}
+
+//exchange
+.#{$ns}exchange-div {
+  .#{$ns}main-div {
+    margin-top: 0;
+    margin-bottom: 8px;
+
+  }
+  .#{$ns}main-box {
+    padding-top: 30px;
+    background: $white;
+    min-height: 200px;
+    border-radius: 0;
+
+  }
+  .#{$ns}rank-listBox {
+    ul {
+      li {
+        height: 60px;
+        line-height: 60px;
+        span{
+          height: 60px;
+          line-height: 60px;
+          p{
+            padding: 0;
+            @include nowrap();
+            line-height: 20px;
+            font-size: $base-font-size * 0.8;
+
+          }
+        }
+      }
+    }
+
+  }
 }
