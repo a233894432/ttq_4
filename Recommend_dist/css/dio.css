@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*! dio.css v0.0.1 | MIT License | git.io/a233894432 */
 html {
-  font-family: sans-serif;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -253,6 +253,15 @@ hr {
   border: 0;
   border-top: 1px solid #c0c0c0;
   margin: 1rem 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
   padding: 0;
 }
 
@@ -2777,6 +2786,10 @@ ol {
   margin: 1rem 0;
   padding-left: 2.5rem;
 }
+ul > li,
+ol > li {
+  list-style-type: none;
+}
 
 ul ul,
 ol ol {
@@ -3537,12 +3550,336 @@ a img {
   -webkit-overflow-scrolling: touch;
 }
 
+body, html {
+  height: 100%;
+  background: #ebebeb;
+}
+
 .am-con {
   background: #000;
 }
 
-.grid-recommend {
+.am-wrapper {
+  max-height: auto;
+  height: 100%;
+}
+
+.grid-recommend .container {
   max-width: 750px;
+}
+.grid-recommend [class*=block-row-] > *, .grid-recommend [class*=col-] {
+  border: none;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.grid-recommend h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.line-b {
+  border-bottom: 1px solid #ddd;
+}
+
+.fline-tb {
+  border-top: 1px solid #ff9000;
+  border-bottom: 1px solid #ff9000;
+}
+
+.twhite {
+  color: #fff;
+}
+
+.tcolor1 {
+  color: #ff9000;
+}
+
+.tcolor2 {
+  color: #fb262a;
+}
+
+.tcolor3 {
+  color: #00a53c;
+}
+
+.am-fhide {
+  display: none;
+}
+
+.am-fshow {
+  display: block;
+}
+
+.am-text-info {
+  color: #999;
+  font-size: 60%;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.am-btn {
+  width: 100%;
+  max-width: 250px;
+  line-height: 2.5rem;
+  font-size: 120%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.am-btn.danger, .am-btn.danger:hover, .am-btn.error, .am-btn.error:hover, .am-btn.success, .am-btn.success:hover, .am-btn.info, .am-btn.info:hover {
+  color: white;
+}
+.am-btn.success {
+  background: #46be78;
+}
+.am-btn.cancel {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.am-btn.danger {
+  background: #fb8f26;
+}
+.am-btn.disable {
+  background: #ebebeb;
+  border: 1px solid #ddd;
+}
+
+.am-top-header {
+  height: 45px;
+  background: #00a53c;
+  line-height: 45px;
+  color: #fff;
+}
+.am-top-header a {
+  color: #fff;
+}
+.am-top-header a:active {
+  height: 45px;
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.am-main-box {
+  padding: 20px;
+}
+
+.am-main-div {
+  margin: 15px 0;
+}
+.am-main-div .am-main-box {
+  margin: 0 auto;
+  background: #fff;
+  min-height: 280px;
+  height: 100%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.am-main-div .qcrode {
+  width: 200px;
+  height: 200px;
+  padding: 4px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.am-box {
+  min-height: 100px;
+  line-height: 100px;
+  background: #fff;
+}
+
+.am-box-vertiacl {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-flow: column;
+  -ms-box-orient: vertical;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  height: calc(100% - 45px);
+}
+.am-box-vertiacl .row {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+}
+
+.am-box-horizontal {
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-flow: column;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+}
+.am-box-horizontal .row {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+}
+
+.am-h100 {
+  height: 100%;
+}
+
+.am-h60 {
+  height: 60%;
+}
+
+.am-bgwhite {
+  background: #fff;
+}
+
+.am-nh1 {
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.am-bg01 {
+  background: url("../image/bg01.jpg") center no-repeat;
+}
+
+.am-rank-div {
+  background: #fff;
+}
+.am-rank-div .am-main-div {
+  margin: 0 auto;
+  position: relative;
+  background: none;
+  min-height: 200px;
+  overflow: hidden;
+}
+.am-rank-div .am-main-box {
+  padding: 10px auto;
+  background: none;
+  min-height: 200px;
+  border-radius: 0;
+}
+
+.am-rank-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.am-rank-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  background: none;
+  padding-top: 90px;
+}
+
+.am-rank-listBox {
+  min-height: 450px;
+  padding-left: 12px;
+}
+.am-rank-listBox ul {
+  padding: 0;
+  margin: 0 0 100px 0;
+}
+.am-rank-listBox ul li {
+  height: 45px;
+  border-bottom: 1px solid #ddd;
+}
+.am-rank-listBox ul li span {
+  height: 45px;
+  line-height: 45px;
+}
+.am-rank-listBox ul li:last-child {
+  border-bottom: none;
+}
+.am-rank-listBox .am-rank-listTile {
+  line-height: 50px;
+  height: 50px;
+}
+
+.am-exchange-div .am-main-div {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.am-exchange-div .am-main-box {
+  padding-top: 30px;
+  background: #fff;
+  min-height: 200px;
+  border-radius: 0;
+}
+.am-exchange-div .am-input-div {
+  width: 75%;
+  display: block;
+  height: 2.1rem;
+  line-height: 2rem;
+  text-align: left;
+  margin: 5px auto;
+}
+.am-exchange-div .am-input-div span {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid silver;
+  text-align: center;
+  display: block;
+  line-height: 2rem;
+  float: left;
+  vertical-align: middle;
+}
+.am-exchange-div .am-input-div span:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.am-exchange-div .am-input-div input {
+  width: 80px;
+  float: left;
+  margin: 0 5px;
+}
+.am-exchange-div .am-rank-listBox ul li {
+  height: 60px;
+  line-height: 60px;
+}
+.am-exchange-div .am-rank-listBox ul li span {
+  height: 60px;
+  line-height: 60px;
+}
+.am-exchange-div .am-rank-listBox ul li span p {
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  font-size: 80%;
+}
+
+.am-exchange-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fafafa;
+  height: 76px;
+  max-height: 75px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
 }
 
 .layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {

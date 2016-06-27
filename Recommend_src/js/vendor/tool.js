@@ -231,6 +231,20 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
 
         },
         /**
+         *
+         * @param dateStr
+         * @returns   默认返回 unix时间戳
+         */
+        formatDatetoU:function(dateStr) {
+            var dateStr=dateStr || '2016-07-23 09:00:00';
+            var newstr = dateStr.replace(/\-/g,'/');
+            var date =  new Date(newstr);
+            //var time_str = date.getTime().toString();
+            var time_str = date.getTime();
+            return time_str;
+        },
+
+        /**
          * 删除帖子
          * @param e
          */
@@ -338,12 +352,86 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
 
         /**
          * 格式化 金钱
-         * @param money
+         * @param num
+         * @retun 返回的是'元' 保留两位小数 '9999.00'
          */
-        formatMoney:function(money){
-            var m=parseInt(money) || 0;
-            return m/100;
+        formatMoney:function(num){
+
+            //num = num.toString().replace(/\$|\,/g,'');
+            if(isNaN(num)){
+                num=0;
+            }
+            num=parseInt(num)/100;//以整型计算
+            return num
+        },
+
+        /**
+         * 格式化 兑奖的状态
+         * @param e    status 状态 0、待审核  1、已兑换
+         */
+        formatStatus:function(e){
+            if(isNaN(e)){
+                e=0;
+                return "待审核";
+            }
+            if(e==1){
+                return "已兑换";
+            }else{
+                return "待审核";
+            }
+        },
+        /**
+         * 格式化 兑奖时间
+         * @param dataStr
+         */
+        getExchangeTime:function(dataStr){
+            var newtime=this.formatDatetoU(dataStr);
+            var time = new Date(newtime);
+
+            function fixZero(num, length) {
+                var str = "" + num;
+                var len = str.length;
+                var s = "";
+                for (var i = length; i-- > len;) {
+                    s += "0";
+                }
+                return s + str;
+            }
+
+            return  fixZero(time.getMonth() + 1, 2) + "月" + fixZero(time.getDate(), 2) + "日" + fixZero(time.getHours(), 2) + ":" + fixZero(time.getMinutes(), 2);
+
+        },
+
+        /**
+         * 返回或是关闭当前面
+         */
+        goBack: function (e, name) {
+            if (isdebug) {
+                window.history.back(-1);
+            } else {
+
+                if (e == "win") {
+                    api.closeWin(
+                        {
+                            name: name
+                        }
+                    );
+                } else {
+                    api.closeFrame(
+                        {
+                            name: name
+                        }
+                    );
+                }
+
+
+            }
+
+
+
         }
+
+
     };
 
 

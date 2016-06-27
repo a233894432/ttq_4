@@ -48,7 +48,7 @@
         //推荐模块
         recommend_main:'/recommend/main',//推荐
         recommend_getReferrerRank:'/recommend/getReferrerRank',//4.7.7.店长推荐排名
-        recommend_getExchangeHistory:'recommend/getExchangeHistory',//4.7.8.历史兑换接口
+        recommend_getExchangeHistory:'/recommend/getExchangeHistory',//4.7.8.历史兑换接口
         recommend_exchangeBonus:'/recommend/exchangeBonus'    //4.7.9.兑换接口
     };
 

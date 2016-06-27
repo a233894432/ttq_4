@@ -8,13 +8,14 @@
     u.deploy = {
         online: 'http://ttk.ttq8.com:9086',//现网PHP接口
         test:'http://172.168.3.207:900', //本地测试接口
+        localhost:'http://localhost:82/api',//Nginx 反代
         forecast:'http://120.76.165.155:900',//远程测试环境
         hxforecast:'http://120.76.165.155:94',//远程测试环境 的核销权限地址
         hxpreRelease:'http://ttc.ttq.com',//预发布地址 的核销权限地址
         preRelease:'http://112.74.143.113:9086'//预发布地址
 
     };
-    u.host = u.deploy.online; // 接口地址
+    u.host = u.deploy.localhost; // 接口地址
 
     u.version ="11";//小版本 主要用于 区别 IOS 审核
 
@@ -44,84 +45,14 @@
         post_cancelCollection:'/post/cancelCollection',//取消收藏
         //首页banner 广告接口
         ad_index_banner:'/ad/topList',
-
-
-
+        //推荐模块
+        recommend_main:'/recommend/main',//推荐
+        recommend_getReferrerRank:'/recommend/getReferrerRank',//4.7.7.店长推荐排名
+        recommend_getExchangeHistory:'recommend/getExchangeHistory',//4.7.8.历史兑换接口
+        recommend_exchangeBonus:'/recommend/exchangeBonus'    //4.7.9.兑换接口
     };
 
 
-
-    /**
-     * 倒计时
-     * @param {Object} ts 倒计时
-     * @param {Object} callBack 回调
-     * @param {Object} id_1 显示ms对应id
-     * @param {Object} id_2 显示ss对应id
-     * @param {Object} id_3 显示mm对应id
-     * @param {Object} id_4 显示hh对应id
-     * @param {Object} id_5 显示dd对应id
-     */
-    u.coundDown = function (ts,callBack,id_1,id_2,id_3,id_4,id_5){
-        var _own = this;
-        _own.ts = ts;
-        _own.tid_1 = id_1;
-        _own.tid_2 = id_2;
-        _own.tid_3 = id_3;
-        _own.tid_4 = id_4;
-        _own.tid_5 = id_5;
-        _own.callback = callBack;
-        _own.checkTime = function (i){
-            if (i < 10) {
-                i = "0" + i;
-            }
-            return i;
-        };
-        _own.timer = null;
-        _own.init = function(){
-            var dd = parseInt(_own.ts / 1000 / 60 / 60 / 24, 10),
-                hh = parseInt(_own.ts / 1000 / 60 / 60 % 24, 10),
-                mm = parseInt(_own.ts / 1000 / 60 % 60, 10),
-                ss = parseInt(_own.ts / 1000 % 60, 10),//秒数
-                ms = parseInt(_own.ts % 1000 /100, 10),//秒后面 10*100
-                mms = parseInt(_own.ts % 100, 10),//第一次是100ms 加mms 时间
-                time = (mms>0&&(ms+dd+mm+ss)==0)?mms:100+mms,
-                dd = _own.checkTime(dd),
-                hh = _own.checkTime(hh),
-                mm = _own.checkTime(mm),
-                ss = _own.checkTime(ss),
-                el_1 = document.getElementById(_own.tid_1),
-                el_2 = document.getElementById(_own.tid_2),
-                el_3 = document.getElementById(_own.tid_3),
-                el_4 = document.getElementById(_own.tid_4),
-                el_5 = document.getElementById(_own.tid_5);
-            if(el_1) el_1.innerHTML = ms;
-            if(el_2) el_2.innerHTML = ss;
-            if(el_3) el_3.innerHTML = mm;
-            if(el_4) el_4.innerHTML = hh;
-            if(el_5) el_5.innerHTML = dd;
-            _own.timer = setTimeout(function(){
-                _own.callback && _own.callback.call(this);
-                if(_own.ts>0){
-                    _own.ts = _own.ts-time;
-                    _own.init();
-                }
-            },time);
-
-        };
-        _own.restart = function(ts){
-            if(_own.timer){
-                clearTimeout(_own.timer);
-            }
-            _own.ts = ts;
-            _own.init();
-        };
-        _own.stopDown = function(callback){
-            if(_own.timer){
-                clearTimeout(_own.timer);
-            }
-            callback && callback.call(this)
-        }
-    };
     //ajax
     u.getAjax = function(url,data,successFun, errFun, ajaxType) {
         console.log('ajax' + '---------------开始');

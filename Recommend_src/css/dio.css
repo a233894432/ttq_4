@@ -3575,7 +3575,7 @@ body, html {
   text-overflow: ellipsis;
 }
 .grid-recommend h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
   font-weight: 500;
 }
@@ -3597,6 +3597,14 @@ body, html {
   color: #ff9000;
 }
 
+.tcolor2 {
+  color: #fb262a;
+}
+
+.tcolor3 {
+  color: #00a53c;
+}
+
 .am-fhide {
   display: none;
 }
@@ -3612,6 +3620,10 @@ body, html {
 
 .pt10 {
   padding-top: 10px;
+}
+
+.p15 {
+  padding: 15px;
 }
 
 .am-btn {
@@ -3645,10 +3657,19 @@ body, html {
 }
 
 .am-top-header {
-  height: 45px;
+  height: 38px;
   background: #00a53c;
-  line-height: 45px;
+  line-height: 38px;
   color: #fff;
+}
+.am-top-header a {
+  color: #fff;
+}
+.am-top-header a:active {
+  height: 38px;
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .am-main-box {
@@ -3668,8 +3689,8 @@ body, html {
   border-radius: 6px;
 }
 .am-main-div .qcrode {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   padding: 4px;
   overflow: hidden;
   margin: 10px auto;
@@ -3743,13 +3764,15 @@ body, html {
 .am-rank-div .am-main-div {
   margin: 0 auto;
   position: relative;
-  background: none;
-  min-height: 200px;
+  background: #ebebeb;
+  height: 180px;
   overflow: hidden;
 }
 .am-rank-div .am-main-box {
   padding: 10px auto;
   background: none;
+  overflow: hidden;
+  width: 100%;
   min-height: 200px;
   border-radius: 0;
 }
@@ -3760,6 +3783,10 @@ body, html {
   top: 0;
   z-index: 2;
 }
+.am-rank-banner img {
+  width: 100%;
+  height: 100%;
+}
 
 .am-rank-title {
   position: absolute;
@@ -3768,7 +3795,7 @@ body, html {
   z-index: 3;
   width: 100%;
   background: none;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 .am-rank-listBox {
@@ -3805,6 +3832,32 @@ body, html {
   min-height: 200px;
   border-radius: 0;
 }
+.am-exchange-div .am-input-div {
+  width: 90%;
+  display: block;
+  height: 2.1rem;
+  line-height: 2rem;
+  text-align: left;
+  margin: 5px auto;
+}
+.am-exchange-div .am-input-div span {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid silver;
+  text-align: center;
+  display: block;
+  line-height: 2rem;
+  float: left;
+  vertical-align: middle;
+}
+.am-exchange-div .am-input-div span:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+.am-exchange-div .am-input-div input {
+  width: 80px;
+  float: left;
+  margin: 0 5px;
+}
 .am-exchange-div .am-rank-listBox ul li {
   height: 60px;
   line-height: 60px;
@@ -3821,6 +3874,18 @@ body, html {
   text-overflow: ellipsis;
   line-height: 20px;
   font-size: 80%;
+}
+
+.am-exchange-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fafafa;
+  height: 76px;
+  max-height: 75px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
 }
 
 .layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {

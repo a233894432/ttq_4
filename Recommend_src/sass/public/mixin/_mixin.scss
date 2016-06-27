@@ -49,3 +49,8 @@
 @mixin  boxHeight($num:100%){
     height:$num;
 }
+//画一个正方形
+@mixin square($w,$h){
+  width: $w;
+  height: $h;
+}

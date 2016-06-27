@@ -12,7 +12,7 @@
     containerDiv=document.getElementById('container');
     var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus'] ; //现有模块
 
-    var isdebug=true; //是否开启debug 与开启 console.log
+    win.isdebug=true; //是否开启debug 与开启 console.log
     //win.token='Y2sxNDY2NTgwODkwMTUy';//开发的时候
 
     win.token='Y2sxNDY2NzYxNzA2MzI4';

@@ -10,8 +10,30 @@
     var mod,containerDiv;
     var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
-    var mode=['login','index','article','list','default','user','edit','about'] ; //现有模块
+    var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus'] ; //现有模块
 
+    win.isdebug=true; //是否开启debug 与开启 console.log
+    //win.token='Y2sxNDY2NTgwODkwMTUy';//开发的时候
+
+    win.token='Y2sxNDY2NzYxNzA2MzI4';
+    /**
+     *
+     * @param str
+     * @returns {string}
+     */
+    win.Log=function(str){
+        if(isdebug){
+            var args = Array.prototype.slice.call(arguments);
+            args.unshift('(dio)');
+            console.log.apply(console, args);
+
+        }else{
+            //开关 console.log
+            window.console.log=function(str){
+                return "";
+            };
+        }
+    };
 
     /**
      * 取URL上面的参数
@@ -44,7 +66,7 @@
     if(isInmode(mode,getMode("m"))){
         mod=getMode("m");
     }else{
-        mod="login";//用户默认跳转到 登录
+        mod="recommend";//用户默认跳转到 登录
     }
     console.log("当前模块:"+mod);
     if(mod=="article" || mod=="login" || mod=="about"){
@@ -80,13 +102,13 @@
 
             cookies:'libs/Cookies',
             md5:'libs/md5_require',//MD5加密
+            //生成QRcode
+            qrcode:'libs/jquery-qrcode',//生成QRcode
 
             //各功能模块的js
-            login:"html/login/login",     //登录模块
-            article:"html/article/article",//文章详情
-            edit:"html/article/editArticle", // 发帖
-            index:"html/index/index",   //主页
-            about:"html/about/about"    //一些静态页面
+            recommend:'js/es5/recommendMode/index',
+            rank:'js/es5/recommendMode/rank',
+            exchangeBonus:'js/es5/recommendMode/exchangeBonus'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
             underscore: {
@@ -103,6 +125,9 @@
             },
             cookies:{
                 deps: ['jquery']
+            },
+            qrcode:{
+                deps: ['jquery']
             }
         }
     };
@@ -118,7 +143,7 @@
         //if(checkLogin){
         //    $app.checkLogin();
         //}
-        // mod();//页面初始化
+         mod();//页面初始化
 
         $app.endProgress(); //关闭动画
 

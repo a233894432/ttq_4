@@ -28,7 +28,7 @@ body, html {
     @include nowrap();
   }
   h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0;
     font-weight: 500;
   }
@@ -51,6 +51,12 @@ body, html {
 .tcolor1 {
   color: $line-f90;
 }
+.tcolor2{
+  color: $text-red;
+}
+.tcolor3{
+  color: $bg-header;
+}
 
 .#{$ns}fhide {
   display: none;
@@ -66,6 +72,9 @@ body, html {
 }
 .pt10{
   padding-top: 10px;
+}
+.p15{
+  padding: 15px;
 }
 //btn
 
@@ -106,10 +115,19 @@ body, html {
 
 //header
 .#{$ns}top-header {
-  height: 45px;
+  height: 38px;
   background: $bg-header;
-  line-height: 45px;
+  line-height:38px;
   color: $white;
+  a{
+    color:$white;
+    &:active{
+      height: 38px;
+      width:100%;
+      display: block;
+      background: rgba(0,0,0,0.3);
+    }
+  }
 }
 
 //main_div
@@ -122,13 +140,14 @@ body, html {
   .#{$ns}main-box {
     margin: 0 auto;
     background: $white;
+
     min-height: 280px;
     height: 100%;
     @include border-radius(6px);
   }
   .qcrode {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding: 4px;
     overflow: hidden;
     margin: 10px auto;
@@ -192,13 +211,17 @@ body, html {
   .#{$ns}main-div {
     margin: 0 auto;
     position: relative;
-    background: none;
-    min-height: 200px;
+    background: $bg-content;
+
+    height: 180px;
+
     overflow: hidden;
   }
   .#{$ns}main-box {
     padding: 10px auto;
     background: none;
+    overflow: hidden;
+    width: 100%;
     min-height: 200px;
     border-radius: 0;
 
@@ -211,6 +234,10 @@ body, html {
   left: 0;
   top: 0;
   z-index: 2;
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .#{$ns}rank-title {
@@ -220,7 +247,7 @@ body, html {
   z-index: 3;
   width: 100%;
   background: none;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 .#{$ns}rank-listBox {
@@ -264,6 +291,33 @@ body, html {
     border-radius: 0;
 
   }
+  .#{$ns}input-div{
+    width: 90%;
+    display: block;
+    height: 2.1rem;
+    line-height: 2rem;
+    text-align: left;
+    margin: 5px auto;
+    span{
+      @include square(2rem,2rem);
+      border: 1px solid silver;
+      text-align: center;
+      display: block;
+      line-height: 2rem;
+      float: left;
+      vertical-align: middle;
+      &:active{
+
+        background: rgba(0,0,0,0.3);
+      }
+    }
+    input{
+      width: 80px;
+      float: left;
+      margin: 0 5px;
+    }
+  }
+
   .#{$ns}rank-listBox {
     ul {
       li {
@@ -284,4 +338,16 @@ body, html {
     }
 
   }
+}
+
+.#{$ns}exchange-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background:$gray ;
+  height: 76px;
+  max-height: 75px;
+  border-top: 1px solid $line-ddd;
+  overflow: hidden;
 }
