@@ -18,14 +18,25 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
     };
 
 
+    var that;
 
     //提共接口外调
     return {
-        version: '0.0.1',   //当前工具的版本
+        version: '0.0.2',   //当前工具的版本 2016年6月27日18:29:47
         progress: lod,
         layer: layer,
         md5: md5,
         qrcode:qrcode,
+
+        isAndroid :(/android/gi).test(navigator.appVersion),
+        uzStorage: function(){
+                var ls = window.localStorage;
+                if(that.isAndroid){
+                    ls = os.localStorage();
+                }
+                return ls;
+        },
+
         /**
          * tool 工具初始化
          */
@@ -34,6 +45,8 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
             Log("当前接口地址是" + $url.host);
             //检查用户是否登录
             //this.checkLogin();
+            that=this;
+            console.log(this)
         },
         /**
          * endProgress
@@ -406,30 +419,163 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * 返回或是关闭当前面
          */
         goBack: function (e, name) {
-            if (isdebug) {
+
+             var mod= that.getModel("m") || 0;
+
+            if(mod){
                 window.history.back(-1);
-            } else {
-
-                if (e == "win") {
-                    api.closeWin(
-                        {
-                            name: name
-                        }
-                    );
-                } else {
-                    api.closeFrame(
-                        {
-                            name: name
-                        }
-                    );
-                }
-
-
+            }else{
+                api.closeWin();
             }
+            //if (isdebug) {
+            //    window.history.back(-1);
+            //} else {
+            //
+            //    if (e == "win") {
+            //        api.closeWin(
+            //            {
+            //                name: name
+            //            }
+            //        );
+            //    } else {
+            //        api.closeFrame(
+            //            {
+            //                name: name
+            //            }
+            //        );
+            //    }
+            //
+            //}
+
+        },
+
+
+        /**
+         * 用于保存用户头像
+         */
+        oneImgCahce:function(url){
+            api.imageCache({
+                url:url,
+                thumbnail:true
+            }, function(ret, err){
+                console.log(ret.url);
+
+            });
+        },
+        /**
+         * 下载图像
+         * @param url
+         * @param name
+         */
+       downUimg:function(url,name){
+            var cacheDir = api.cacheDir;
+            var saveUrl=cacheDir+'/'+name+'.png';
+            console.log(saveUrl);
+            api.download({
+                url: url,
+                savePath:saveUrl.toString(),
+                report: true,
+                cache: true,
+                allowResume: true
+            },function(ret, err){
+                if(ret.state == 1){
+                    //下载成功
+                    console.log(ret.savePath);
+                    console.log("下载 成功")
+                }else{
+                    //
+                    console.log(err)
+                }
+            });
+        },
+
+
+        /**
+         * 生成带头像的二维码
+         * @param img
+         * @param url
+         */
+        drawQrcode : function (url,size,select){
+            var imga = document.createElement('img');
+            //imga.src = '/storage/emulated/0/Android/data/com.apicloud.apploader/cache/disk/thumb/3e453cb2';
+            imga.src='./upload/avatar_default.png';
+            var imgb = document.createElement('img');
+            var ndata;
+            imga.onload = function () {
+                ndata =that.getBase64Image(imga);
+                imgb.id = 'img-buffer';
+                imgb.src = ndata;
+                $('#imgDiv').append(imgb);
+                console.log(ndata);
+                $(select).empty().qrcode({
+                    render: 'image',
+                    mode: 4,
+                    size: size,
+                    fill: '#000',
+                    background: '#ffffff',
+                    text: url,
+                    ecLevel: 'H',
+                    minVersion: 5,
+                    quiet: 2,
+                    mSize: 0.2,
+                    mPosX: 0.5,
+                    mPosY: 0.5,
+                    image: $('#img-buffer')[0]
+                });
+            };
+
+
+        },
 
 
 
+        /**
+         * storage
+         */
+        setStorage:function(key,value){
+            if(arguments.length === 2){
+                var v = value;
+                if(typeof v == 'object'){
+                    v = JSON.stringify(v);
+                    v = 'obj-'+ v;
+                }else{
+                    v = 'str-'+ v;
+                }
+                var ls = that.uzStorage();
+                if(ls){
+                    ls.setItem(key, v);
+                }
+            }
+        },
+
+        getStorage:function(key){
+            var ls = that.uzStorage();
+            if(ls){
+                var v = ls.getItem(key);
+                if(!v){return;}
+                if(v.indexOf('obj-') === 0){
+                    v = v.slice(4);
+                    return JSON.parse(v);
+                }else if(v.indexOf('str-') === 0){
+                    return v.slice(4);
+                }
+            }
+        },
+
+        rmStorage:function(key){
+            var ls = that.uzStorage();
+            if(ls && key){
+                ls.removeItem(key);
+            }
+        },
+        clearStorage:function(){
+            var ls = that.uzStorage();
+            if(ls){
+                ls.clear();
+            }
         }
+
+
 
 
     };

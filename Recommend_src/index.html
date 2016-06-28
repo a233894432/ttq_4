@@ -17,14 +17,21 @@
     <!--// loading-->
 </head>
 <body class="grid-recommend">
-<div class="" id="container">
+    <div class="" id="container">
 
-</div>
+    </div>
 </body>
 
 <script data-baseurl="./" data-main="js/main.js" src="libs/require.js" id="index"></script>
 <script>
     <!--页面加载的动画-->
     progressJs().start().autoIncrease(10, 100);
+    window.apicloud={};
+    apiready = function(){
+
+        //数据转换
+        apicloud.trans = api.require('trans');
+
+    };
 </script>
 </html>

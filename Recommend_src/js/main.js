@@ -10,12 +10,12 @@
     var mod,containerDiv;
     var checkLogin=true;//检查用户是否登录
     containerDiv=document.getElementById('container');
-    var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus'] ; //现有模块
+    var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus','imgshow'] ; //现有模块
 
     win.isdebug=true; //是否开启debug 与开启 console.log
     //win.token='Y2sxNDY2NTgwODkwMTUy';//开发的时候
 
-    win.token='Y2sxNDY2NzYxNzA2MzI4';
+    win.token='Y2sxNDY2NDkwMTQzODMx';
     /**
      *
      * @param str
@@ -108,7 +108,8 @@
             //各功能模块的js
             recommend:'js/es5/recommendMode/index',
             rank:'js/es5/recommendMode/rank',
-            exchangeBonus:'js/es5/recommendMode/exchangeBonus'
+            exchangeBonus:'js/es5/recommendMode/exchangeBonus',
+            imgshow:'js/es5/recommendMode/imgshow'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。
             underscore: {
@@ -149,6 +150,8 @@
 
     });
 
+
+
     //暂时不用router
     //require(['jquery', 'script/router', 'underscore','tool'], function($, router, _, tool){
     //
@@ -169,3 +172,5 @@
     //});
 
 })(window);
+
+

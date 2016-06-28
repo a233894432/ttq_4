@@ -1,15 +1,16 @@
-<div class="container am-exchange-div">
+<div class="container am-exchange-div am-top-offset">
     <div class="row line-b clearfix">
         <div class="col-xxs-12 am-main-div text-center">
             <div class="am-main-box">
                 <%if(isshow){%>
-                    您尚未兑换的金额: <span class="tcolor1"><%=$app.formatMoney(data.bonus)%>元</span>
+                    您尚未兑换的金额: <span class="tcolor1" id="myBonus"><%=$app.formatMoney(data.bonus)%></span><span class="tcolor1">元</span>
                     <div class="am-input-div clearfix">
                        <div class="pull">&nbsp;&nbsp;&nbsp;本次兑换: &nbsp;&nbsp;&nbsp;</div> <span id="minusAction">-</span><input type="text"   id="exchangeNum" placeholder="100"><span id="addAction">+</span>
                     </div>
                     <div class="text-center ">
                         <a href="javascript:;" class="am-btn danger" id="sendExchange">申请兑奖</a>
                     </div>
+                <br/>
                     <p class="am-text-info">
                         (目前可兑换10的倍数的奖励)
                     </p>

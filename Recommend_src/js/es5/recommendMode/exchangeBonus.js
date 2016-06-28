@@ -126,6 +126,12 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
         console.log(data);
         if(data.success){
             $app.layer.msg("申请成功,等待审核");
+            myBonus=myBonus - parseInt($('#exchangeNum').val())*100;
+
+            console.log(myBonus);
+
+
+            var newmyBonus=myBonus/100;
 
                 var lshtml='<li><span class=\"col-xxs-5 pt10\">'+'<p class=\"text-xxs-pull\">'+data.data.order+'</p>'+
                 '<p class=\"text-xxs-pull\">'+data.data.create_at+'</p> </span>'+
@@ -133,8 +139,9 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
                     '<span class=\"col-xxs-3 tcolor2\">'+$app.formatStatus(data.data.status)+'</span></li>'
 
             $('#historyList').prepend(lshtml);
+            console.log(newmyBonus);
 
-
+            $('#myBonus').text(newmyBonus)
         }else{
             $app.layer.msg(data.msg)
         }

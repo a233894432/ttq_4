@@ -1,17 +1,21 @@
 /**
  * Created by diogoxiang on 2016/6/23.
  */
-define(['text!html/default/header.html', 'text!html/recommendMode/index.html'], function (header_tpl, index_tpl) {
+define(['text!html/default/header.html', 'text!html/recommendMode/index.html','text!html/recommendMode/myrank.html','text!html/default/imgshow.html'], function (header_tpl, index_tpl,my_tpl,img_tpl) {
 
     var cnmae,
         headHtml,
-        mainHtml;
+        mainHtml,
+        myHtml,
+        imgHtml;
 
 
     var controller = function () {
 
         headHtml = _.template(header_tpl);
         mainHtml = _.template(index_tpl);
+        myHtml= _.template(my_tpl);
+        imgHtml= _.template(img_tpl);
         var headData={
             title:'专属二维码',//顶部Title
             leftAction:true,    //左侧 退回
@@ -24,41 +28,71 @@ define(['text!html/default/header.html', 'text!html/recommendMode/index.html'], 
         $app.getAjax($url.service.recommend_main, data, successF);
 
         appView.html(headHtml(headData) + mainHtml());
-
-        var imga = document.createElement('img');
-        imga.src = 'upload/CoolShow_Z000010.jpg';
-        var imgb = document.createElement('img');
-        var ndata;
-        imga.onload = function () {
-            ndata = $app.getBase64Image(imga);
-            imgb.id = 'img-buffer';
-            imgb.src = ndata;
-            $('#imgDiv').append(imgb);
-            console.log(ndata);
-
-            $('.qcrode').empty().qrcode({
-                render: 'image',
-                mode: 4,
-                size: 240,
-                fill: '#000',
-                background: '#ffffff',
-                text: 'no textSSS',
-                ecLevel: 'H',
-                minVersion: 5,
-                quiet: 2,
-                mSize: 0.2,
-                mPosX: 0.5,
-                mPosY: 0.5,
-                image: $('#img-buffer')[0]
-            });
-        };
+        //oneImgCahce();
+        //downUimg('http://120.76.165.155:9085/userupload/20160414/CoolShow_Z000010.jpg','userimg')
 
 
     };
 
     function successF(data) {
         console.log(data)
+        if(data.success){
+            //生成二维码
+            //存URL
+            //
+            $app.setStorage('shareUrl',data.data.shorturl);
+
+           $app.drawQrcode(data.data.shorturl,240,'#myQcrode');
+
+
+            btnAction();
+
+            var adata={
+                token:token
+            }
+            $app.getAjax($url.service.recommend_getReferrerRank, adata, successE);
+
+        }else{
+            console.log("00")
+        }
     }
+
+    /**
+     * 输出我的推荐数据
+     * @param data
+     */
+    function successE(data){
+        console.log(data)
+        if(data.success){
+            var edata={
+                isshow:1,
+                data:data.data
+            }
+            $('#myRank').html(myHtml(edata))
+        }else{
+            var edata={
+                isshow:0
+            }
+            $('#myRank').html(myHtml(edata))
+        }
+
+    }
+
+
+    /**
+     * 初始化. 一些点击动作  或重新绑定事件
+     *
+     */
+    var btnAction=function(){
+        $('#myQcrode').on('click',function(e){
+           console.log(this)
+            window.location.href='index.html?m=imgshow'
+        });
+
+
+    };
+
+
 
     return controller
 });

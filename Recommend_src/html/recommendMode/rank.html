@@ -1,4 +1,4 @@
-<div class="container am-rank-div">
+<div class="container am-rank-div  am-top-offset">
     <div class="row line-b clearfix">
         <div class="col-xxs-12 am-main-div text-center">
 
@@ -12,7 +12,7 @@
                     <br/>
                     <span class="tcolor1"><%=$app.formatMoney(data.bonus)%>元</span>
 
-                    <div class="twhite" style="margin-top: 18px">
+                    <div class="am-rankMonth twhite" >
                         当月排名:&nbsp; <%=data.myrank%>
                     </div>
                 <%}else {%>
@@ -20,7 +20,7 @@
                     <br/>
                     <span class="tcolor1">--元</span>
 
-                    <div class="twhite" style="margin-top: 18px">
+                    <div class="am-rankMonth twhite"  >
                         当月排名:---
                     </div>
                 <%}%>
@@ -71,8 +71,7 @@
         <div class="row p15">
             <div class="col-xxs-8">
                 <strong class="tcolor1">兑换时间</strong><br>
-
-                <%=$app.getExchangeTime(data.starttime)%>--<%=$app.getExchangeTime(data.endtime)%>
+               <span class="font12"> <%=$app.getExchangeTime(data.starttime)%>--<%=$app.getExchangeTime(data.endtime)%></span>
             </div>
             <div class="col-xxs-4">
                 <a href="index.html?m=exchangeBonus" class="am-btn danger"> 申请兑换</a>
