@@ -3619,7 +3619,7 @@ body, html {
 
 .am-text-info {
   color: #999;
-  font-size: 60%;
+  font-size: 80%;
 }
 
 .pt10 {
@@ -3674,6 +3674,12 @@ body, html {
   color: #fff;
 }
 .am-top-header a:active {
+  height: 38px;
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+.am-top-header a:hover {
   height: 38px;
   width: 100%;
   display: block;
@@ -3797,6 +3803,7 @@ body, html {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   z-index: 2;
 }
 .am-rank-banner img {
@@ -3932,6 +3939,25 @@ body, html {
   justify-content: center;
   align-items: center;
   display: -webkit-flex;
+}
+
+.rank-icon {
+  background: url("../image/rank_icon.png") center -110px no-repeat;
+  min-width: 60px;
+  height: 45px;
+  color: #fff;
+}
+
+.icon0 {
+  background-position: center 12px;
+}
+
+.icon1 {
+  background-position: center -30px;
+}
+
+.icon2 {
+  background-position: center -70px;
 }
 
 .layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {

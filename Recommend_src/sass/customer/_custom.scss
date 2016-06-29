@@ -70,7 +70,7 @@ body, html {
 
 .#{$ns}text-info {
   color: $text-info;
-  font-size: $base-font-size * 0.6;
+  font-size: $base-font-size * 0.8;
 }
 .pt10{
   padding-top: 10px;
@@ -133,6 +133,13 @@ body, html {
       display: block;
       background: rgba(0,0,0,0.3);
     }
+    &:hover{
+      height: $header-h;
+      width:100%;
+      display: block;
+      background: rgba(0,0,0,0.3);
+    }
+
   }
 }
 .#{$ns}top-offset{
@@ -244,6 +251,7 @@ body, html {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   z-index: 2;
   img{
     width: 100%;
@@ -391,4 +399,20 @@ body, html {
   align-items:center;//子元素垂直居中
   display:-webkit-flex;
 
+}
+.rank-icon{
+  background: url("../image/rank_icon.png") center -110px no-repeat;
+  min-width: 60px;
+  height: 45px;
+  color: $white;
+
+}
+.icon0{
+  background-position: center 12px;
+}
+.icon1{
+  background-position: center -30px;
+}
+.icon2{
+  background-position: center -70px;
 }

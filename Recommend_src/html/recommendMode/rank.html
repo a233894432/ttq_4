@@ -39,9 +39,13 @@
                 <span class="col-xxs-4">推荐人数</span>
             </div>
             <ul>
-                <% _.each(data.ranklist,function(item){ %>
+                <% _.each(data.ranklist,function(item,index){ %>
                 <li>
-                    <span class="col-xxs-4"><%=item.rank%></span>
+                    <span class="col-xxs-4">
+                        <div class="rank-icon icon<%=index%>">
+                            <%=item.rank%>
+                        </div>
+                    </span>
                     <span class="col-xxs-4">
 
                         <%if(item.username){%>

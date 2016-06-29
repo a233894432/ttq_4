@@ -13,9 +13,9 @@
     var mode=['login','index','article','list','default','user','edit','about','rank','exchangeBonus','imgshow'] ; //现有模块
 
     win.isdebug=true; //是否开启debug 与开启 console.log
-    //win.token='Y2sxNDY2NTgwODkwMTUy';//开发的时候
+    win.token='Y2sxNDY3MTc5OTQyNjUw';//开发的时候
 
-    win.token='Y2sxNDY2NDkwMTQzODMx';
+    //win.token=$api.getStorage('atoken') || 0;
     /**
      *
      * @param str

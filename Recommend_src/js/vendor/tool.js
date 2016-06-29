@@ -5,7 +5,7 @@
  * anthor : diogoxiang
  */
 
-define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode'], function ($, _, lod, doc, layer, md5,qrcode) {
+define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'], function ($, _, lod, doc, layer, md5, qrcode) {
 
     /**
      * 使用 {{xx}}  模版
@@ -26,15 +26,15 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
         progress: lod,
         layer: layer,
         md5: md5,
-        qrcode:qrcode,
+        qrcode: qrcode,
 
-        isAndroid :(/android/gi).test(navigator.appVersion),
-        uzStorage: function(){
-                var ls = window.localStorage;
-                if(that.isAndroid){
-                    ls = os.localStorage();
-                }
-                return ls;
+        isAndroid: (/android/gi).test(navigator.appVersion),
+        uzStorage: function () {
+            var ls = window.localStorage;
+            if (that.isAndroid) {
+                ls = os.localStorage();
+            }
+            return ls;
         },
 
         /**
@@ -45,7 +45,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
             Log("当前接口地址是" + $url.host);
             //检查用户是否登录
             //this.checkLogin();
-            that=this;
+            that = this;
             console.log(this)
         },
         /**
@@ -63,7 +63,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
         },
 
 
-        is_weixin:function(){
+        is_weixin: function () {
             var ua = navigator.userAgent.toLowerCase();
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 return true;
@@ -186,16 +186,16 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
             var loadDateTime = _.now();
             var postid = this.getModel("id");
 
-            if(isWeixin){
+            if (isWeixin) {
                 /**
                  * 微信打开提示窗
                  */
                 $('#weixin-tip').show();
-                $('#close').on('click',function(){
+                $('#close').on('click', function () {
                     $('#weixin-tip').hide();
                 });
 
-            }else{
+            } else {
                 setTimeout(function () {
                     var timeOutDateTime = new Date();
                     if (!loadDateTime || timeOutDateTime - loadDateTime < 2010) {
@@ -205,8 +205,6 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
                 //scheme : 固定为  szttq1023319867
                 window.location = 'szttq1023319867://post/detail?post_id=' + postid;
             }
-
-
 
 
         },
@@ -248,10 +246,10 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * @param dateStr
          * @returns   默认返回 unix时间戳
          */
-        formatDatetoU:function(dateStr) {
-            var dateStr=dateStr || '2016-07-23 09:00:00';
-            var newstr = dateStr.replace(/\-/g,'/');
-            var date =  new Date(newstr);
+        formatDatetoU: function (dateStr) {
+            var dateStr = dateStr || '2016-07-23 09:00:00';
+            var newstr = dateStr.replace(/\-/g, '/');
+            var date = new Date(newstr);
             //var time_str = date.getTime().toString();
             var time_str = date.getTime();
             return time_str;
@@ -311,7 +309,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
                 var headDom = document.getElementById(eid);
                 if (scrolltop > 10) {
                     var op = scrolltop / 100;
-                    headDom.style.opacity = op+0.2;
+                    headDom.style.opacity = op + 0.2;
                     headDom.className = "container-full newHeader";
 
                 } else {
@@ -338,10 +336,10 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * 重写log 方法 输出指定前缀
          * @param str
          */
-        log:function(str){
-                var args = Array.prototype.slice.call(arguments);
-                args.unshift('(app)');
-                console.log.apply(console, args);
+        log: function (str) {
+            var args = Array.prototype.slice.call(arguments);
+            args.unshift('(app)');
+            console.log.apply(console, args);
         },
 
         /**
@@ -350,17 +348,17 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * @returns {string}
          */
 
-        getBase64Image:function (img) {
-        var canvas = document.createElement("canvas");
-        canvas.width = img.width;
-        canvas.height = img.height;
+        getBase64Image: function (img) {
+            var canvas = document.createElement("canvas");
+            canvas.width = img.width;
+            canvas.height = img.height;
 
-        var ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0, img.width, img.height);
+            var ctx = canvas.getContext("2d");
+            ctx.drawImage(img, 0, 0, img.width, img.height);
 
-        var dataURL = canvas.toDataURL("image/png");
-        return dataURL
-        // return dataURL.replace("data:image/png;base64,", "");
+            var dataURL = canvas.toDataURL("image/png");
+            return dataURL
+            // return dataURL.replace("data:image/png;base64,", "");
         },
 
         /**
@@ -368,28 +366,28 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * @param num
          * @retun 返回的是'元' 保留两位小数 '9999.00'
          */
-        formatMoney:function(num){
+        formatMoney: function (num) {
 
             //num = num.toString().replace(/\$|\,/g,'');
-            if(isNaN(num)){
-                num=0;
+            if (isNaN(num) || num == null) {
+                num = 0;
             }
-            num=parseInt(num)/100;//以整型计算
-            return num
+            num = parseInt(num) / 100;//以整型计算
+            return Number(num);
         },
 
         /**
          * 格式化 兑奖的状态
          * @param e    status 状态 0、待审核  1、已兑换
          */
-        formatStatus:function(e){
-            if(isNaN(e)){
-                e=0;
+        formatStatus: function (e) {
+            if (isNaN(e)) {
+                e = 0;
                 return "待审核";
             }
-            if(e==1){
+            if (e == 1) {
                 return "已兑换";
-            }else{
+            } else {
                 return "待审核";
             }
         },
@@ -397,8 +395,8 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * 格式化 兑奖时间
          * @param dataStr
          */
-        getExchangeTime:function(dataStr){
-            var newtime=this.formatDatetoU(dataStr);
+        getExchangeTime: function (dataStr) {
+            var newtime = this.formatDatetoU(dataStr);
             var time = new Date(newtime);
 
             function fixZero(num, length) {
@@ -411,7 +409,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
                 return s + str;
             }
 
-            return  fixZero(time.getMonth() + 1, 2) + "月" + fixZero(time.getDate(), 2) + "日" + fixZero(time.getHours(), 2) + ":" + fixZero(time.getMinutes(), 2);
+            return fixZero(time.getMonth() + 1, 2) + "月" + fixZero(time.getDate(), 2) + "日" + fixZero(time.getHours(), 2) + ":" + fixZero(time.getMinutes(), 2);
 
         },
 
@@ -420,11 +418,11 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          */
         goBack: function (e, name) {
 
-             var mod= that.getModel("m") || 0;
+            var mod = that.getModel("m") || 0;
 
-            if(mod){
+            if (mod) {
                 window.history.back(-1);
-            }else{
+            } else {
                 api.closeWin();
             }
             //if (isdebug) {
@@ -453,11 +451,11 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
         /**
          * 用于保存用户头像
          */
-        oneImgCahce:function(url){
+        oneImgCahce: function (url) {
             api.imageCache({
-                url:url,
-                thumbnail:true
-            }, function(ret, err){
+                url: url,
+                thumbnail: true
+            }, function (ret, err) {
                 console.log(ret.url);
 
             });
@@ -467,22 +465,22 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * @param url
          * @param name
          */
-       downUimg:function(url,name){
+        downUimg: function (url, name) {
             var cacheDir = api.cacheDir;
-            var saveUrl=cacheDir+'/'+name+'.png';
+            var saveUrl = cacheDir + '/' + name + '.png';
             console.log(saveUrl);
             api.download({
                 url: url,
-                savePath:saveUrl.toString(),
+                savePath: saveUrl.toString(),
                 report: true,
                 cache: true,
                 allowResume: true
-            },function(ret, err){
-                if(ret.state == 1){
+            }, function (ret, err) {
+                if (ret.state == 1) {
                     //下载成功
                     console.log(ret.savePath);
                     console.log("下载 成功")
-                }else{
+                } else {
                     //
                     console.log(err)
                 }
@@ -495,14 +493,15 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
          * @param img
          * @param url
          */
-        drawQrcode : function (url,size,select){
+        drawQrcode: function (url, size, select) {
             var imga = document.createElement('img');
             //imga.src = '/storage/emulated/0/Android/data/com.apicloud.apploader/cache/disk/thumb/3e453cb2';
-            imga.src='./upload/avatar_default.png';
+            imga.src = that.getStorage('userimg') || './upload/avatar_default.png';
+            console.log("getStorage('userimg'):::" + that.getStorage('userimg'));
             var imgb = document.createElement('img');
             var ndata;
             imga.onload = function () {
-                ndata =that.getBase64Image(imga);
+                ndata = that.getBase64Image(imga);
                 imgb.id = 'img-buffer';
                 imgb.src = ndata;
                 $('#imgDiv').append(imgb);
@@ -513,7 +512,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
                     size: size,
                     fill: '#000',
                     background: '#ffffff',
-                    text: url,
+                    text: url+4,
                     ecLevel: 'H',
                     minVersion: 5,
                     quiet: 2,
@@ -528,54 +527,110 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5','qrcode']
         },
 
 
-
         /**
          * storage
          */
-        setStorage:function(key,value){
-            if(arguments.length === 2){
+        setStorage: function (key, value) {
+            if (arguments.length === 2) {
                 var v = value;
-                if(typeof v == 'object'){
+                if (typeof v == 'object') {
                     v = JSON.stringify(v);
-                    v = 'obj-'+ v;
-                }else{
-                    v = 'str-'+ v;
+                    v = 'obj-' + v;
+                } else {
+                    v = 'str-' + v;
                 }
                 var ls = that.uzStorage();
-                if(ls){
+                if (ls) {
                     ls.setItem(key, v);
                 }
             }
         },
 
-        getStorage:function(key){
+        getStorage: function (key) {
             var ls = that.uzStorage();
-            if(ls){
+            if (ls) {
                 var v = ls.getItem(key);
-                if(!v){return;}
-                if(v.indexOf('obj-') === 0){
+                if (!v) {
+                    return;
+                }
+                if (v.indexOf('obj-') === 0) {
                     v = v.slice(4);
                     return JSON.parse(v);
-                }else if(v.indexOf('str-') === 0){
+                } else if (v.indexOf('str-') === 0) {
                     return v.slice(4);
                 }
             }
         },
 
-        rmStorage:function(key){
+        rmStorage: function (key) {
             var ls = that.uzStorage();
-            if(ls && key){
+            if (ls && key) {
                 ls.removeItem(key);
             }
         },
-        clearStorage:function(){
+        clearStorage: function () {
             var ls = that.uzStorage();
-            if(ls){
+            if (ls) {
                 ls.clear();
             }
+        },
+
+
+        //**
+
+        /**
+         * 公共跳转方法,主要用于 H5 to Native ,与原生的
+         * @param name
+         * {
+     *  name:
+     *      openYEY           ====>  摇一摇
+     *      openSFL           ====>  送福利
+     *      openDZP           ====>  大转盘
+     *      openGame          ====>  打开游戏
+     *      toRecommendModule ====>  推荐有礼
+     *      toLoginModule     ====>  用户登录
+     *      openUserInfo      ====>  用户基本信息
+     *      openExchangeRecoord   ====>  核销记录
+     *      toRevenueModel          ====> 跳到我的收益模块
+     *      toServerStationMsgModel ====>  跳到消息模块
+     *      openWebview             ====>  打开新的WEBview
+     *      showDetailImages        ====> 查看图片大图
+     * }
+         *
+         * @param data 可以当JSON对像传入
+         *  {
+     *  data:
+     *      name:name
+     *      extra:{
+     *          id:id
+     *          metainfo:data
+       *          ....
+     *      }
+     *
+     *  }
+         *
+         */
+        goAccessNative: function (name, data) {
+
+            if (typeof(data) == "object" && data != undefined) {
+                console.log("go_accessNative:::" + name + "::data:::" + data);
+                api.accessNative(data, function (ret, err) {
+                    console.log(JSON.stringify(err))
+                });
+
+            } else {
+                console.log("go_accessNative:::" + name);
+                api.accessNative({
+                    name: name,
+                    extra: {}
+                }, function (ret, err) {
+                    console.log("err:::::" + JSON.stringify(err))
+                });
+
+            }
+
+
         }
-
-
 
 
     };

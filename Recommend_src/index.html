@@ -11,7 +11,9 @@
     <meta name="format-detection" content="telephone=yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <script src="./js/url.js"></script>
+    <!--<script src="../src/js/url.js"></script>-->
+    <script src="js/url.js"></script>
+    <script src="script/api.js"></script>
     <!--页面加载 loading-->
     <script src="./libs/progress.js"></script>
     <!--// loading-->
@@ -27,10 +29,39 @@
     <!--页面加载的动画-->
     progressJs().start().autoIncrease(10, 100);
     window.apicloud={};
+
     apiready = function(){
 
-        //数据转换
-        apicloud.trans = api.require('trans');
+        apicloud.version=api.systemType || "android";
+
+
+//        关闭
+        api.sendEvent({
+            name: 'closeEvent',
+            extra: {
+                key1: 'value1'
+            }
+        });
+
+        //监听退出
+        api.addEventListener({
+            name: 'keyback'
+        }, function (ret, err) {
+
+            console.log($app.version);
+
+            $app.goBack();
+
+            api.sendEvent({
+                name: 'viewappear',
+                extra: {
+                    key1: 'value1'
+                }
+            });
+
+
+        });
+
 
     };
 </script>

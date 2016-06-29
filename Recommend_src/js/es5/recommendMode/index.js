@@ -69,11 +69,13 @@ define(['text!html/default/header.html', 'text!html/recommendMode/index.html','t
                 data:data.data
             }
             $('#myRank').html(myHtml(edata))
+            btnAction()
         }else{
             var edata={
                 isshow:0
             }
             $('#myRank').html(myHtml(edata))
+            btnAction()
         }
 
     }
@@ -87,6 +89,38 @@ define(['text!html/default/header.html', 'text!html/recommendMode/index.html','t
         $('#myQcrode').on('click',function(e){
            console.log(this)
             window.location.href='index.html?m=imgshow'
+        });
+
+        $('#goMyrank').on('click',function(e){
+            console.log(this);
+
+
+            /**
+             * android 参数 :  com.ttq8.spmcard.activity.recommend.RecommendRecordActivity
+             * IOS参数 : RecommendRecordVC
+             */
+            var goData;
+            if(apicloud.version=="android"){
+                goData={
+                    name:"toNativeMode",
+                    metainfo:'com.ttq8.spmcard.activity.recommend.RecommendRecordActivity',
+                    extra:{
+                        metainfo:'com.ttq8.spmcard.activity.recommend.RecommendRecordActivity'
+                    }
+                }
+
+            }else{
+                goData={
+                    name:"toNativeMode",
+                    metainfo:'RecommendRecordVC',
+                    extra:{
+                        metainfo:'RecommendRecordVC'
+                    }
+                }
+            }
+            $app.goAccessNative('gotoRecommend',goData)
+
+
         });
 
 
