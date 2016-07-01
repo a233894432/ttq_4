@@ -243,9 +243,11 @@ gulp.task('watchResass',function () {
         gulp.src(paths.srcPath)
         return sass(cssSrc, {style: 'expanded'})
             .pipe(gulp.dest(cssSrca))
+            .pipe(gulp.dest('../TTQMember/assets/widget/recommend/css/'))
             .pipe(rename({suffix: '.min' }))
             .pipe(cssnano())//精简
             .pipe(gulp.dest(cssSrca))
+            .pipe(gulp.dest('../TTQMember/assets/widget/recommend/css/'))
             .on('error', function (err) {
                 console.error('Error!', err.message);
             });

@@ -28,7 +28,7 @@ body, html {
     @include nowrap();
   }
   h3 {
-    font-size: 1rem;
+    font-size: $base-font-size-px * 1.2;
     margin: 0;
     font-weight: 500;
   }
@@ -42,8 +42,7 @@ body, html {
 }
 
 .fline-tb {
-  border-top: 1px solid $line-f90;
-  border-bottom: 1px solid $line-f90;
+    border-color: $line-f90;
 }
 
 .twhite {
@@ -127,6 +126,7 @@ body, html {
   z-index: 999;
   a{
     color:$white;
+    font-size: $base-font-size-px;
     &:active{
       height: $header-h;
       width:100%;
@@ -285,7 +285,7 @@ body, html {
     margin: 0 0 100px 0;
     li {
       height: 45px;
-      border-bottom: 1px solid $line-ddd;
+      @extend .#{$ns}border-b;
       span {
         height: 45px;
         line-height: 45px;
@@ -319,11 +319,11 @@ body, html {
 
   }
   .#{$ns}input-div{
-    width: 90%;
+    width: 270px;
     display: block;
     height: 2.1rem;
     line-height: 2rem;
-    text-align: left;
+    text-align: center;
     margin: 5px auto;
     span{
       @include square(2rem,2rem);

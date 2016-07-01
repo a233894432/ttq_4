@@ -62,7 +62,7 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
      * @returns {boolean}
      */
     var pareExchange=function pareExchange(e){
-
+        console.log("ss");
         if(e % 10 == 0){
             return true
         }else{
@@ -76,15 +76,16 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
     var AtionInit = function () {
 
         $('#sendExchange').on('click', function (num) {
+
             mNum=parseInt($('#exchangeNum').val()) || 100;
-            var e= _.isNumber(mNum);
+            var e= _.isNumber(parseInt($('#exchangeNum').val()));
             var data = {
                 token: token,
                 exchangenum: mNum*100
             }
-            console.log(this);
-            if(e && pareExchange(mNum) && (mNum*100 < myBonus)){
-                console.log(myBonus)
+
+            if(e && pareExchange(mNum) && (mNum*100 <= myBonus)){
+                console.log(myBonus);
                 $app.getAjax($url.service.recommend_exchangeBonus, data, successE);
             }else if(e && pareExchange(mNum) && (mNum*100 >myBonus)){
                 $app.layer.msg("你没有那么多钱申请兑换");
@@ -96,6 +97,11 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
 
         $('#minusAction').on('click',function(){
             mNum= parseInt($('#exchangeNum').val()) || 100;
+            if(mNum<0){
+                $('#exchangeNum').val(0)
+                return false
+            }
+
             var e= _.isNumber(mNum);
             if(e&&pareExchange(mNum)){
                 $('#exchangeNum').val(mNum-10)
@@ -140,7 +146,9 @@ define(['text!html/default/header.html', 'text!html/recommendMode/exchangeBonus.
 
             $('#historyList').prepend(lshtml);
             console.log(newmyBonus);
-
+            if(isNaN(newmyBonus) && newmyBonus==0){
+                newmyBonus=0;
+            }
             $('#myBonus').text(newmyBonus)
         }else{
             $app.layer.msg(data.msg)
