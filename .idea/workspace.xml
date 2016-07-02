@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5e7ad3-1638-4046-962b-420aaea16318" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Recommend_src/html/error/nonet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/css/dio.css" afterPath="$PROJECT_DIR$/Recommend_src/css/dio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/css/dio.min.css" afterPath="$PROJECT_DIR$/Recommend_src/css/dio.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/html/recommendMode/myrank.html" afterPath="$PROJECT_DIR$/Recommend_src/html/recommendMode/myrank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/html/recommendMode/rank.html" afterPath="$PROJECT_DIR$/Recommend_src/html/recommendMode/rank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/index.html" afterPath="$PROJECT_DIR$/Recommend_src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/exchangeBonus.js" afterPath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/exchangeBonus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/main.js" afterPath="$PROJECT_DIR$/Recommend_src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/sass/customer/_custom.scss" afterPath="$PROJECT_DIR$/Recommend_src/sass/customer/_custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/sass/customer/_var.scss" afterPath="$PROJECT_DIR$/Recommend_src/sass/customer/_var.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html" afterPath="$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html" afterPath="$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,20 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="tool.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recommend_src/js/vendor/tool.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="418" column="8" selection-start-line="418" selection-start-column="8" selection-end-line="418" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Recommend_src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45344618">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
@@ -57,7 +38,7 @@
       <file leaf-file-name="rank.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/rank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.558824">
+            <state vertical-scroll-proportion="0.0">
               <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
               <folding />
             </state>
@@ -100,8 +81,20 @@
         <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4413619">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +185,6 @@
         <option value="$PROJECT_DIR$/Recommend_dist/index.html" />
         <option value="$PROJECT_DIR$/Recommend_dist/js/vendor/tool.js" />
         <option value="$PROJECT_DIR$/Recommend_src/html/default/imgshow.html" />
-        <option value="$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html" />
         <option value="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/imgshow.js" />
         <option value="$PROJECT_DIR$/Recommend_src/js/url.js" />
         <option value="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/index.js" />
@@ -207,11 +199,12 @@
         <option value="$PROJECT_DIR$/Recommend_src/css/dio.css" />
         <option value="$PROJECT_DIR$/Recommend_src/index.html" />
         <option value="$PROJECT_DIR$/Recommend_src/html/error/nonet.html" />
-        <option value="$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html" />
         <option value="$PROJECT_DIR$/Recommend_src/sass/customer/_custom.scss" />
         <option value="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/exchangeBonus.js" />
         <option value="$PROJECT_DIR$/Recommend_src/js/main.js" />
         <option value="$PROJECT_DIR$/Recommend_src/html/recommendMode/rank.html" />
+        <option value="$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html" />
+        <option value="$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html" />
       </list>
     </option>
   </component>
@@ -326,6 +319,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,7 +478,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -764,11 +757,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16209081" sideWeight="0.47774482" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16209081" sideWeight="0.5222552" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16209081" sideWeight="0.5222552" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12456345" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28537455" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
@@ -887,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13386881">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expert_pc/html/article/editArticle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48367593">
@@ -1134,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="418" column="8" selection-start-line="418" selection-start-column="8" selection-end-line="418" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,14 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/exchangeBonus.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1204,7 +1179,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/rank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.558824">
+        <state vertical-scroll-proportion="0.0">
           <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
           <folding />
         </state>
@@ -1220,9 +1195,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Recommend_src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45344618">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/exchangeBonus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommend_src/html/recommendMode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4413619">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
