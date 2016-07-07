@@ -47,6 +47,7 @@ define(['text!html/default/header.html', 'text!html/recommendMode/rank.html'],fu
         function errorF(data){
 
             appView.html(headHtml(headData) + mainHtml(mainDate));
+            $app.getError('',data);
         }
 
 

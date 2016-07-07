@@ -25,6 +25,11 @@
   text-overflow: ellipsis;
 }
 
+//text normal
+@mixin  tnomal{
+  white-space: normal;
+}
+
 //box-orient
 @mixin box-orient($direction:horizontal){
   -webkit-box-orient:$direction;

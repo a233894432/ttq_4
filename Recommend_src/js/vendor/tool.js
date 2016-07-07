@@ -126,7 +126,7 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'
                     if (_.isFunction(errorF)) {
                         return errorF(url, data);
                     } else {
-                        $app.getError(url, data);
+                        that.getError(url, data);
                     }
 
                 },
@@ -144,7 +144,13 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'
          *
          */
         getError: function (url, data) {
-            console.log("出错的地址是:" + url + "::::" + "返回值是" + data);
+            console.log("出错的地址是:" + url + "::::" + "返回值是" + JSON.stringify(data));
+            //that.openW("网络错误",'html/error/nonet.html','',false)
+            api.toast({
+                msg: data.msg || "网络错误",
+                duration: 2000,
+                location: 'bottom'
+            });
         },
         /**
          * 检验用户是否已经登录
@@ -628,6 +634,37 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'
                 });
 
             }
+
+
+        },
+        /**
+         *  在打开文章详情,或是别类详情
+         * @param name 窗口名称
+         * @param url  模版地址
+         * @param data 传参数据
+         * @param e   扩展 是否可刷新  true or false
+         */
+        openW: function (name, url, data, e) {
+
+            console.log("打开" + name);
+            api.openWin({
+                name: name,
+                url: url,
+                rect: {
+                    x: 0,
+                    y: 0,
+                    w: 'auto',
+                    h: 'auto'
+                },
+                pageParam: data,
+                bounces: e,
+                reload: false,
+                animation: {
+                    type: "push",                //动画类型（详见动画类型常量）
+                    duration: 200                //动画过渡时间，默认300毫秒
+                }
+
+            });
 
 
         }

@@ -76,10 +76,11 @@
             <div class="col-xxs-8">
                 <strong class="tcolor1">兑换时间</strong><br>
                 <%if(data.isopen!=0){%>
-                <span class="font12"><%=$app.getExchangeTime(data.starttime)%>--<%=$app.getExchangeTime(data.endtime)%></span>
+                 <span class="font12"><%=$app.getExchangeTime(data.starttime)%>--<%=$app.getExchangeTime(data.endtime)%></span>
                 <%}else{%>
-                <span class="font12">暂不能兑奖</span>
+                 <span class="font12">暂不能兑奖</span>
                 <%}%>
+
             </div>
             <div class="col-xxs-4">
                 <a href="index.html?m=exchangeBonus" class="am-btn danger"> 申请兑换</a>
