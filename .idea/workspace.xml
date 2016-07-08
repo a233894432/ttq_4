@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5e7ad3-1638-4046-962b-420aaea16318" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_demo/script/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/index.html" afterPath="$PROJECT_DIR$/Recommend_src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/imgshow.js" afterPath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/imgshow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/index.js" afterPath="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/main.js" afterPath="$PROJECT_DIR$/Recommend_src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recommend_src/js/vendor/tool.js" afterPath="$PROJECT_DIR$/Recommend_src/js/vendor/tool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_demo/res/ttq.sqlite" afterPath="$PROJECT_DIR$/db_demo/res/ttq.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_demo/html/win_home.html" afterPath="$PROJECT_DIR$/db_demo/html/win_home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_demo/script/db.js" afterPath="$PROJECT_DIR$/db_demo/script/db.js" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/Recommend_src/js/vendor/tool.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+              <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -92,8 +88,8 @@
       <file leaf-file-name="win_home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_demo/html/win_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.617647">
-              <caret line="177" column="26" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
+            <state vertical-scroll-proportion="-17.147058">
+              <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -102,9 +98,17 @@
       <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_demo/script/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29439253">
-              <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.68380064">
+              <caret line="665" column="45" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="45" />
+              <folding>
+                <element signature="e#2230#2343#0" expanded="false" />
+                <element signature="e#2415#2545#0" expanded="false" />
+                <element signature="e#2601#2697#0" expanded="false" />
+                <element signature="e#5400#5517#0" expanded="false" />
+                <element signature="e#5569#5774#0" expanded="false" />
+                <element signature="e#5834#7072#0" expanded="false" />
+                <element signature="e#7137#7216#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,8 +191,8 @@
         <option value="$PROJECT_DIR$/Recommend_src/js/es5/recommendMode/imgshow.js" />
         <option value="$PROJECT_DIR$/db_demo/config.xml" />
         <option value="$PROJECT_DIR$/db_demo/index.html" />
-        <option value="$PROJECT_DIR$/db_demo/script/db.js" />
         <option value="$PROJECT_DIR$/db_demo/html/win_home.html" />
+        <option value="$PROJECT_DIR$/db_demo/script/db.js" />
       </list>
     </option>
   </component>
@@ -739,7 +743,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16209081" sideWeight="0.47774482" order="2" side_tool="true" content_ui="tabs" />
@@ -1146,34 +1150,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_demo/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.705882">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/js/vendor/tool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.117647">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_demo/html/win_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.617647">
-          <caret line="177" column="26" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1186,11 +1166,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db_demo/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.705882">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommend_src/js/vendor/tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_demo/html/win_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.147058">
+          <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_demo/script/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29439253">
-          <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
-          <folding />
+        <state vertical-scroll-proportion="0.68380064">
+          <caret line="665" column="45" selection-start-line="665" selection-start-column="45" selection-end-line="665" selection-end-column="45" />
+          <folding>
+            <element signature="e#2230#2343#0" expanded="false" />
+            <element signature="e#2415#2545#0" expanded="false" />
+            <element signature="e#2601#2697#0" expanded="false" />
+            <element signature="e#5400#5517#0" expanded="false" />
+            <element signature="e#5569#5774#0" expanded="false" />
+            <element signature="e#5834#7072#0" expanded="false" />
+            <element signature="e#7137#7216#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

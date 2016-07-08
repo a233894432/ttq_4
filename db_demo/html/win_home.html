@@ -62,9 +62,9 @@
                         <p>简介</p>
                      </div>
                  </div>
-                 <div tapmode="hover" onclick="funOpenArticle( this );"  class="flex-wrap flex-con layout-wrap">
+                 <div tapmode="hover" onclick="updataDB();"  class="flex-wrap flex-con layout-wrap">
                      <div class="flex-con layout  ic-article">
-                        <h6>标题3</h6>
+                        <h6>更新数据库</h6>
                         <p>简介</p>
                      </div>
                  </div>
@@ -127,7 +127,10 @@
             var optionId1 = $sqlite_api.createObj();
             $sqlite_api.config(optionId1,'','ttq').exec(optionId1,sql,function(status,msg){
                 if(status){
-                    alert('sql执行成功');
+//                    alert('sql执行成功');
+                    api.toast({
+                        msg:'sql执行成功'
+                    });
                 }else{
                     alert(msg);
                 }
@@ -140,7 +143,10 @@
             var optionId2 = $sqlite_api.createObj();
             $sqlite_api.config(optionId2,'goods','ttq').add(optionId2,arr,function(status,msg){
                 if(status){
-                    alert('插入数据成功');
+//                    alert('插入数据成功');
+                    api.toast({
+                        msg:'插入数据成功'
+                    });
                 }else{
                     alert('操作失败'+msg);
                 }
@@ -182,6 +188,14 @@
                     alert('读取失败:失败原因：'+data);
                 }
             });
+        }
+
+
+        function updataDB(){
+            var dbinfo =  $api.getStorage('sqlite_dbInfo');
+            console.log(JSON.stringify(dbinfo));
+            $sqlite_api.updataDb();
+
         }
 
         var mySwipe = new Swipe($api.dom('.swipe'), {

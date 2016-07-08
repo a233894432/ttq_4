@@ -1,6 +1,6 @@
-
 /**
  * Created by diogoxiang on 2016/3/12.
+ *
  * @version 1.0 sqlite操作文件
  * @todo 待解决的事情：   采用面向对象实现，这样在拼接SQL的时候就不用受到上次调用同样方法的影响，这样不用再每个方法都传一个固定的object对象
  */
@@ -26,6 +26,7 @@
     u.dbInfo = null; // 存储了是否打开了数据库的相关信息
 
     // 数据库存放在widget的路径,对应要复制到fs目录下的地址固定为fs://sqlite/
+    u.dbThisName='ttq';//数据库的默认名称
     u.dbPath = {"ttq" : "widget://res/ttq.sqlite"};
     u.fs = null;
     u.storeArr = []; // 用于存放配置对象的数组
@@ -640,5 +641,48 @@
         u.dbInfo = {};
         $api.setStorage('sqlite_dbInfo',{});
     };
+    /**
+     * 初始化数据库,以及 强制升级 数据库的表结构
+     * @param e
+     */
+    //TODO 新加强制升级数据库的表结构 或是 重置数据
+    u.updataDb=function(e){
+       if (!u.fs) {
+            u.fs = api.require('fs');
+        }
+        var filepath = u.getDbPath(u.dbThisName);
+        u.fs.exist({
+            path: filepath
+        },function(ret,err){
+            if(ret.exist){
+                //找到数据库了 并查询看能用不
+                console.log("找到数据库了,并强制升级")
+            //没有找到数据库 就拷贝一份到fs 目录
+                u.fs.copyTo({
+                    oldPath: u.dbPath[u.dbThisName],
+                    newPath: "fs://sqlite"
+                },function(ret,err){
+                    if (ret.status) {
+                        console.log("强制升级成功")
+                    }else {
+                        if(typeof fail == 'function'){
+                            if(err.code != undefined){
+                                var msg = u.fsCode[err.code];
+                            }else{
+                                var msg = '文件复制失败';
+                            }
+                            api.toast({
+                                msg:msg
+                            });
+                        }
+                    }
+                });
+            }
+        });
+
+
+    };
+
+
     window.$sqlite_api = u;
 })(window);
