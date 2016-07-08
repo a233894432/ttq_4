@@ -42,7 +42,12 @@ define(['text!html/default/header.html', 'text!html/recommendMode/index.html','t
             //
             $app.setStorage('shareUrl',data.data.shorturl);
 
-           $app.drawQrcode(data.data.shorturl,240,'#myQcrode');
+            if(apicloud.version=="ios"){
+                $app.getNativeQrcode({txturl:data.data.shorturl},'#myQcrode')
+            }else{
+                $app.drawQrcode(data.data.shorturl,240,'#myQcrode');
+            }
+
 
 
             btnAction();

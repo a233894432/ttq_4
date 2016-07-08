@@ -527,6 +527,8 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'
                     mPosY: 0.5,
                     image: $('#img-buffer')[0]
                 });
+
+
             };
 
 
@@ -666,6 +668,45 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5', 'qrcode'
 
             });
 
+
+        },
+        /**
+         * IOS 调用 原生 插件生成二维码 并返回   <img src="ssss.png">
+         * @param data
+         *          {
+         *              txturl:""  // 生成二维码的内容
+         *              imgurl:""  //中间的头像
+         *              bigSize:240 //默认大小
+         *              smallSize:40 //默认头像  大小
+         *
+         *              }
+         * @param select   返回的插入的DIV.selector
+         */
+        //TODO IOS新加二维码生成 并返回 本地图片地址
+        getNativeQrcode: function (data, select) {
+            var nQrcode = api.require('ttqNative') || {};
+            var edata = {
+                txturl: data.txturl,
+                imgurl: that.getStorage('userimg') || './upload/avatar_default.png',
+                bigSize: data.bigSize || 240,
+                smallSize: data.smallSize || 40
+            };
+            //生成一个图片并返回 html
+            var inImg = document.createElement('img');
+            nQrcode.qcoder(edata, function (ret) {
+                if(ret.imageData){
+                    inImg.src=ret.imageData
+                    $(select).append(inImg);
+                }else{
+                    inImg.src='../image/05_01blankpage_img05.png';
+                    $(select).append(inImg);
+                    api.toast({
+                        msg: '生成二维码失败',
+                        duration: 2000,
+                        location: 'bottom'
+                    });
+                }
+            });
 
         }
 

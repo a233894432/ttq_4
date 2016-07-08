@@ -33,7 +33,7 @@
     apiready = function(){
 
         apicloud.version=api.systemType || "android";
-
+        apicloud.nQrcode= api.require('ttqNative') || {};
 
 //        关闭
         api.sendEvent({

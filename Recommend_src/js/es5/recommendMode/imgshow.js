@@ -11,7 +11,14 @@ define(['text!html/default/imgshow.html'], function (img_tpl) {
         imgHtml = _.template(img_tpl);
         appView.html(imgHtml());
         var shareurl = $app.getStorage('shareUrl');
-        $app.drawQrcode(shareurl, 800, '#myQcrodeBig');
+        console.log(shareurl)
+        if(apicloud.version=="ios"){
+            $app.getNativeQrcode({txturl:shareurl},'#myQcrodeBig')
+        }else{
+            $app.drawQrcode(shareurl,800,'#myQcrodeBig');
+
+        }
+
 
         btnAction();
 
