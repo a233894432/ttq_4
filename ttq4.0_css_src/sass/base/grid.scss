@@ -1,0 +1,337 @@
+@import
+"../base/mixin",
+"../base/variable";
+.am-bigwrap{
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+
+
+.am-container{
+  width: 100%;
+  height: auto;
+  //border-bottom: 1px solid $border-line;
+  box-shadow: 0 1px 2px -1px #ccc;
+  //加上1个PX的阴影
+  min-height:2rem;
+  font-size: $font-size-base;
+  background-color: $default-bg;
+  //display: block;
+}
+.am-wrap{
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 2rem;
+  font-size: $font-size-base;
+  background-color: $default-bg;
+}
+//
+.am-header{
+  min-height: 3.28rem;
+  width: 100%;
+  overflow: hidden;
+}
+.am-line{
+  clear: both;
+  margin-top: .12rem;
+}
+//common
+.am-box{
+  padding:0  0.2rem;
+  clear: both;
+  width: auto;
+}
+
+
+
+//san deng fen
+.am-col3{
+  -webkit-box-flex:1.0;
+  box-flex:1.0;
+  padding: 0.24rem;
+  min-width: 1.3rem;
+  overflow: hidden;
+  &:active{
+    background: $main-abg;
+  }
+  .am-img{
+    overflow: hidden;
+    margin-top: 0.12rem;
+    width:1.92rem;
+    height:2.4rem;
+    background-color: $main-bg;
+    img{
+      width: 100%;
+    }
+  }
+}
+.am-col1{
+  -webkit-box-flex:0;
+  box-flex:0;
+  padding: 0.24rem;
+  max-width: 1.92rem;
+  overflow: hidden;
+  &:active{
+    background: $main-abg;
+  }
+  .am-img{
+    min-width: 1.92rem;
+    overflow: hidden;
+    background: $default-bg;
+    img{
+      width: 100%;
+    }
+  }
+}
+.am-col2{
+  -webkit-box-flex:2.2;
+  box-flex:2.2;
+  min-width: 2rem;
+  overflow: hidden;
+
+  b{
+    font-weight: normal;
+  }
+}
+.am-row{
+  -webkit-box-flex:1.0;
+  box-flex:1.0;
+  padding: 0.24rem;
+  overflow: hidden;
+  &:active{
+    background: $main-abg;
+  }
+  .am-img{
+    max-width: 1.92rem;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+  }
+}
+//抢沟秒box
+.am-timebox{
+  font-size: $font-size-info*0.9;
+  color: $txt-info;
+  max-width: 1.92rem;
+  margin:0.08rem 0;
+  line-height: 1.4;
+  overflow: hidden;
+  span{
+
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 3px;
+    background-color:$txt-info ;
+    text-align: center;
+    color: $txt-withe;
+    padding: 0.01rem;
+
+
+  }
+
+}
+.am-miaobox{
+  .am-txtbox{
+
+    overflow: hidden;
+    .am-timebox{
+      max-width: 100%;
+    }
+    span{
+      background-color: transparent;
+      border: 1px solid $txt-color06;
+      color: $txt-color06;
+      padding: 0.02rem;
+      margin: 0 0.01rem;
+
+
+    }
+    i{
+      color: $txt-color06;
+      font-style: normal;
+    }
+
+  }
+}
+.am-qiangbox{
+  .am-txtbox{
+
+    overflow: hidden;
+    span{
+      width: auto;
+      padding: 0.02rem 0.04rem;
+      margin: 0 0.01rem;
+
+
+    }
+  }
+}
+
+.am-name{
+  color: $txt-default;
+}
+
+//am-list
+.am-list {
+  width: 100%;
+  height: auto;
+  padding-bottom: .2rem;
+  li {
+    padding: 0.24rem;
+    border-bottom: 1px solid $border-line;
+    &:active{
+      background: rgba(0,0,0,0.1);
+    }
+    .am-img {
+      float: left;
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-right: 0.24rem;
+      overflow: hidden;
+      background-color: $main-bg;
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+
+}
+
+//
+.am-s-list{
+  @extend .am-list;
+  padding-bottom: 0;
+
+  li{
+    display: block;
+    clear: both;
+  }
+  .am-img{
+    @include avatar(120);
+    background-color: $main-bg;
+  }
+  .am-txtBox{
+    float: left;
+    width: 78%;
+    display: block;
+    line-height: 0.8rem;
+    color: $txt-default;
+  }
+  .am-arrowlink{
+
+    line-height: 0.8rem;
+    i{
+      margin-top: 0.05rem;
+    }
+  }
+
+}
+
+
+//root index
+.am-main{
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: $font-size-base;
+
+}
+.am-footbar{
+  height: 0.88rem;;
+  max-height: 0.88rem;
+  border-top: 1px solid $border-line;
+  overflow:hidden;
+  background-color: #fafafa;
+  -webkit-box-flex: 1.0;
+  box-flex:1.0;
+
+}
+.am-footnav{
+  -webkit-box-flex: 1.0;
+  box-flex:1.0;
+  height: 100%;
+  text-align: center;
+  line-height: 0.44rem;
+  color: $txt-info;
+  position: relative;
+  &:active{
+    background:$main-abg;
+    color: $header-bg;
+  }
+  span{
+    display: block;
+    width: 100%;
+    height: 0.44rem;
+    text-align: center;
+    font-size: $font-size-base *0.6;
+
+    i{
+      font-size: 0.4rem;
+      line-height: 0.65rem;
+    }
+
+  }
+  .am-lh{
+    line-height: 0.15rem;
+  }
+
+}
+
+//公用的一些css
+.am-title{
+  color: $txt-default;
+}
+.am-info{
+  color:$txt-info;
+  font-size: $font-size-base * 0.8;
+  line-height: $font-size-base * 0.8;
+}
+.am-circlebox{
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: $header-bg;
+  margin:0 auto;
+  color: $txt-withe;
+
+}
+.am-tip{
+  line-height: $font-size-base * 1.6;
+}
+
+.am-hd{
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-bottom: 0.05rem;
+  background: $default-bg;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 999;
+  span{
+    width: 50%;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid $border-eee;
+    &:active{
+      background: rgba(0,0,0,0.1);
+    }
+  }
+  .am-active{
+    border-bottom: 2px solid $header-bg;
+  }
+}
+.am-mt80{
+  margin-top: 0.86rem;
+
+}

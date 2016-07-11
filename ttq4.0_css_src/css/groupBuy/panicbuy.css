@@ -1,0 +1,96 @@
+
+/*--index page css start--*/
+.am-ctimeinfo .ui-icon {
+  display: inline-block;
+  color: #ff9000;
+}
+
+.am-btn {
+  margin-top: 0.2rem;
+  width: 1.3rem;
+  border-radius: .1rem;
+}
+
+.buy-btn-start {
+  color: #fff;
+  background: #ff9000;
+  -webkit-box-shadow: 0 0 1px 0 #ff9000;
+  box-shadow: 0 0 1px 0 #ff9000;
+}
+
+.buy-btn-ready {
+  color: #ff9000;
+  -webkit-box-shadow: 0 0 1px 0 #ff9000;
+  box-shadow: 0 0 1px 0 #ff9000;
+}
+
+.buy-btn-end {
+  color: #ccc;
+  -webkit-box-shadow: 0 0 1px 0 #ccc;
+  box-shadow: 0 0 1px 0 #ccc;
+}
+
+
+/*--index page css end--*/
+
+
+/*--detail page css start--*/
+.detail-com-body {
+  height: auto;
+  padding-bottom: .88rem;
+}
+
+.btn-buy-active {
+  background-color: #d37100;
+}
+
+.am-buybar-numbox span.disabled {
+  color: #ccc;
+}
+
+.am-badgeBox-min {
+  background-color: #ff6400;
+}
+
+.am-badgeBox-max {
+  background-color: #f00;
+}
+
+.active-progressBox {
+  width: auto;
+  margin-left: .01rem;
+  padding: .02rem .1rem;
+  line-height: .3rem;
+  color: #ff9000;
+  height: .3rem;
+}
+
+.active-progressBox .am-progress-txt {
+  font-size: 0.21rem;
+  padding: 0 .1rem;
+  right: 0;
+  bottom: 0;
+  width: auto;
+}
+
+.am-detail-bd .propTr {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.am-detail-bd .propTr:not(:last-child) {
+  padding-bottom: .1rem;
+}
+
+.am-detail-bd .propTr .propKey {
+  width: 12%;
+}
+
+.am-detail-bd .propTr .propValue {
+  width: 88%;
+}
+
+#goodsInfoDetail img {
+  width: 100%;
+}
+/*--detail page css end--*/

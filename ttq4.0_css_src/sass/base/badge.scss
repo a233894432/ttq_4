@@ -1,0 +1,76 @@
+@import
+
+    "../base/mixin",
+    "../base/variable";
+/**
+ * 未读数通知
+ */
+%badge{
+    display: inline-block;
+    text-align: center;
+    background: $reddot-bg;
+    color: #fff;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    -webkit-border-radius: 8px;
+    padding: 0 3px;
+    background-clip: padding-box;
+}
+.ui-badge{  
+    @extend %badge;
+}
+/* 浅色的 */
+
+.ui-badge-muted{
+    @extend .ui-badge;
+    background: #b6cae0;
+}
+.ui-badge-num{
+    @extend .ui-badge;
+    height: 19px;
+    line-height: 20px;
+    font-size: 12px;
+    min-width: 19px;
+    -webkit-border-radius: 10px;
+}
+.ui-badge-wrap{
+    position: relative;
+    text-align: center;
+}
+.ui-badge-corner{
+    @extend %badge;
+    position: absolute;
+    border: 2px #fff solid;
+    height: 20px;
+    line-height: 20px;
+    top: -4px;
+    right: -9px;
+}
+.ui-badge-cornernum{
+    @extend %badge;
+    position: absolute;
+
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    height: 0.24rem;
+    line-height: 0.25rem;
+    font-size: 0.20rem;
+    /* max-width: 0.12rem; */
+    -webkit-border-radius: 0.30rem;
+    text-align: center;
+
+}
+//微标 正方形的
+.am-badgeBox{
+    height: 0.3rem;
+    border: 1px solid $txt-color06;
+    font-size: $font-size-base * 0.7;
+    text-align: center;
+    color:$txt-color06 ;
+    display: inline-block;
+    padding: 0.02rem 0.08rem;
+    line-height: 0.3rem;
+    margin-right: 0.04rem;
+}

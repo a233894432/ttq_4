@@ -284,6 +284,37 @@ gulp.task('clearReDist',function(){
 });
 
 
+/**
+ *
+ * 监听Recommend_SRC
+ * */
+
+gulp.task('watchTTQ4.0_sass',function () {
+    var cssSrc = 'ttq4.0_css_src/sass/*.scss',
+        cssSrca= 'ttq4.0_css_src/css';//源码也输出一份
+
+    gulp.watch('ttq4.0_css_src/sass/**/*.scss', function (event) {
+        var paths = watchPath(event,'ttq4.0_css_src/sass/','ttq4.0_css_src/css/');
+
+        gutil.log(gutil.colors.green(event.type) + ' ' + paths.srcPath);
+        gutil.log('Dist ' + paths.distPath);
+
+        gulp.src(paths.srcPath)
+        return sass(cssSrc, {style: 'expanded'})
+            .pipe(gulp.dest(cssSrca))
+            //.pipe(gulp.dest('../TTQMember/assets/widget/recommend/css/'))
+            .pipe(rename({suffix: '.min' }))
+            .pipe(cssnano())//精简
+            .pipe(gulp.dest(cssSrca))
+            //.pipe(gulp.dest('../TTQMember/assets/widget/recommend/css/'))
+            .on('error', function (err) {
+                console.error('Error!', err.message);
+            });
+
+    })
+
+});
+
 //监听并自动
 gulp.task('auto', function () {
     // 监听文件修改，当文件被修改则执行 script 任务
@@ -299,3 +330,7 @@ gulp.task('auto', function () {
     gulp.watch('./Recommend_src/**/*', ['bulidRecommend']);
 
 });
+
+
+
+

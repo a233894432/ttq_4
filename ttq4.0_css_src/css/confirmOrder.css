@@ -1,0 +1,500 @@
+
+@font-face {
+    font-family: "iconfont";
+    src: url(font/iconfont.ttf) format("truetype");
+}
+.ui-icon, [class^="ui-icon-"] {
+    font-family: "iconfont" !important;
+    font-size: 0.3rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.1px;
+}
+
+.ui-icon-icon06:before {
+    content: "\e63f";
+}
+
+.ui-icon-icon09:before {
+    content: "\e600";
+}
+
+.ui-icon-icon27:before {
+    content: "\e629";
+}
+
+.ui-icon-icon34:before {
+    content: "\e601";
+}
+
+.ui-icon-icon53:before {
+    content: "\e602";
+}
+
+.ui-icon-icon55:before {
+    content: "\e603";
+}
+
+.ui-icon-iconhomepagedefault:before {
+    content: "\e604";
+}
+
+.ui-icon-iconhomepageselected:before {
+    content: "\e605";
+}
+
+.ui-icon-iconservicestationdefault:before {
+    content: "\e606";
+}
+
+.ui-icon-iconservicestationselected:before {
+    content: "\e607";
+}
+
+.ui-icon-iconfinddefault:before {
+    content: "\e608";
+}
+
+.ui-icon-iconfindselected:before {
+    content: "\e609";
+}
+
+.ui-icon-iconwodedefault:before {
+    content: "\e60a";
+}
+
+.ui-icon-iconwodeselected:before {
+    content: "\e60b";
+}
+
+.ui-icon-iconscandefault:before {
+    content: "\e60c";
+}
+
+.ui-icon-iconsigndefault:before {
+    content: "\e60d";
+}
+
+.ui-icon-iconnoticedefault:before {
+    content: "\e60e";
+}
+
+.ui-icon-iconnewsdefault:before {
+    content: "\e60f";
+}
+
+.ui-icon-iconcollectiondefault:before {
+    content: "\e610";
+}
+
+.ui-icon-iconcommentdefault:before {
+    content: "\e611";
+}
+
+.ui-icon-iconlikedefault:before {
+    content: "\e612";
+}
+
+.ui-icon-iconclosedefault:before {
+    content: "\e613";
+}
+
+.ui-icon-iconcollectionselected:before {
+    content: "\e614";
+}
+
+.ui-icon-iconfollowdefault:before {
+    content: "\e615";
+}
+
+.ui-icon-icongiftdefault:before {
+    content: "\e616";
+}
+
+.ui-icon-iconhelpfeedbackdefault:before {
+    content: "\e617";
+}
+
+.ui-icon-iconintegraldefault:before {
+    content: "\e618";
+}
+
+.ui-icon-iconiphonedefault:before {
+    content: "\e619";
+}
+
+.ui-icon-iconmoredefault:before {
+    content: "\e61a";
+}
+
+.ui-icon-iconmore01default:before {
+    content: "\e61b";
+}
+
+.ui-icon-iconmyaboutdefault:before {
+    content: "\e61c";
+}
+
+.ui-icon-iconmycommentdefault:before {
+    content: "\e61d";
+}
+
+.ui-icon-iconmycoupondefault:before {
+    content: "\e61e";
+}
+
+.ui-icon-iconmyfollowdefault:before {
+    content: "\e61f";
+}
+
+.ui-icon-iconmygiftdefault:before {
+    content: "\e620";
+}
+
+.ui-icon-iconmymoredefault:before {
+    content: "\e621";
+}
+
+.ui-icon-iconmyorderdefault:before {
+    content: "\e622";
+}
+
+.ui-icon-iconmypostdefault:before {
+    content: "\e623";
+}
+
+.ui-icon-iconreminddefault:before {
+    content: "\e624";
+}
+
+.ui-icon-iconreturndefault:before {
+    content: "\e625";
+}
+
+.ui-icon-iconsharedefault:before {
+    content: "\e626";
+}
+
+.ui-icon-iconsigndefault1:before {
+    content: "\e627";
+}
+
+.ui-icon-iconsubscribedefault:before {
+    content: "\e628";
+}
+
+.ui-icon-iconaddtodefault:before {
+    content: "\e62a";
+}
+
+.ui-icon-iconbalancedefault:before {
+    content: "\e62b";
+}
+
+.ui-icon-iconpicturedefault:before {
+    content: "\e62c";
+}
+
+.ui-icon-iconphotographdefault:before {
+    content: "\e62d";
+}
+
+.ui-icon-iconwechatdefault:before {
+    content: "\e62e";
+}
+
+.ui-icon-iconqqdefault:before {
+    content: "\e62f";
+}
+
+.ui-icon-iconqqzonedefault:before {
+    content: "\e630";
+}
+
+.ui-icon-iconfriendscircledefault:before {
+    content: "\e631";
+}
+
+.ui-icon-iconnews01default:before {
+    content: "\e632";
+}
+
+.ui-icon-iconclose01default:before {
+    content: "\e633";
+}
+
+.ui-icon-iconexpert01default:before {
+    content: "\e634";
+}
+
+.ui-icon-iconexpertdefault:before {
+    content: "\e635";
+}
+
+.ui-icon-iconganjuquan:before {
+    content: "\e636";
+}
+
+.ui-icon-iconpingguoquan:before {
+    content: "\e637";
+}
+
+.ui-icon-iconmangguoquan:before {
+    content: "\e638";
+}
+
+.ui-icon-iconputaoquan:before {
+    content: "\e639";
+}
+
+.ui-icon-iconguacaiquan:before {
+    content: "\e63a";
+}
+
+.ui-icon-icondamaiquan:before {
+    content: "\e63b";
+}
+
+.ui-icon-iconxiangjiaoquan:before {
+    content: "\e63c";
+}
+
+.ui-icon-iconqitazuowuquan:before {
+    content: "\e63d";
+}
+
+.ui-icon-iconrushdefault:before {
+    content: "\e63e";
+}
+
+.ui-icon-labelorder:before {
+    content: "\e640";
+}
+
+.ui-icon-imglinktimeout:before {
+    content: "\e642";
+}
+
+.ui-icon-blankpagenocontent:before {
+    content: "\e641";
+}
+.ui-icon-iconwechat:before {
+    content: "\e658";
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html, body {
+    height: auto;
+    background-color: #ebebeb;
+}
+ul{
+    list-style: none;
+}
+span {
+    display: inline-block;
+}
+header {
+    background-color: #00a53c;
+    line-height: 0.88rem;
+    height: 0.88rem;
+    position: relative;
+    font-weight: 100;
+}
+header span {
+    min-width: 0.70rem;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.27rem;
+    z-index: 2;
+}
+header .am-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.342rem;
+    color: #ffffff;
+}
+.am-main {
+}
+.am-order {
+    font-size: 0.3rem;
+    padding-top: 0.24rem;
+}
+.am-bline {
+    border-bottom: 1px solid #eeeeee;
+}
+.am-order .am-order-tip {
+    font-size: 0.27rem;
+    color: #999;
+}
+.am-box {
+    padding: 0 0.2rem;
+}
+.am-order .am-order-box {
+    background: #fff;
+    margin-top: 0.16rem;
+}
+.am-order .am-order-box ul {
+    width: 100%;
+}
+.am-order .am-order-box ul li {
+    min-height: 1rem;
+    height: auto;
+    line-height: 1rem;
+    color: #999;
+    text-align: left;
+    padding: 0 0.24rem;
+    position: relative;
+}
+.am-order .am-order-box ul li span {
+    min-width: 25%;
+    color: #333;
+}
+.am-order .am-order-box ul li input {
+    width: 73%;
+    background: #fff;
+    color: #999;
+    outline: none;
+    font-size: 1em;
+}
+.am-order .am-order-box ul li .input-wrap {
+    width: 73%;
+    display: inline-block;
+}
+.am-order .am-order-box ul li .info {
+    width: 75%;
+    max-width: 75%;
+    line-height: 1.2;
+    margin-left: 1.64rem;
+    position: relative;
+}
+.am-order .am-order-box ul li .am-img {
+    width: 1.4rem;
+    height: 1.4rem;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.am-img {
+    background-color: #ebebeb;
+}
+.am-order .am-order-box ul li img {
+    width: 100%;
+    height: 100%;
+}
+.am-buybar {
+    width: 100%;
+    height: 0.88rem;
+    background: #fafafa;
+    border-top: 1px solid #bbb;
+    line-height: 0.88rem;
+}
+.am-buybar-numbox {
+    font-size: 0.27rem;
+    margin: 0rem 0.15rem 0 0.3rem;
+    display: inline-block;
+}
+.am-buybar-pirce {
+    display: inline-block;
+    font-size: 0.27rem;
+}
+.am-tline {
+    background: #eeeeee;
+    display: block;
+    height: 1px;
+    line-height: 1px;
+    margin-left: 0.24rem;
+}
+.am-order .am-order-box ul li .info .am-info {
+    margin: 0.1rem 0;
+}
+.am-price {
+    font-size: 0.3rem;
+    color: #ff9000;
+}
+.am-title {
+    color: #333;
+}
+.am-info {
+    color: #999;
+    font-size: 0.24rem;
+}
+.ui-nowrap-multi2 {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.ui-nowrap-flex {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.f-fr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.f-mt10 {
+    margin-top: 0.1rem;
+}
+.am-buybar-btn {
+    width: 25%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 0.27rem;
+    background: #ff9000;
+}
+
+.tap-active{
+    position: relative;
+}
+
+.tap-active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: inherit;
+    border-radius: inherit;
+    background: rgba(0,0,0,.2);
+    margin: -1px;
+}
+.mask-layout {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/*专家解决方案*/
+.am-Address{
+    color: #666;
+    font-size: 0.26rem;
+    padding: 0.8rem 0 0.8rem 1rem;
+}
+
+

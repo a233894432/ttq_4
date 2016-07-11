@@ -1,0 +1,47 @@
+$progress-f5:   #f5f5f5;
+.am-on{
+  border: 1px solid $txt-color06;
+}
+.am-off{
+  border: 1px solid $txt-ccc;
+  .am-progress-bar{
+    color:$txt-ccc ;
+    background: #EEEEEE;
+  }
+  .am-progress-txt{
+    color:$txt-ccc ;
+    //background: $txt-ccc + 30;
+  }
+}
+.am-progressBox{
+  width:2.5rem;
+  height: 0.32rem;
+
+  position: relative;
+
+
+}
+.am-progress-bar{
+  position: absolute;
+  z-index: 8;
+
+  left: 0;
+  top:0;
+  float: left;
+  width: 0;
+  height: 100%;
+  background: $txt-color06 + 30;
+  opacity: 0.4;
+}
+.am-progress-txt{
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  font-size: $font-size-base * 0.8 ;
+  text-align: center;
+  line-height: 0.3rem;
+}
+

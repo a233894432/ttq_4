@@ -1,0 +1,65 @@
+
+.am-findbox {
+	margin: 0.16rem;
+}
+.am-findbox .am-horizontal {
+	margin-bottom: 0.16rem;
+}
+.am-findbox .am-col3 {
+	background-color: #fff;
+	border-radius: 0.12rem;
+	text-align: center;
+	padding: 0.24rem 0.16rem;
+	letter-spacing: 1px;
+	border:1px solid #CCCCCC;
+	overflow: hidden;
+	float: left;
+    width: 27%;
+    margin-left: 0.24rem;
+    margin-top:0.24rem;
+}
+.am-findbox .am-col3:active{
+	background:#ebebeb;
+}
+.am-findbox .am-col3+.am-col3 {
+   /*margin-left: 0.16rem;*/
+}
+.am-findbox .am-col3 .img-box {
+	width: 1.68rem;
+	height: 1.68rem;
+	overflow: hidden; 
+	margin: 0 auto 0.16rem;
+}
+.am-findbox .img-box img{
+	width: 98%;
+}
+.am-findbox h4 {
+	color: #333;
+	font-size: 0.36rem;
+	margin-bottom: 0.08rem;
+	line-height: 0.36rem;
+}
+.am-findbox  p {
+	font-size: 0.23rem;
+	margin-bottom: 0.16rem;
+	line-height: 0.28rem;
+	overflow: hidden;
+  	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.persons-box {
+	color: #999;
+	font-size: 0.2rem;
+	border-top: 1px solid #eee;
+	padding: 0.16rem 0 0.08rem;
+	line-height: 0.24rem;
+}
+.persons-box i {
+	color: #32bef5;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.06rem;
+}
+.hidden {
+	visibility: hidden;
+}

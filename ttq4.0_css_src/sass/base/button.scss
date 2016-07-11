@@ -1,0 +1,68 @@
+//btn
+.am-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: $global-radius;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+  user-select: none;
+  transition: background-color 300ms ease-out, border-color 300ms ease-out;
+  padding: 0 0.4rem;
+  line-height: $font-size-base * 2.5;
+  height:  $font-size-base * 2.5;
+  &:active{
+    background: rgba(255,255,0,0.1);
+  }
+}
+
+.am-btn-default{
+  @extend .am-btn;
+  margin-top: 0.2rem;
+  width: 1.3rem;
+  color: $txt-withe;
+  background: $txt-color06;
+}
+//
+.am-btn-info{
+  @extend .am-btn;
+  margin-top: 0.2rem;
+  width: 1.3rem;
+  color: $txt-muted;
+  background: $txt-withe;
+  border: 1px solid $txt-muted;
+}
+.am-btn-danger{
+  @extend .am-btn;
+  margin-top: 0.2rem;
+  width: 1.3rem;
+  color: $txt-color06;
+  background: $txt-withe;
+  border: 1px solid $txt-color06;
+}
+.am-btn-my-default{
+  @extend .am-btn;
+  margin-top: 0;
+  padding: 0 0.2rem;
+  height: 0.6rem;
+  min-width:1.1rem ;
+  line-height: 0.6rem;
+  color: $txt-color06;
+  background: $txt-withe;
+  border: 1px solid $txt-color06;
+}
+.am-btn-my-info{
+  @extend .am-btn;
+  margin-top: 0;
+  padding: 0 0.2rem;
+  height: 0.6rem;
+  min-width:1.1rem ;
+  line-height: 0.6rem;
+  color: $txt-default;
+  background: $txt-withe;
+  border: 1px solid $txt-default;
+}

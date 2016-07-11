@@ -1,0 +1,280 @@
+html{
+  font-family: "微软雅黑";
+}
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  border:0;
+  padding:0;
+  font-style:normal;
+}
+html,body {
+  -webkit-touch-callout:none;
+  -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  -webkit-user-select:none;
+  background-color: $main-bg;
+  font-size: $font-size-base;
+  height: 100%;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+}
+nav,article,aside,details,main,header,footer,section,fieldset,figcaption,figure{
+  display: block;
+}
+img,a,button,em,del,strong,var,label,cite,small,time,mark,code,textarea{
+  display:inline-block;
+}
+header,section,footer {
+  position:relative;
+}
+ol,ul{
+  list-style:none;
+}
+input,button,textarea {
+  border:0;
+  margin:0;
+  padding:0;
+  font-size:1em;
+  line-height:1em;
+  /*-webkit-appearance:none;*/
+  background-color:$main-bg;
+}
+span{
+  display:inline-block;
+}
+a:active, a:hover {
+  outline: 0;
+}
+a, a:visited{
+  text-decoration:none;
+}
+b, strong {
+  font-style: normal;
+  font-weight:normal;
+}
+label, .wordWrap{
+  word-wrap: break-word;
+  word-break: break-all;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,th {
+  padding: 0;
+}
+.clearfix:after{
+  content: ' ';
+  display: block;
+  clear: both;
+  visibility:hidden;
+  line-height: 0;
+  height:0;
+}
+.loading_more{
+  display: block;
+  height: 1.5em;
+  width: 100%;
+}
+.loading_more:before {
+  display: inline-block; vertical-align: text-bottom;
+  content: ' '; height: 16px; width: 16px; margin-right: 6px;
+  background: url(../image/loading_more.gif) no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.loading_more:after {
+  content: '加载更多';
+}
+.f-fl{
+  float: left;
+}
+.f-fr{
+  float: right;
+}
+.f-hide{
+  display:none;
+}
+.f-show{
+  display: block;
+}
+.f-tl{text-align: left}
+.f-tc{text-align: center}
+.f-tr{text-align: right}
+.f-mt5{
+  margin-top: .05rem;
+}
+.f-mt10{
+  margin-top: 0.1rem;
+}
+.f-mr24{
+  margin-right: 0.24rem;
+}
+
+
+//一些公共的样式
+.am-bg{
+  background: $default-bg;
+}
+.am-pd{
+  padding: 0.24rem;
+}
+.am-pdNObottom{
+  padding-bottom: 0;
+}
+.am-pdnone{
+  padding: 0;
+}
+.am-img{
+  background-color: $main-bg;
+  //float: left;
+
+}
+//auto
+.f-autow{
+  width: auto;
+}
+.active{
+  color: $header-bg;
+  span{
+    color: $header-bg;
+  }
+
+}
+
+//
+.am-horizontal{
+  display: -webkit-box;
+  //-webkit-box-orient: vertical;  竖向
+  -webkit-box-orient:horizontal;
+  -webkit-flex-flow: column;
+  display:box;
+}
+.am-vertical{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;  //竖向
+  //-webkit-box-orient:horizontal;
+  -webkit-flex-flow: column;
+  display:box;
+}
+.am-num{
+  color: #cccccc;
+
+}
+.f-wd{
+  width: 100%;
+}
+
+.flex-wrap{ display: -webkit-box;	display: -webkit-flex;	display: flex; }
+.flex-con{  -webkit-box-flex: 1;     -webkit-flex: 1;    flex: 1;}
+.flex-vertical{ -webkit-box-orient: vertical;-webkit-flex-flow: column;flex-flow: column;}
+//p
+p{
+  font-size: $font-size-info;
+  color: $txt-info;
+  line-height: $line-height-base;
+}
+//mask移明
+.am-tmask{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: block;
+  z-index: $z-index-overlay;
+}
+//灰色
+.am-cmask{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0,0,0,0.4);
+  z-index: $z-index-overlay;
+}
+
+//
+.am-cline{
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right:none ;
+}
+//border-bottom
+.am-bline{
+  border-bottom: 1px solid $border-eee;
+}
+.am-tline{
+  width:110% ;
+  background: $border-eee;
+  display: block;
+  height: 1px;
+  line-height: 1px;
+  clear: both;
+  margin-left: 0.24rem;
+}
+.am-topline{
+  border-top: 1px solid $border-eee;
+}
+//
+.app-hidden{
+  display: none;
+}
+.app-show{
+  display: block;
+}
+.am-notxt{
+  text-decoration:line-through
+}
+//
+.am-boxFlex{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+//主要用于显示 被bar 挡了的数据
+.am-barbox{
+  height: 1rem;
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.am-loading{
+  margin-top: 40%;
+  display: block;
+}
+
+//红色提示
+.am-pointRed{
+  position: absolute;
+  width: .16rem;
+  height: .16rem;
+  border-radius: .16rem;
+  background: red;
+
+  top: 0.35rem;
+
+  margin-left: 0.2rem;
+  //display: inline-block;
+}
+
+//
+.am-more{
+  font-size: 0.29rem !important;
+  color: #CCCCCC;
+}
+//细线
+.am-xline{
+  background-image: linear-gradient(0deg, #ccc, #ccc 50%, transparent 50%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}

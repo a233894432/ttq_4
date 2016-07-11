@@ -1,0 +1,357 @@
+@charset "UTF-8";
+.am-buybox{
+  min-height: 3.52rem;
+}
+
+.am-ctime{
+  font-size: $font-size-base * 0.9;
+  margin: .1rem 0 0.15rem 0;
+  line-height:0.68rem;
+  height: 0.68rem;
+  overflow: hidden;
+  display: block;
+  padding: 0;
+  border-bottom: 1px solid $border-line;
+  .am-ctimeinfo{
+    display: block;
+    font-size: $font-size-base * 0.9;
+    overflow: hidden;
+
+  }
+  .am-timebox{
+    font-size: $font-size-base * 0.9;
+    max-width: 50%;
+    i{
+      font-size: $font-size-base*1.1;
+      font-style: normal;
+    }
+    span{
+
+      width: 0.4rem;
+      height: 0.4rem;
+      border-radius: 3px;
+      background-color:$txt-bg01;
+      text-align: center;
+      color: $txt-withe;
+      padding: 0.01rem;
+
+
+    }
+  }
+
+}
+.am-grounpBuybox{
+  background: $default-bg;
+  font-size: $font-size-base;
+  padding:0 0.2rem 0.2rem 0.2rem;
+  width: 90%;
+  margin: 0.1rem auto;
+  border-radius: 0.1rem;
+  border:1px solid $border-line;
+
+  .am-img{
+    width: 100%;
+    height: 1.6rem;
+    overflow: hidden;
+    display: block;
+    img{
+      width: 100%;
+    }
+  }
+
+  .am-title{
+    padding: 0.05rem  0;
+    line-height: 1.5;
+  }
+  .am-pricebox{
+    color: $txt-color06;
+    width: 65%;
+    //max-width: 4rem;
+    //border: 1px black solid;
+    .am-price{
+      font-size: $font-size-base * 1.2;
+      span{
+        color: $txt-info;
+        font-size:$font-size-base * 0.8 ;
+      }
+    }
+
+
+  }
+
+}
+
+.am-detailpriceBox{
+  font-size: $font-size-base;
+  padding:0.2rem;
+  .am-pricebox{
+    color: $txt-color06;
+    width: 100%;
+    //max-width: 4rem;
+    //border: 1px black solid;
+    .am-price{
+      font-size: $font-size-base * 1.2;
+      span{
+        color: $txt-info;
+        font-size:$font-size-base * 0.8 ;
+      }
+    }
+
+
+  }
+
+
+}
+.am-detailInfobox{
+
+  padding:0.2rem;
+  height: 0.45rem;
+  border-top: 1px solid  $border-eee;
+  line-height: 0.45rem;
+  font-size: $font-size-base * 0.7;
+  color: $txt-info;
+
+}
+.am-detailP{
+  margin-left: 0.2rem;
+}
+
+//
+.am-buybar{
+  width: 100%;
+  height: 0.88rem;
+  background:$bg-fafafa;
+  border-top: 1px solid $border-bbb;
+  line-height: 0.88rem;
+  .am-on{
+    background: $txt-color06;
+
+  }
+  .am-off{
+    background: $border-ccc;
+  }
+}
+.am-buybar-numbox{
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: $font-size-base * 0.9;
+  max-width: 30%;
+  margin: 0.14rem 0.15rem 0 0.3rem;
+
+  .am-buybar-num{
+    width: 1rem;
+    border:1px solid $txt-info ;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background: $txt-withe;
+    text-align: center;
+    float: left;
+    margin: 0 0.04rem;
+  }
+  span{
+    //margin-top: 2px;
+    border:1px solid $txt-info ;
+    float: left;
+    width: 0.32rem;
+    text-align: center;
+    font-size: $font-size-base;
+    cursor: pointer;
+  }
+
+}
+
+.am-buybar-pirce{
+  width: 40%;
+
+  overflow: hidden;
+  font-size: $font-size-base * 0.9;
+
+}
+
+.am-buybar-btn{
+  width: 25%;
+  float: right;
+  display: block;text-align: center;
+  border: none;
+  color: $txt-withe;
+  font-size: $font-size-base * 0.9;
+
+}
+//
+.am-detail-hd, .am-detail-bd{
+  padding:0.2rem;
+  font-size: $font-size-base * 0.9;
+  p{
+    font-size:  $font-size-base * 0.9;
+    color: $txt-default;
+  }
+}
+.am-detail-hd{
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: $header-bg;
+  border-bottom: 1px solid  $border-eee;
+}
+
+.am-detail-bd{
+  padding-bottom: 0.4rem;
+  overflow: hidden;
+
+  img{
+    max-width: 100%;
+    text-align: center;
+  }
+}
+.am-tipicon{
+  width: 0.08rem;
+  background: $header-bg;
+  height: 100%;
+  display: block;
+  float: left;
+  margin-right: 0.2rem;
+}
+
+.am-price{
+  font-size: $font-size-base ;
+  color: $txt-color06;
+  span{
+    color: $txt-info;
+    font-size:$font-size-base * 0.9 ;
+  }
+}
+.am-order{
+  font-size:$font-size-base ;
+  overflow: hidden;
+  margin-top: 0.24rem;
+  .am-order-tip{
+    font-size:$font-size-base * 0.9 ;
+    color: $txt-info;
+
+  }
+  .am-order-box{
+    background: $default-bg;
+    margin-top: 0.16rem;
+    overflow: hidden;
+    ul{
+      width: 100%;
+      li{
+        min-height: 1rem;
+        height: auto;
+        line-height: 1rem;
+        color: $txt-info;
+        text-align: left;
+        padding:0 0.2rem;
+
+        &:active{
+          background: rgba(0,0,0,0.1);
+        }
+        .am-img{
+          width: 0.96rem;
+          height: 0.96rem;
+          overflow: hidden;
+          text-align: center;
+          margin: 0.24rem auto;
+        }
+        img{
+          width: 0.96rem;
+          height: 0.96rem;
+          overflow: hidden;
+        }
+        span{
+          min-width: 25%;
+          float: left;
+          color: $txt-default;
+        }
+        .info{
+          width: 75%;
+          max-width: 75%;
+          margin: 0.32rem 0;
+          float: left;
+          line-height: 1.2;
+          .am-txt{
+            width: 90%;
+          }
+          p{
+            font-size:$font-size-base * 0.8 ;
+          }
+          i{
+            margin-top: 0.18rem;
+            color: $border-ccc;
+          }
+
+          .am-title{
+            
+          }
+          .am-info{
+            margin: 0.1rem 0;
+          }
+        }
+
+      }
+    }
+
+
+  }
+
+}
+.am-order-warning{
+  margin:0.32rem auto;
+  color: $txt-color03;
+  text-align: center;
+  font-size: $font-size-base;
+}
+
+.am-qrcode{
+  text-align: center;
+  padding: 0.2rem;
+  canvas{
+    border: 10px solid #FFFFFF;
+  }
+}
+//myorder.html
+.am-myorder-box{
+  width: 100%;
+  overflow: hidden;
+  background:$txt-withe;
+  position: relative;
+  .am-tipbg{
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    i{
+      font-size:1rem;
+    }
+    z-index: 0;
+  }
+  .am-ordertype{
+    position: absolute;
+    z-index: 2;
+    margin-left: 0.2rem;
+    font-size: $font-size-base * 0.9;
+    color: $txt-withe;
+  }
+  .am-order-cdk{
+    margin-left:1.2rem;
+    font-size: $font-size-base * 0.9;
+    color: $txt-default;
+  }
+  .am-order-tip{
+    height: 0.7rem;
+    line-height: 0.7rem;
+
+  }
+
+  .am-order-box{
+    margin-top: 0;
+  }
+  .am-order-btn{
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 0.2rem;
+    font-size: $font-size-base * 0.9;
+    span{
+      font-size: $font-size-base;
+    }
+  }
+
+}
