@@ -6,6 +6,13 @@ header span{ min-width: 0.70rem; height: 100%; display: inline-block; position: 
 header{ background-color: $header-bg; line-height: 0.88rem; height:0.88rem; position: relative;font-weight: 100 }
 header .am-title{ position: absolute; left: 0; bottom: 0; right: 0;  text-align: center; font-size:$font-size-title-lg * 0.95;color: #ffffff  }
 
+header .am-back i{
+  font-size: 0.38rem;
+  margin-left: 0.20rem;
+  padding-top: 0.02rem;
+  font-weight: 200;
+}
+
 .topHeader{
   position: absolute;
   background: transparent;

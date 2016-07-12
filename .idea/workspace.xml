@@ -2,47 +2,166 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5e7ad3-1638-4046-962b-420aaea16318" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/font/iconfont-full.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/font/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/app.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/confirmOrder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/dio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/dio.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/find.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/groupBuy/gb_common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/groupBuy/panicbuy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/groupBuy/share.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/personal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/select-addr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/article.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/banner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/border.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/btn.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/buybox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/hotbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/icon-full.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/icon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/mixin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/nowrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/rest.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/showimg.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/swiper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/txtColor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/variable.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/whitespace.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/dio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/simple-line-icons/Simple-Line-Icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/simple-line-icons/Simple-Line-Icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/simple-line-icons/Simple-Line-Icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/simple-line-icons/Simple-Line-Icons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/full_image_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/full_image_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/img_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/img_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/img_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/loc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/person1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/person2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/person3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/person4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/images/work_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/baic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/blue.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/icomoon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/simple-line-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style2.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style3.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/css/style4.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/demo-files/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/demo-files/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/icomoon/icomoon/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/fonts/simple-line-icons/Simple-Line-Icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/google_map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.countTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.stellar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.style.switcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/magnific-popup-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/modernizr-2.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/_bootstrap-compass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/_bootstrap-mincer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/_bootstrap-sprockets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/blue.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_badges.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_component-animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_dropdowns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_glyphicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_input-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_navs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_pager.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_responsive-utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_thumbnails.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/_wells.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_reset-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/style2.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/style3.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/style4.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPA_chunchun/sass/untitled.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ttq4.0_css_src/css/app.css" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ttq4.0_css_src/css/app.min.css" afterPath="$PROJECT_DIR$/ttq4.0_css_src/css/app.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/header.scss" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/base/header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss" afterPath="$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss" />
     </list>
     <ignored path="ttq_4.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,41 +182,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SPA_chunchun/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="289" column="5" selection-start-line="289" selection-start-column="5" selection-end-line="289" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dio.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/dio.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6764705">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.823529">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/base/article.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48071218">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.33398438">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -122,10 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pc_src/说明文件.md" />
-        <option value="$PROJECT_DIR$/pc_src/html/article/article.html" />
-        <option value="$PROJECT_DIR$/pc_src/script/vedor/tool.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pc_src/script/main.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/expert_pc/说明文件.txt" />
@@ -170,9 +255,13 @@
         <option value="$PROJECT_DIR$/db_demo/index.html" />
         <option value="$PROJECT_DIR$/db_demo/html/win_home.html" />
         <option value="$PROJECT_DIR$/db_demo/script/db.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss" />
         <option value="$PROJECT_DIR$/ttq4.0_css_src/sass/base/article.scss" />
+        <option value="$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/ttq4.0_css_src/sass/base/header.scss" />
+        <option value="$PROJECT_DIR$/SPA_chunchun/index.html" />
+        <option value="$PROJECT_DIR$/SPA_chunchun/css/style.css" />
+        <option value="$PROJECT_DIR$/SPA_chunchun/sass/style.scss" />
       </list>
     </option>
   </component>
@@ -289,6 +378,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,11 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ttq4.0_css_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="SPA_chunchun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,20 +421,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ttq4.0_css_src" />
+              <option name="myItemId" value="SPA_chunchun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/diogoxiang/cuncun" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -357,19 +446,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\ttq4.0_css_src" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\db_demo\script" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\upload" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\js\es5\recommendMode" />
-      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\html\recommendMode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\js\es5" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\pc_src\css" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\html\list" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\test\touchzoom-master" />
       <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\wap_src\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\SPA_chunchun" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\ttq4.0_css_src" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\db_demo\script" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\upload" />
+      <recent name="E:\Workbak\TTQ\VIP\trunk\Client\android\ttq_4.0\Recommend_src\js\es5\recommendMode" />
     </key>
   </component>
   <component name="RunManager">
@@ -622,19 +711,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16156283" sideWeight="0.4054054" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16156283" sideWeight="0.5945946" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16156283" sideWeight="0.4115108" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16156283" sideWeight="0.58848923" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12456345" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28537455" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17927822" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13853317" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19091967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17697228" sideWeight="0.3090909" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32712457" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -645,7 +735,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818073" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -713,58 +802,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recommend_src/libs/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_dist/js/url.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41013825">
-          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/sass/base/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/sass/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expert_src/sass/base/mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.3529415">
-          <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_dist/js/es5/recommendMode/exchangeBonus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/image/rank_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommend_src/upload/qcrode.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recommend_src/upload/CoolShow_Z000010.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -956,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,15 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#2230#2343#0" expanded="false" />
-            <element signature="e#2415#2545#0" expanded="false" />
-            <element signature="e#2601#2697#0" expanded="false" />
-            <element signature="e#5400#5517#0" expanded="false" />
-            <element signature="e#5569#5774#0" expanded="false" />
-            <element signature="e#5834#7072#0" expanded="false" />
-            <element signature="e#7137#7216#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.045289855">
           <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,6 +1070,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59736454">
           <caret line="122" column="46" selection-start-line="122" selection-start-column="46" selection-end-line="122" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/base/article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.852941">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/base/icon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.235294">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2782194">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1058,31 +1100,71 @@
     <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/dio.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6764705">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/base/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.029411">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86727">
+          <caret line="311" column="15" selection-start-line="311" selection-start-column="15" selection-end-line="311" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPA_chunchun/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48828125">
+          <caret line="259" column="33" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="289" column="5" selection-start-line="289" selection-start-column="5" selection-end-line="289" selection-end-column="5" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/diobase/_base.scss">
+    <entry file="file://$PROJECT_DIR$/SPA_chunchun/sass/blue.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.823529">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttq4.0_css_src/sass/base/article.scss">
+    <entry file="file://$PROJECT_DIR$/SPA_chunchun/css/baic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48071218">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.70703125">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPA_chunchun/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3222656">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPA_chunchun/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33398438">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding />
         </state>
       </provider>

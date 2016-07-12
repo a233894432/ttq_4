@@ -973,6 +973,13 @@ header .am-title {
   color: #ffffff;
 }
 
+header .am-back i {
+  font-size: 0.38rem;
+  margin-left: 0.20rem;
+  padding-top: 0.02rem;
+  font-weight: 200;
+}
+
 .topHeader {
   position: absolute;
   background: transparent;
