@@ -32,6 +32,7 @@ define(['text!html/default/header.html', 'text!html/index/index.html', 'text!htm
 
                 for (var i = 0; i < plistdata.list.length; i++) {
                     plistdata.list[i].createtime = $app.formatDate(plistdata.list[i].created)
+                 
                 }
 
                 appView.html(headhtml(headdata) + shtml({userinfo: headdata, listdata: plistdata}) + foot_tpl);

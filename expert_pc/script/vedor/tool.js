@@ -17,9 +17,9 @@ define(['jquery', 'underscore', 'progress', 'domReady', 'layer', 'md5'], functio
         escape: /<%-([\s\S]+?)%>/g
     };
     //开关 console.log
-    window.console.log=function(str){
-        return "";
-    };
+    //window.console.log=function(str){
+    //    return "";
+    //};
 
     //接口地址:
     var u = {};
