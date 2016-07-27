@@ -120,13 +120,17 @@
 
         //粘贴只保留标签，去除标签所有属性
         ,retainOnlyLabelPasted: true
-
         ,pasteplain:true  //是否默认为纯文本粘贴。false为不使用纯文本粘贴，true为使用纯文本粘贴
         //纯文本粘贴模式下的过滤规则
         ,'filterTxtRules' : function(){
             function transP(node){
                 node.tagName = 'p';
                 node.setStyle();
+            }
+            function clearStyle(node){
+                node.tagName='img';
+                node.attrs.style="";
+
             }
             return {
                 //直接删除及其字节点内容
@@ -135,6 +139,7 @@
                 'br':{$:{}},
                 'div':{'$':{}},
                 'li':{'$':{}},
+                'img':clearStyle,
                 'caption':transP,
                 'th':transP,
                 'tr':transP,
