@@ -41,7 +41,7 @@
                         <%if(item.isImg!="0"){%>
                         <div class="col-xxs-2">
                             <div class="imgDiv">
-                                <img src="<%=item.postImg[0].thumb%>" alt="">
+                                <img src="<%=item.postImg[0].thumb%>" alt="" onerror="this.src='image/default_icon.jpg'">
                             </div>
                         </div>
 
